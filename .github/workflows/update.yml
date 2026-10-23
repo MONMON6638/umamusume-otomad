@@ -1,0 +1,68 @@
+name: update
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # 毎日 6時（日本時間）。ニコ動のデータ更新（5時ごろ）の後
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
+
+      # 取得に失敗しても前回のデータで公開は続ける（失敗は警告として残る）
+      - name: Fetch videos
+        run: npm run fetch
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      # GITHUB_TOKEN による push は次のワークフローを起動しないので、ループにはならない
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/videos.json
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "data: 動画一覧を更新"
+            git push
+          fi
+
+      - run: npm run build
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
