@@ -7,7 +7,7 @@ const BATCH = 50;
 type Thumb = { url: string };
 type YtVideo = {
   id: string;
-  snippet: { title: string; publishedAt: string; thumbnails?: { high?: Thumb; medium?: Thumb; default?: Thumb } };
+  snippet: { title: string; publishedAt: string; thumbnails?: { maxres?: Thumb; standard?: Thumb; high?: Thumb; medium?: Thumb; default?: Thumb } };
   statistics?: { viewCount?: string; likeCount?: string };
   contentDetails: { duration: string };
 };
@@ -34,7 +34,8 @@ function toVideo(v: YtVideo): Video {
     source: "youtube",
     title: v.snippet.title,
     url: `https://www.youtube.com/watch?v=${v.id}`,
-    thumbnail: (t?.high ?? t?.medium ?? t?.default)?.url ?? `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`,
+    // maxres が 1280x720。HD でない古い動画には無いので、次に大きいものを使う
+    thumbnail: (t?.maxres ?? t?.standard ?? t?.high ?? t?.medium ?? t?.default)?.url ?? `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`,
     publishedAt: v.snippet.publishedAt,
     views: Number(v.statistics?.viewCount ?? 0),
     likes: Number(v.statistics?.likeCount ?? 0),

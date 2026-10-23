@@ -3,6 +3,7 @@ import { pathToFileURL } from "node:url";
 import { buildDictionary, matchCharacters } from "./characters.ts";
 import { applyExclusions, resolveSource } from "./merge.ts";
 import { fetchNico } from "./nico.ts";
+import { upgradeThumbnails } from "./nico-thumb.ts";
 import { fetchYoutube } from "./youtube.ts";
 import type { ExcludeEntry, Video, VideosFile } from "../src/types.ts";
 
@@ -97,11 +98,15 @@ async function main() {
     }
   };
 
+  const previous = await readJson<VideosFile | null>("data/videos.json", null);
+  const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
+  const prevNico = previous?.videos.filter((v) => v.source === "nico") ?? [];
+
   const file = await run({
     now: () => new Date(),
-    previous: await readJson<VideosFile | null>("data/videos.json", null),
+    previous,
     exclude: await readJson<ExcludeEntry[]>("exclude.json", []),
-    fetchNico: logged("nico", () => fetchNico({ fetch, sleep: (ms) => new Promise((r) => setTimeout(r, ms)) })),
+    fetchNico: logged("nico", async () => upgradeThumbnails(await fetchNico({ fetch, sleep }), prevNico, { fetch, sleep })),
     fetchYoutube: apiKey ? logged("youtube", () => fetchYoutube(apiKey, { fetch })) : null,
     onWarn: (m) => errors.push(m),
   });

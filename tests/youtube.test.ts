@@ -39,7 +39,7 @@ describe("fetchYoutube", () => {
       source: "youtube",
       title: "Miler Dancer",
       url: "https://www.youtube.com/watch?v=aaaaaaaaaaa",
-      thumbnail: "https://i.ytimg.com/vi/aaaaaaaaaaa/hqdefault.jpg",
+      thumbnail: "https://i.ytimg.com/vi/aaaaaaaaaaa/maxresdefault.jpg",
       publishedAt: "2026-09-01T12:00:00Z",
       views: 1234,
       likes: 56,
