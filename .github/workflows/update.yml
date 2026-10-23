@@ -7,10 +7,7 @@ on:
     branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+permissions: {}
 
 concurrency:
   group: update
@@ -19,6 +16,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # データのコミットだけに使う
     steps:
       - uses: actions/checkout@v5
 
@@ -30,6 +29,10 @@ jobs:
       - run: npm ci
 
       - run: npm test
+
+      # exclude.json が壊れていたら公開しない（除外が外れた一覧を出さないため）
+      - name: Check exclude.json
+        run: node -e "JSON.parse(require('fs').readFileSync('exclude.json','utf8'))"
 
       # 取得に失敗しても前回のデータで公開は続ける（失敗は警告として残る）
       - name: Fetch videos
@@ -48,6 +51,8 @@ jobs:
             echo "変更なし"
           else
             git commit -m "data: 動画一覧を更新"
+            # 取得中に人が push していても失敗しないよう、最新を取り込んでから push する
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
 
@@ -60,6 +65,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

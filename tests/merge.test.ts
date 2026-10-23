@@ -9,11 +9,11 @@ describe("resolveSource", () => {
   });
   it("keeps previous on failure", () => {
     const prev = [makeVideo({ id: "sm1" })];
-    expect(resolveSource(null, prev)).toEqual({ ok: false, videos: prev });
+    expect(resolveSource(null, prev)).toEqual({ ok: false, videos: prev, reason: "failed" });
   });
   it("treats a drop below half as failure", () => {
     const prev = [1, 2, 3, 4, 5].map((n) => makeVideo({ id: `sm${n}` }));
-    expect(resolveSource(prev.slice(0, 2), prev).ok).toBe(false);
+    expect(resolveSource(prev.slice(0, 2), prev)).toEqual({ ok: false, videos: prev, reason: "dropped" });
   });
   it("skips the half check on first run", () => {
     expect(resolveSource([makeVideo()], []).ok).toBe(true);

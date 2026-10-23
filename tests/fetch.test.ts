@@ -1,5 +1,8 @@
 import { describe, it, expect } from "vitest";
-import { run, type RunDeps } from "../scripts/fetch.ts";
+import { mkdtemp, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { readJson, run, type RunDeps } from "../scripts/fetch.ts";
 import { makeVideo } from "./helpers.ts";
 import type { VideosFile } from "../src/types.ts";
 
@@ -69,5 +72,26 @@ describe("run", () => {
 
   it("throws when both fail and there is no previous data", async () => {
     await expect(run(deps({ fetchNico: fail, fetchYoutube: fail }))).rejects.toThrow();
+  });
+});
+
+describe("run warnings", () => {
+  it("warns when a source drops below half", async () => {
+    const warnings: string[] = [];
+    const prev = [1, 2, 3, 4].map((n) => makeVideo({ id: `sm${n}` }));
+    await run(deps({ previous: prevFile(prev), fetchNico: async () => [prev[0]], onWarn: (m) => warnings.push(m) }));
+    expect(warnings.some((w) => w.includes("nico"))).toBe(true);
+  });
+});
+
+describe("readJson", () => {
+  it("returns the fallback when the file is missing", async () => {
+    expect(await readJson(join(tmpdir(), "no-such-file-umamad.json"), [])).toEqual([]);
+  });
+  it("throws on a broken file instead of silently using the fallback", async () => {
+    const dir = await mkdtemp(join(tmpdir(), "umamad-"));
+    const path = join(dir, "exclude.json");
+    await writeFile(path, '[{"id":"sm1"},]');
+    await expect(readJson(path, [])).rejects.toThrow();
   });
 });
