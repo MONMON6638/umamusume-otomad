@@ -1,0 +1,28 @@
+{
+  "kind": "youtube#videoListResponse",
+  "items": [
+    {
+      "id": "aaaaaaaaaaa",
+      "snippet": {
+        "title": "Miler Dancer",
+        "publishedAt": "2026-09-01T12:00:00Z",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/aaaaaaaaaaa/default.jpg" },
+          "high": { "url": "https://i.ytimg.com/vi/aaaaaaaaaaa/hqdefault.jpg" }
+        }
+      },
+      "statistics": { "viewCount": "1234", "likeCount": "56" },
+      "contentDetails": { "duration": "PT1M17S" }
+    },
+    {
+      "id": "bbbbbbbbbbb",
+      "snippet": {
+        "title": "カラオケに行く、アーモンドアイとラッキーライラック",
+        "publishedAt": "2026-08-01T12:00:00Z",
+        "thumbnails": { "medium": { "url": "https://i.ytimg.com/vi/bbbbbbbbbbb/mqdefault.jpg" } }
+      },
+      "statistics": { "viewCount": "789" },
+      "contentDetails": { "duration": "PT3M5S" }
+    }
+  ]
+}

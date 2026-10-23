@@ -1,0 +1,9 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "items": [
+    { "snippet": { "title": "Miler Dancer" }, "contentDetails": { "videoId": "aaaaaaaaaaa" } },
+    { "snippet": { "title": "Deleted video" }, "contentDetails": { "videoId": "ddddddddddd" } },
+    { "snippet": { "title": "カラオケに行く、アーモンドアイとラッキーライラック" }, "contentDetails": { "videoId": "bbbbbbbbbbb" } }
+  ],
+  "pageInfo": { "totalResults": 3, "resultsPerPage": 50 }
+}
