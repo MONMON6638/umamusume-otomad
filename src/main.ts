@@ -58,6 +58,7 @@ function render() {
   const current = state.v ? byId.get(state.v) : undefined;
   browse.hidden = Boolean(current);
   watch.hidden = !current;
+  document.body.classList.toggle("watching", Boolean(current));
 
   if (current) {
     showVideo(current);
@@ -142,6 +143,12 @@ watchAuthor.addEventListener("click", () => {
   update({ author: name });
 });
 $("watch-back").addEventListener("click", () => update({ v: "" }));
+
+// 視聴ページの「次に見る」をヘッダーのすぐ下に固定するため、ヘッダーの高さを CSS に渡す
+const bar = document.querySelector<HTMLElement>(".bar");
+if (bar) {
+  new ResizeObserver(() => document.documentElement.style.setProperty("--bar-h", `${bar.offsetHeight}px`)).observe(bar);
+}
 
 $<HTMLElement>("updated").textContent = `最終更新 ${formatDate(file.generatedAt)}`;
 if (__REPO_URL__) {

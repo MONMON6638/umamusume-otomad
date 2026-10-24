@@ -280,9 +280,43 @@ main {
   display: none;
 }
 
+/* パソコン：「次に見る」だけを中でスクロールさせ、プレーヤーを動かさない。
+   --bar-h は main.ts がヘッダーの高さを測って入れる */
+@media (min-width: 1001px) {
+  .watch-side {
+    position: sticky;
+    top: calc(var(--bar-h, 0px) + 12px);
+    max-height: calc(100dvh - var(--bar-h, 0px) - 24px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 4px;
+  }
+}
+
+/* スマホ：プレーヤーを画面の一番上に固定し、その下で情報と一覧を流す。
+   検索バーまで固定すると一覧の場所が残らないので、視聴中は流れるようにする */
 @media (max-width: 1000px) {
   .watch {
     grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+  /* プレーヤーが一覧の横まで固定され続けるよう、.watch-main の子を .watch の直下に並べる。
+     後ろにある .watch-main / .watch-frame の指定に負けないよう .watch を付けて強くする */
+  .watch .watch-main {
+    display: contents;
+  }
+  .watch .watch-frame {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    margin: 0 -16px;
+    border-radius: 0;
+  }
+  .watch-side {
+    margin-top: 18px;
+  }
+  body.watching .bar {
+    position: static;
   }
 }
 
