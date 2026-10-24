@@ -1,6 +1,6 @@
 import "./style.css";
 import videosJson from "../data/videos.json";
-import { authorCounts, characterCounts, filterVideos, indexVideos, upNext, type State } from "./filter.ts";
+import { DEFAULT_STATE, authorCounts, characterCounts, filterVideos, indexVideos, upNext, type State } from "./filter.ts";
 import { formatDate } from "./format.ts";
 import { createCombo } from "./combo.ts";
 import { renderCards } from "./render.ts";
@@ -71,12 +71,13 @@ function render() {
   }
 }
 
-// 見る動画が変わるときは履歴に積み、ブラウザの「戻る」で前の動画や一覧に戻れるようにする
-function update(patch: Partial<State>) {
-  const push = patch.v !== undefined && patch.v !== state.v;
+// 見る動画が変わるとき（と、タイトルでトップに戻るとき）は履歴に積み、ブラウザの「戻る」で戻れるようにする
+function update(patch: Partial<State>, options: { push?: boolean } = {}) {
+  const before = location.pathname + location.search;
+  const push = options.push || (patch.v !== undefined && patch.v !== state.v);
   state = { ...state, ...patch };
   const url = location.pathname + stringifyState(state);
-  if (push) history.pushState(null, "", url);
+  if (push && url !== before) history.pushState(null, "", url);
   else history.replaceState(null, "", url);
   render();
 }
@@ -120,6 +121,15 @@ watchAuthor.addEventListener("click", () => {
   update({ author: name });
 });
 $("watch-back").addEventListener("click", () => update({ v: "" }));
+
+// タイトルを押すと、絞り込みも外した最初の一覧に戻る。Ctrl などを押しながらなら普通のリンクとして新しいタブで開く
+$<HTMLAnchorElement>("home").addEventListener("click", (e) => {
+  if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+  e.preventDefault();
+  update({ ...DEFAULT_STATE }, { push: true });
+  syncInputs();
+  window.scrollTo({ top: 0 });
+});
 
 // 視聴ページの「次に見る」をヘッダーのすぐ下に固定するため、ヘッダーの高さを CSS に渡す
 const bar = document.querySelector<HTMLElement>(".bar");
