@@ -19,7 +19,11 @@ jobs:
     permissions:
       contents: write # データのコミットだけに使う
     steps:
+      # 前の実行が積んだデータのコミットも含めて、始まった時点の main の最新を使う
+      # （手動実行などは押した時点のコミットで動くので、そのままだと push がぶつかる）
       - uses: actions/checkout@v5
+        with:
+          ref: main
 
       - uses: actions/setup-node@v5
         with:
@@ -51,8 +55,9 @@ jobs:
             echo "変更なし"
           else
             git commit -m "data: 動画一覧を更新"
-            # 取得中に人が push していても失敗しないよう、最新を取り込んでから push する
-            git pull --rebase origin "${GITHUB_REF_NAME}"
+            # 取得中に人が push していても失敗しないよう、最新を取り込んでから push する。
+            # data/videos.json がぶつかったときは、今回取得したほうを使う
+            git pull --rebase -X theirs origin main
             git push
           fi
 
