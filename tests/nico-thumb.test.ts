@@ -20,6 +20,10 @@ describe("extractOgImage", () => {
   it("reads og:image and decodes &amp;", () => {
     expect(extractOgImage(page("https://a.example/x?key=1&v=2"))).toBe("https://a.example/x?key=1&v=2");
   });
+  it("reads og:image when other attributes come first, as on the real watch page", () => {
+    const html = `<meta data-server="1" property="og:image" content="${HI.replace(/&/g, "&amp;")}" />`;
+    expect(extractOgImage(html)).toBe(HI);
+  });
   it("returns null without og:image", () => {
     expect(extractOgImage("<html></html>")).toBeNull();
   });

@@ -1,7 +1,8 @@
 import type { Video } from "../src/types.ts";
 
 const WAIT_MS = 1000;
-const OG_IMAGE = /<meta\s+property="og:image"\s+content="([^"]+)"/;
+// 実際のページは <meta data-server="1" property="og:image" ...> のように他の属性が先に来る
+const OG_IMAGE = /<meta\b[^>]*\bproperty="og:image"[^>]*\bcontent="([^"]+)"/;
 
 export type ThumbDeps = { fetch: typeof fetch; sleep: (ms: number) => Promise<void> };
 
