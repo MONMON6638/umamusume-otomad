@@ -7,9 +7,10 @@ export type State = {
   sort: "new" | "views" | "likes";
   chara: string;
   author: string; // 投稿者名
+  v: string; // 視聴ページで再生中の動画 ID。一覧のときは空
 };
 
-export const DEFAULT_STATE: State = { q: "", src: "all", sort: "new", chara: "", author: "" };
+export const DEFAULT_STATE: State = { q: "", src: "all", sort: "new", chara: "", author: "", v: "" };
 
 export type Indexed = { video: Video; haystack: string };
 
@@ -38,6 +39,11 @@ export function filterVideos(items: Indexed[], state: State): Video[] {
     )
     .map((i) => i.video)
     .sort(COMPARE[state.sort]);
+}
+
+// 視聴ページの「次に見る」。絞り込み結果の並びのまま、再生中の動画だけ除く
+export function upNext(results: Video[], currentId: string): Video[] {
+  return results.filter((v) => v.id !== currentId);
 }
 
 // 件数の多い順。同数なら名前順

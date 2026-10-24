@@ -30,10 +30,33 @@
     </header>
 
     <main>
-      <p id="count" class="count"></p>
-      <div id="grid" class="grid"></div>
-      <p id="empty" class="empty" hidden>見つかりませんでした</p>
-      <button id="more" class="more" type="button" hidden>もっと見る</button>
+      <section id="browse">
+        <p id="count" class="count"></p>
+        <div id="grid" class="grid"></div>
+        <p id="empty" class="empty" hidden>見つかりませんでした</p>
+        <button id="more" class="more" type="button" hidden>もっと見る</button>
+      </section>
+
+      <section id="watch" class="watch" hidden>
+        <div class="watch-main">
+          <div id="watch-frame" class="watch-frame"></div>
+          <h2 id="watch-title" class="watch-title"></h2>
+          <p id="watch-author-name" class="author"></p>
+          <p id="watch-meta" class="meta"></p>
+          <p id="watch-charas" class="charas"></p>
+          <div class="watch-actions">
+            <button id="watch-back" class="btn-ghost" type="button">← 一覧に戻る</button>
+            <a id="watch-link" class="watch-link" target="_blank" rel="noopener">元のページで見る ↗</a>
+            <button id="watch-author" class="btn-accent" type="button" hidden></button>
+          </div>
+        </div>
+        <aside class="watch-side">
+          <h3 class="watch-side-title">次に見る <span id="watch-count" class="count"></span></h3>
+          <div id="watch-list" class="watch-list"></div>
+          <p id="watch-empty" class="empty" hidden>ほかに動画がありません</p>
+          <button id="watch-more" class="more" type="button" hidden>もっと見る</button>
+        </aside>
+      </section>
     </main>
 
     <footer class="footer">
@@ -43,18 +66,6 @@
         <a id="issues" target="_blank" rel="noopener" hidden>掲載の取り下げ依頼</a>
       </p>
     </footer>
-
-    <dialog id="player" class="player">
-      <div class="player-head">
-        <p id="player-title" class="player-title"></p>
-        <button id="player-close" class="player-close" type="button" aria-label="閉じる">✕</button>
-      </div>
-      <div id="player-frame" class="player-frame"></div>
-      <div class="player-foot">
-        <a id="player-link" class="player-link" target="_blank" rel="noopener">元のページで見る ↗</a>
-        <button id="player-author" class="player-author" type="button" hidden></button>
-      </div>
-    </dialog>
 
     <script type="module" src="/src/main.ts"></script>
   </body>
