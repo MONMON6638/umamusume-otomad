@@ -1,29 +1,35 @@
+/* 配色は Happy Hues のパレット9（ライト）とパレット13（ダーク）の赤（#f25f4c）と白黒だけを使う。
+   ライトの白地では#f25f4c が文字には薄いので、文字用に濃くした --accent-ink を使う */
 :root {
-  --bg: #f7f8fb;
-  --surface: #ffffff;
-  --text: #1d2130;
-  --muted: #646b80;
-  --border: #e2e5ee;
-  --accent: #e5487f;
-  --accent-text: #ffffff;
-  --nico: #4a4a4a;
-  --youtube: #d93025;
-  --shadow: 0 1px 3px rgb(20 24 40 / 0.08);
+  --bg: #eff0f3;
+  --surface: #fffffe;
+  --surface-2: #fffffe;
+  --text: #0d0d0d;
+  --muted: #2a2a2a;
+  --border: #e0e1e7;
+  --accent: #f25f4c;
+  --accent-text: #0d0d0d;
+  --accent-ink: #bd3a2a;
+  --accent-line: #f25f4c;
+  --shadow: 0 1px 2px rgb(13 13 13 / 0.05), 0 4px 16px rgb(13 13 13 / 0.06);
+  --waves: url("./assets/waves-light.svg");
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #12141b;
-    --surface: #1c1f29;
-    --text: #e8eaf2;
-    --muted: #9aa1b5;
-    --border: #2c3040;
-    --accent: #ff6b9c;
-    --accent-text: #12141b;
-    --nico: #8a8f9e;
-    --youtube: #ff5a4f;
+    --bg: #0f0e17;
+    --surface: #1c1b29;
+    --surface-2: #252436;
+    --text: #fffffe;
+    --muted: #a7a9be;
+    --border: rgb(167 169 190 / 0.14);
+    --accent: #f25f4c;
+    --accent-text: #0f0e17;
+    --accent-ink: #f25f4c;
+    --accent-line: #f25f4c;
     --shadow: none;
+    --waves: url("./assets/waves-dark.svg");
     color-scheme: dark;
   }
 }
@@ -44,15 +50,17 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--surface);
+  background: var(--surface) var(--waves) bottom / 100% 44px no-repeat;
   border-bottom: 1px solid var(--border);
-  padding: 12px 16px;
+  padding: 14px 16px 50px;
 }
 
 .logo {
-  margin: 0 0 8px;
-  font-size: 1.15rem;
-  color: var(--accent);
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--accent-ink);
 }
 
 .controls {
@@ -68,14 +76,14 @@ body {
   font-size: 0.95rem;
   padding: 8px 10px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
   background: var(--bg);
   color: var(--text);
 }
 
 .controls input:focus,
 .controls select:focus {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--accent-ink);
   outline-offset: -1px;
 }
 
@@ -111,7 +119,7 @@ main {
   flex-direction: column;
   padding: 0;
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 14px;
   overflow: hidden;
   background: var(--surface);
   color: inherit;
@@ -124,8 +132,9 @@ main {
 
 .card:hover,
 .card:focus-visible {
-  transform: translateY(-2px);
-  border-color: var(--accent);
+  transform: translateY(-3px);
+  border-color: var(--accent-line);
+  background: var(--surface-2);
   outline: none;
 }
 
@@ -167,18 +176,21 @@ main {
 .badge {
   align-self: flex-start;
   padding: 0 6px;
+  border: 1px solid var(--text);
   border-radius: 4px;
-  color: #fff;
   font-size: 0.7rem;
   font-weight: 600;
 }
 
+/* 取得元は色を増やさず、塗り（ニコ動）と枠線（YouTube）で見分ける */
 .badge-nico {
-  background: var(--nico);
+  background: var(--text);
+  color: var(--surface);
 }
 
 .badge-youtube {
-  background: var(--youtube);
+  background: none;
+  color: var(--text);
 }
 
 .title {
@@ -209,7 +221,7 @@ main {
 }
 
 .charas {
-  color: var(--accent);
+  color: var(--accent-ink);
   overflow-wrap: anywhere;
 }
 
@@ -251,7 +263,7 @@ main {
 }
 
 .footer a {
-  color: var(--accent);
+  color: var(--accent-ink);
   margin-left: 8px;
 }
 
@@ -260,9 +272,10 @@ main {
   max-width: none;
   padding: 0;
   border: none;
-  border-radius: 12px;
-  background: var(--surface);
+  border-radius: 14px;
+  background: var(--surface-2);
   color: var(--text);
+  box-shadow: 0 24px 64px rgb(0 0 0 / 0.35);
 }
 
 .player::backdrop {
@@ -316,17 +329,18 @@ main {
 }
 
 .player-link {
-  color: var(--accent);
+  color: var(--accent-ink);
   font-size: 0.9rem;
 }
 
 .player-author {
   max-width: 100%;
   padding: 6px 14px;
-  border: 1px solid var(--accent);
+  border: none;
   border-radius: 999px;
-  background: none;
-  color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-text);
+  font-weight: 600;
   font: inherit;
   font-size: 0.85rem;
   cursor: pointer;
