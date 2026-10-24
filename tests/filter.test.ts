@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { DEFAULT_STATE, authorCounts, characterCounts, filterVideos, indexVideos } from "../src/filter.ts";
+import { DEFAULT_STATE, authorCounts, characterCounts, filterVideos, indexVideos, upNext } from "../src/filter.ts";
 import { makeVideo } from "./helpers.ts";
 
 const videos = [
@@ -56,5 +56,15 @@ describe("authorCounts", () => {
       { name: "MADer", count: 2 },
       { name: "のーめ", count: 1 },
     ]);
+  });
+});
+
+describe("upNext", () => {
+  it("keeps the filtered order and drops the video being watched", () => {
+    const results = filterVideos(items, { ...DEFAULT_STATE, sort: "views" });
+    expect(ids(upNext(results, "yt:a"))).toEqual(["sm2", "sm1"]);
+  });
+  it("returns everything when the watched video is not in the results", () => {
+    expect(upNext(videos, "sm999")).toHaveLength(3);
   });
 });
