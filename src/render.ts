@@ -26,7 +26,9 @@ function createCard(video: Video, onOpen: (v: Video) => void): HTMLElement {
   const meta = el("p", "meta", `▶ ${formatCount(video.views)}　♥ ${formatCount(video.likes)}　${formatDate(video.publishedAt)}`);
 
   const body = el("div", "card-body");
-  body.append(badge, el("h2", "title", video.title), meta);
+  body.append(badge, el("h2", "title", video.title));
+  if (video.author) body.append(el("p", "author", video.author.name));
+  body.append(meta);
   if (video.characters.length > 0) body.append(el("p", "charas", video.characters.join("・")));
 
   card.append(thumb, body);

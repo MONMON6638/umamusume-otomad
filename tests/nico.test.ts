@@ -32,6 +32,12 @@ describe("nicoToVideo", () => {
     expect(v.publishedAt).toBe(raw.startTime);
     expect(v.thumbnail).toBe(raw.thumbnailUrl);
     expect(v.characters).toContain("ヒシミラクル");
+    // 名前は後で nvapi から埋める
+    expect(v.author).toEqual({ id: "nico:128912621", name: "" });
+  });
+
+  it("has no author for channel videos", () => {
+    expect(nicoToVideo({ ...sample.data[0], userId: null, channelId: 123 }).author).toBeNull();
   });
 });
 

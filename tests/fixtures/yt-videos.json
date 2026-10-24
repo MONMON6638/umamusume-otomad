@@ -19,7 +19,9 @@
           "maxres": {
             "url": "https://i.ytimg.com/vi/aaaaaaaaaaa/maxresdefault.jpg"
           }
-        }
+        },
+        "channelId": "UCaaaa",
+        "channelTitle": "チャンネルA"
       },
       "statistics": {
         "viewCount": "1234",
@@ -38,7 +40,9 @@
           "medium": {
             "url": "https://i.ytimg.com/vi/bbbbbbbbbbb/mqdefault.jpg"
           }
-        }
+        },
+        "channelId": "UCbbbb",
+        "channelTitle": "チャンネルB"
       },
       "statistics": {
         "viewCount": "789"

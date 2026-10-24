@@ -13,6 +13,8 @@
         <input id="q" type="search" placeholder="タイトル・キャラ・タグで検索" aria-label="キーワード検索" />
         <input id="chara" list="chara-list" placeholder="キャラで絞り込み" aria-label="キャラで絞り込み" />
         <datalist id="chara-list"></datalist>
+        <input id="author" list="author-list" placeholder="投稿者で絞り込み" aria-label="投稿者で絞り込み" />
+        <datalist id="author-list"></datalist>
         <select id="src" aria-label="取得元">
           <option value="all">すべて</option>
           <option value="nico">ニコ動</option>
@@ -47,7 +49,10 @@
         <button id="player-close" class="player-close" type="button" aria-label="閉じる">✕</button>
       </div>
       <div id="player-frame" class="player-frame"></div>
-      <a id="player-link" class="player-link" target="_blank" rel="noopener">元のページで見る ↗</a>
+      <div class="player-foot">
+        <a id="player-link" class="player-link" target="_blank" rel="noopener">元のページで見る ↗</a>
+        <button id="player-author" class="player-author" type="button" hidden></button>
+      </div>
     </dialog>
 
     <script type="module" src="/src/main.ts"></script>

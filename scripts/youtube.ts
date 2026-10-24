@@ -7,7 +7,7 @@ const BATCH = 50;
 type Thumb = { url: string };
 type YtVideo = {
   id: string;
-  snippet: { title: string; publishedAt: string; thumbnails?: { maxres?: Thumb; standard?: Thumb; high?: Thumb; medium?: Thumb; default?: Thumb } };
+  snippet: { title: string; publishedAt: string; channelId?: string; channelTitle?: string; thumbnails?: { maxres?: Thumb; standard?: Thumb; high?: Thumb; medium?: Thumb; default?: Thumb } };
   statistics?: { viewCount?: string; likeCount?: string };
   contentDetails: { duration: string };
 };
@@ -42,6 +42,7 @@ function toVideo(v: YtVideo): Video {
     duration: parseIsoDuration(v.contentDetails.duration),
     tags: [],
     characters: [],
+    author: v.snippet.channelId && v.snippet.channelTitle ? { id: `yt:${v.snippet.channelId}`, name: v.snippet.channelTitle } : null,
   };
 }
 

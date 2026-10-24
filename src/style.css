@@ -57,7 +57,7 @@ body {
 
 .controls {
   display: grid;
-  grid-template-columns: 2fr 1.4fr auto auto;
+  grid-template-columns: 2fr 1.2fr 1.2fr auto auto;
   gap: 8px;
 }
 
@@ -83,8 +83,7 @@ body {
   .controls {
     grid-template-columns: 1fr 1fr;
   }
-  #q,
-  #chara {
+  #q {
     grid-column: 1 / -1;
   }
 }
@@ -193,6 +192,15 @@ main {
   overflow: hidden;
 }
 
+.author {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .meta,
 .charas {
   margin: 0;
@@ -298,9 +306,35 @@ main {
   display: block;
 }
 
+.player-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+}
+
 .player-link {
-  display: inline-block;
-  padding: 10px 12px;
   color: var(--accent);
   font-size: 0.9rem;
+}
+
+.player-author {
+  max-width: 100%;
+  padding: 6px 14px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.player-author[hidden] {
+  display: none;
 }

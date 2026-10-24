@@ -4,7 +4,7 @@ import { parseState, stringifyState } from "../src/url-state.ts";
 
 describe("url-state", () => {
   it("round-trips Japanese values", () => {
-    const s = { ...DEFAULT_STATE, q: "ごーるど 音MAD", chara: "ゴールドシップ", sort: "views" as const, src: "nico" as const };
+    const s = { ...DEFAULT_STATE, q: "ごーるど 音MAD", chara: "ゴールドシップ", author: "のーめ", sort: "views" as const, src: "nico" as const };
     expect(parseState(stringifyState(s))).toEqual(s);
   });
   it("omits defaults", () => {

@@ -46,6 +46,7 @@ describe("fetchYoutube", () => {
       duration: 77,
       tags: [],
       characters: [],
+      author: { id: "yt:UCaaaa", name: "チャンネルA" },
     });
     const list = calls[0];
     expect(list.searchParams.get("playlistId")).toBe("PLr6e2du4c5xBxBP4WkmVZPRKVAa0qgC8h");

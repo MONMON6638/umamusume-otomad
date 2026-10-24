@@ -13,6 +13,7 @@ export function makeVideo(overrides: Partial<Video> = {}): Video {
     duration: 0,
     tags: [],
     characters: [],
+    author: null,
     ...overrides,
   };
 }

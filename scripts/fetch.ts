@@ -4,6 +4,7 @@ import { buildDictionary, matchCharacters } from "./characters.ts";
 import { applyExclusions, resolveSource } from "./merge.ts";
 import { fetchNico } from "./nico.ts";
 import { upgradeThumbnails } from "./nico-thumb.ts";
+import { resolveNicoAuthors } from "./nico-authors.ts";
 import { fetchYoutube } from "./youtube.ts";
 import type { ExcludeEntry, Video, VideosFile } from "../src/types.ts";
 
@@ -106,7 +107,10 @@ async function main() {
     now: () => new Date(),
     previous,
     exclude: await readJson<ExcludeEntry[]>("exclude.json", []),
-    fetchNico: logged("nico", async () => upgradeThumbnails(await fetchNico({ fetch, sleep }), prevNico, { fetch, sleep })),
+    fetchNico: logged("nico", async () => {
+      const videos = await upgradeThumbnails(await fetchNico({ fetch, sleep }), prevNico, { fetch, sleep });
+      return resolveNicoAuthors(videos, prevNico, { fetch, sleep });
+    }),
     fetchYoutube: apiKey ? logged("youtube", () => fetchYoutube(apiKey, { fetch })) : null,
     onWarn: (m) => errors.push(m),
   });

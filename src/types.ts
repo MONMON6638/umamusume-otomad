@@ -10,7 +10,10 @@ export type Video = {
   duration: number; // 秒
   tags: string[];
   characters: string[];
+  author: Author | null; // 投稿者。公式チャンネルなど取れないときは null
 };
+
+export type Author = { id: string; name: string }; // id はニコ動 "nico:<userId>"、YouTube "yt:<channelId>"
 
 export type SourceStatus = { fetchedAt: string; count: number };
 

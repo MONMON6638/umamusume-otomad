@@ -3,7 +3,7 @@ import type { Video } from "../src/types.ts";
 
 const ENDPOINT = "https://snapshot.search.nicovideo.jp/api/v2/snapshot/video/contents/search";
 const QUERIES = ["ウマ娘 音MAD", "ウマ娘プリティーダービー 音MAD"];
-const FIELDS = "contentId,title,viewCounter,likeCounter,commentCounter,startTime,tags,thumbnailUrl,lengthSeconds";
+const FIELDS = "contentId,title,viewCounter,likeCounter,commentCounter,startTime,tags,thumbnailUrl,lengthSeconds,userId,channelId";
 const PAGE_SIZE = 100;
 const WAIT_MS = 1000;
 
@@ -17,6 +17,8 @@ export type NicoItem = {
   tags: string;
   thumbnailUrl: string;
   lengthSeconds: number;
+  userId: number | null;
+  channelId: number | null;
 };
 
 type NicoResponse = { meta: { status: number; errorCode?: string }; data?: NicoItem[] };
@@ -42,6 +44,8 @@ export function nicoToVideo(raw: NicoItem): Video {
     duration: raw.lengthSeconds,
     tags,
     characters: extractCharacters(tags),
+    // 名前は検索 API に無いので、後で nico-authors.ts が埋める。公式チャンネルの動画は userId が無い
+    author: raw.userId ? { id: `nico:${raw.userId}`, name: "" } : null,
   };
 }
 

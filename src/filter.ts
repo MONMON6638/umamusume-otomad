@@ -6,9 +6,10 @@ export type State = {
   src: "all" | "nico" | "youtube";
   sort: "new" | "views" | "likes";
   chara: string;
+  author: string; // 投稿者名
 };
 
-export const DEFAULT_STATE: State = { q: "", src: "all", sort: "new", chara: "" };
+export const DEFAULT_STATE: State = { q: "", src: "all", sort: "new", chara: "", author: "" };
 
 export type Indexed = { video: Video; haystack: string };
 
@@ -16,7 +17,7 @@ export type Indexed = { video: Video; haystack: string };
 export function indexVideos(videos: Video[]): Indexed[] {
   return videos.map((video) => ({
     video,
-    haystack: normalize([video.title, ...video.characters, ...video.tags].join(" ")),
+    haystack: normalize([video.title, ...video.characters, ...video.tags, video.author?.name ?? ""].join(" ")),
   }));
 }
 
@@ -32,16 +33,26 @@ export function filterVideos(items: Indexed[], state: State): Video[] {
     .filter(({ video, haystack }) =>
       (state.src === "all" || video.source === state.src) &&
       (!state.chara || video.characters.includes(state.chara)) &&
+      (!state.author || video.author?.name === state.author) &&
       terms.every((t) => haystack.includes(t)),
     )
     .map((i) => i.video)
     .sort(COMPARE[state.sort]);
 }
 
-export function characterCounts(videos: Video[]): { name: string; count: number }[] {
+// 件数の多い順。同数なら名前順
+function countBy(videos: Video[], keys: (v: Video) => string[]): { name: string; count: number }[] {
   const counts = new Map<string, number>();
-  for (const v of videos) for (const c of v.characters) counts.set(c, (counts.get(c) ?? 0) + 1);
+  for (const v of videos) for (const k of keys(v)) counts.set(k, (counts.get(k) ?? 0) + 1);
   return [...counts]
     .map(([name, count]) => ({ name, count }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "ja"));
+}
+
+export function characterCounts(videos: Video[]): { name: string; count: number }[] {
+  return countBy(videos, (v) => v.characters);
+}
+
+export function authorCounts(videos: Video[]): { name: string; count: number }[] {
+  return countBy(videos, (v) => (v.author ? [v.author.name] : []));
 }
