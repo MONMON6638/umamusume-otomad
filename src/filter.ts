@@ -46,8 +46,16 @@ export function upNext(results: Video[], currentId: string): Video[] {
   return results.filter((v) => v.id !== currentId);
 }
 
+export type Option = { name: string; count: number };
+
+// 絞り込み欄の候補。表記ゆれを吸収して部分一致で探し、元の並び（件数の多い順）を保つ
+export function matchOptions(options: Option[], query: string): Option[] {
+  const q = normalize(query).trim();
+  return q ? options.filter((o) => normalize(o.name).includes(q)) : options;
+}
+
 // 件数の多い順。同数なら名前順
-function countBy(videos: Video[], keys: (v: Video) => string[]): { name: string; count: number }[] {
+function countBy(videos: Video[], keys: (v: Video) => string[]): Option[] {
   const counts = new Map<string, number>();
   for (const v of videos) for (const k of keys(v)) counts.set(k, (counts.get(k) ?? 0) + 1);
   return [...counts]
@@ -55,10 +63,10 @@ function countBy(videos: Video[], keys: (v: Video) => string[]): { name: string;
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "ja"));
 }
 
-export function characterCounts(videos: Video[]): { name: string; count: number }[] {
+export function characterCounts(videos: Video[]): Option[] {
   return countBy(videos, (v) => v.characters);
 }
 
-export function authorCounts(videos: Video[]): { name: string; count: number }[] {
+export function authorCounts(videos: Video[]): Option[] {
   return countBy(videos, (v) => (v.author ? [v.author.name] : []));
 }

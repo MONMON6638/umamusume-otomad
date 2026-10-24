@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ニコニコ動画と YouTube のウマ娘音MADをまとめて探せるサイト" />
     <title>ウマ娘 音MAD まとめ</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23e5487f'/%3E%3Cpath d='M12 9v11.5a3.5 3.5 0 1 0 2 3.2V13l8-2v7.5a3.5 3.5 0 1 0 2 3.2V7z' fill='%23fff'/%3E%3C/svg%3E" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23f25f4c'/%3E%3Cpath d='M12 9v11.5a3.5 3.5 0 1 0 2 3.2V13l8-2v7.5a3.5 3.5 0 1 0 2 3.2V7z' fill='%23fff'/%3E%3C/svg%3E" />
   </head>
   <body>
     <header class="bar">
       <h1 class="logo">ウマ娘 音MAD まとめ</h1>
       <div class="controls">
         <input id="q" type="search" placeholder="タイトル・キャラ・タグで検索" aria-label="キーワード検索" />
-        <input id="chara" list="chara-list" placeholder="キャラで絞り込み" aria-label="キャラで絞り込み" />
-        <datalist id="chara-list"></datalist>
-        <input id="author" list="author-list" placeholder="投稿者で絞り込み" aria-label="投稿者で絞り込み" />
-        <datalist id="author-list"></datalist>
+        <div class="combo">
+          <input id="chara" placeholder="キャラで絞り込み" aria-label="キャラで絞り込み" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="chara-list" aria-autocomplete="list" />
+          <button class="combo-clear" type="button" aria-label="キャラの絞り込みを解除" hidden>✕</button>
+          <ul id="chara-list" class="combo-list" role="listbox" hidden></ul>
+        </div>
+        <div class="combo">
+          <input id="author" placeholder="投稿者で絞り込み" aria-label="投稿者で絞り込み" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="author-list" aria-autocomplete="list" />
+          <button class="combo-clear" type="button" aria-label="投稿者の絞り込みを解除" hidden>✕</button>
+          <ul id="author-list" class="combo-list" role="listbox" hidden></ul>
+        </div>
         <select id="src" aria-label="取得元">
           <option value="all">すべて</option>
           <option value="nico">ニコ動</option>

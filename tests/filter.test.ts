@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { DEFAULT_STATE, authorCounts, characterCounts, filterVideos, indexVideos, upNext } from "../src/filter.ts";
+import { DEFAULT_STATE, authorCounts, characterCounts, filterVideos, indexVideos, matchOptions, upNext } from "../src/filter.ts";
 import { makeVideo } from "./helpers.ts";
 
 const videos = [
@@ -66,5 +66,23 @@ describe("upNext", () => {
   });
   it("returns everything when the watched video is not in the results", () => {
     expect(upNext(videos, "sm999")).toHaveLength(3);
+  });
+});
+
+describe("matchOptions", () => {
+  const options = [
+    { name: "ゴールドシップ", count: 77 },
+    { name: "キタサンブラック", count: 40 },
+    { name: "ゴールドシチー", count: 12 },
+  ];
+  it("returns every option for an empty query", () => {
+    expect(matchOptions(options, "")).toEqual(options);
+    expect(matchOptions(options, "  ")).toEqual(options);
+  });
+  it("matches across hiragana and katakana and keeps the count order", () => {
+    expect(matchOptions(options, "ごーるど").map((o) => o.name)).toEqual(["ゴールドシップ", "ゴールドシチー"]);
+  });
+  it("returns nothing when no name matches", () => {
+    expect(matchOptions(options, "スペ")).toEqual([]);
   });
 });

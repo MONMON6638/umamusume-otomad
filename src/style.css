@@ -87,6 +87,103 @@ body {
   outline-offset: -1px;
 }
 
+/* キャラ・投稿者の絞り込み欄（自前の候補リスト） */
+.combo {
+  position: relative;
+  min-width: 0;
+  display: flex;
+}
+
+.combo input {
+  flex: 1;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.combo-clear {
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  transform: translateY(-50%);
+  padding: 2px 6px;
+  border: none;
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.combo-clear:hover {
+  color: var(--text);
+  background: var(--border);
+}
+
+.combo-clear[hidden],
+.combo-list[hidden] {
+  display: none;
+}
+
+.combo-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 20;
+  width: max(100%, 240px);
+  max-height: min(360px, 60dvh);
+  margin: 0;
+  padding: 4px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  list-style: none;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+  box-shadow: 0 12px 32px rgb(0 0 0 / 0.18);
+}
+
+.combo-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.combo-item:hover,
+.combo-item.is-active {
+  background: var(--border);
+}
+
+.combo-item[aria-selected="true"] .combo-name {
+  color: var(--accent-ink);
+  font-weight: 700;
+}
+
+.combo-item[aria-selected="true"] .combo-name::before {
+  content: "✓ ";
+}
+
+.combo-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.combo-count {
+  flex: none;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.combo-note {
+  padding: 7px 10px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
 @media (max-width: 640px) {
   .controls {
     grid-template-columns: 1fr 1fr;
