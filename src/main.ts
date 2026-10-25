@@ -36,11 +36,14 @@ function pager(container: HTMLElement, more: HTMLButtonElement, empty: HTMLEleme
     more.hidden = shown >= list.length;
   };
   more.addEventListener("click", showMore);
-  return (next: Video[]) => {
+  // keep が true なら、「もっと見る」で増やしたぶんまで出し直す
+  return (next: Video[], keep = false) => {
+    const target = keep ? shown : 0;
     list = next;
     shown = 0;
     container.replaceChildren();
-    showMore();
+    do showMore();
+    while (shown < target && shown < list.length);
     empty.hidden = list.length > 0;
   };
 }
@@ -50,9 +53,22 @@ const showUpNext = pager($("watch-list"), $("watch-more"), $("watch-empty"), UP_
 
 let state: State = parseState(location.search);
 
+// 動画を開いて戻ってきたとき、一覧や「次に見る」をスクロールした位置のまま残すための記録。
+// 戻る・進むでもこちらで位置を戻すので、ブラウザの自動の位置戻しは切る
+history.scrollRestoration = "manual";
+const watchSide = document.querySelector(".watch-side") as HTMLElement;
+let wasWatching = false;
+let browseScrollY = 0;
+let gridKey: string | null = null; // 今の一覧を作ったときの絞り込み（v 以外）
+let upNextKey: string | null = null;
+
 function render() {
   const results = filterVideos(items, state);
   const current = state.v ? byId.get(state.v) : undefined;
+  const key = stringifyState({ ...state, v: "" });
+  // 一覧から視聴ページへ移る前に、一覧の位置を覚えておく
+  if (current && !wasWatching) browseScrollY = window.scrollY;
+
   browse.hidden = Boolean(current);
   watch.hidden = !current;
   document.body.classList.toggle("watching", Boolean(current));
@@ -63,12 +79,32 @@ function render() {
     watchAuthor.textContent = current.author ? `${current.author.name} さんの動画を見る` : "";
     const next = upNext(results, current.id);
     $("watch-count").textContent = `${next.length.toLocaleString("ja-JP")}件`;
-    showUpNext(next);
+    // 絞り込みが同じまま動画だけ切り替えたときは、「次に見る」の件数と位置をそのまま残す
+    const keep = wasWatching && key === upNextKey;
+    const sideTop = watchSide.scrollTop;
+    const pageY = window.scrollY;
+    showUpNext(next, keep);
+    upNextKey = key;
+    if (keep) {
+      watchSide.scrollTop = sideTop;
+      window.scrollTo({ top: pageY });
+    } else {
+      watchSide.scrollTop = 0;
+      if (!wasWatching) window.scrollTo({ top: 0 });
+    }
   } else {
     stopVideo();
     $("count").textContent = `${results.length.toLocaleString("ja-JP")}件`;
-    showGrid(results);
+    if (key !== gridKey) {
+      showGrid(results);
+      gridKey = key;
+      if (wasWatching) window.scrollTo({ top: 0 });
+    } else if (wasWatching) {
+      // 絞り込みが変わっていなければ一覧は作り直さず、元の位置に戻す
+      window.scrollTo({ top: browseScrollY });
+    }
   }
+  wasWatching = Boolean(current);
 }
 
 // 見る動画が変わるとき（と、タイトルでトップに戻るとき）は履歴に積み、ブラウザの「戻る」で戻れるようにする
@@ -84,7 +120,6 @@ function update(patch: Partial<State>, options: { push?: boolean } = {}) {
 
 function open(video: Video) {
   update({ v: video.id });
-  window.scrollTo({ top: 0 });
 }
 
 const charaCombo = createCombo(charaInput, characterCounts(file.videos), (name) => update({ chara: name }));
