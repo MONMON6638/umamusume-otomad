@@ -34,9 +34,9 @@ jobs:
 
       - run: npm test
 
-      # exclude.json が壊れていたら公開しない（除外が外れた一覧を出さないため）
-      - name: Check exclude.json
-        run: node -e "JSON.parse(require('fs').readFileSync('exclude.json','utf8'))"
+      # exclude.json・ng-tags.json が壊れていたら公開しない（除外が外れた一覧を出さないため）
+      - name: Check exclude.json and ng-tags.json
+        run: node -e "for (const f of ['exclude.json','ng-tags.json']) JSON.parse(require('fs').readFileSync(f,'utf8'))"
 
       # 取得に失敗しても前回のデータで公開は続ける（失敗は警告として残る）
       - name: Fetch videos

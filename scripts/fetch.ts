@@ -1,17 +1,18 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { buildDictionary, matchCharacters } from "./characters.ts";
-import { applyExclusions, resolveSource } from "./merge.ts";
-import { fetchNico } from "./nico.ts";
+import { applyExclusions, applyNgTags, resolveSource } from "./merge.ts";
+import { fetchNico, fetchNicoByCharacters } from "./nico.ts";
 import { upgradeThumbnails } from "./nico-thumb.ts";
 import { resolveNicoAuthors } from "./nico-authors.ts";
 import { fetchYoutube } from "./youtube.ts";
-import type { ExcludeEntry, Video, VideosFile } from "../src/types.ts";
+import type { ExcludeEntry, NgRule, Video, VideosFile } from "../src/types.ts";
 
 export type RunDeps = {
   now: () => Date;
   previous: VideosFile | null;
   exclude: ExcludeEntry[];
+  ngRule?: NgRule;
   fetchNico: () => Promise<Video[]>;
   fetchYoutube: (() => Promise<Video[]>) | null; // API キーが無ければ null
   onWarn?: (message: string) => void;
@@ -41,7 +42,7 @@ export async function run(deps: RunDeps): Promise<VideosFile> {
     ? youtube.videos.map((v) => ({ ...v, characters: matchCharacters(v.title, dictionary) }))
     : youtube.videos;
 
-  const nicoKept = applyExclusions(nico.videos, deps.exclude);
+  const nicoKept = applyNgTags(applyExclusions(nico.videos, deps.exclude), deps.ngRule ?? { tags: [], keep: [] }, dictionary);
   const ytKept = applyExclusions(ytVideos, deps.exclude);
   const now = deps.now().toISOString();
   const status = (ok: boolean, key: "nico" | "youtube", count: number) => ({
@@ -107,8 +108,20 @@ async function main() {
     now: () => new Date(),
     previous,
     exclude: await readJson<ExcludeEntry[]>("exclude.json", []),
+    ngRule: await readJson<NgRule>("ng-tags.json", { tags: [], keep: [] }),
     fetchNico: logged("nico", async () => {
-      const videos = await upgradeThumbnails(await fetchNico({ fetch, sleep }), prevNico, { fetch, sleep });
+      const main = await fetchNico({ fetch, sleep });
+      // ウマ娘タグが無く、キャラのタグだけ付いた動画も拾う。こちらが失敗しても本体の結果は使う
+      let extra: Video[] = [];
+      try {
+        extra = await fetchNicoByCharacters(buildDictionary([...main, ...prevNico]), { fetch, sleep });
+      } catch (e) {
+        errors.push(`nico（キャラのタグでの検索）: ${(e as Error).message}`);
+      }
+      const ids = new Set(main.map((v) => v.id));
+      const merged = [...main, ...extra.filter((v) => !ids.has(v.id))];
+      console.log(`nico: タグ検索 ${main.length}件 + キャラのタグで ${merged.length - main.length}件`);
+      const videos = await upgradeThumbnails(merged, prevNico, { fetch, sleep });
       return resolveNicoAuthors(videos, prevNico, { fetch, sleep });
     }),
     fetchYoutube: apiKey ? logged("youtube", () => fetchYoutube(apiKey, { fetch })) : null,

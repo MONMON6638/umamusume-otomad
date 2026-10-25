@@ -24,3 +24,6 @@ export type VideosFile = {
 };
 
 export type ExcludeEntry = { id: string; reason?: string };
+
+// ng-tags.json。tags のどれかが付いていて、ウマ娘のキャラが見当たらない動画を外す。keep の ID は外さない
+export type NgRule = { tags: string[]; keep: string[] };

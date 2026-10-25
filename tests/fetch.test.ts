@@ -70,6 +70,18 @@ describe("run", () => {
     expect(file.sources.nico).toEqual({ fetchedAt: NOW.toISOString(), count: 2 });
   });
 
+  it("drops NG-tag videos that show no character", async () => {
+    const file = await run(deps({
+      ngRule: { tags: ["例のアレ"], keep: [] },
+      fetchNico: async () => [
+        makeVideo({ id: "sm1", tags: ["例のアレ"] }),
+        makeVideo({ id: "sm2", tags: ["例のアレ"], characters: ["ゴールドシップ"] }),
+      ],
+    }));
+    expect(file.videos.map((v) => v.id)).toEqual(["sm2"]);
+    expect(file.sources.nico.count).toBe(1);
+  });
+
   it("throws when both fail and there is no previous data", async () => {
     await expect(run(deps({ fetchNico: fail, fetchYoutube: fail }))).rejects.toThrow();
   });

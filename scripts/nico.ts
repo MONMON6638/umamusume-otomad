@@ -49,10 +49,11 @@ export function nicoToVideo(raw: NicoItem): Video {
   };
 }
 
-export async function fetchNico(deps: NicoDeps): Promise<Video[]> {
+// 複数の検索語で全ページを取り、動画 ID で重複を除いてまとめる
+async function searchAll(queries: string[], deps: NicoDeps): Promise<Video[]> {
   const byId = new Map<string, Video>();
   let requests = 0;
-  for (const q of QUERIES) {
+  for (const q of queries) {
     for (let offset = 0; ; offset += PAGE_SIZE) {
       if (requests++ > 0) await deps.sleep(WAIT_MS);
       const url = new URL(ENDPOINT);
@@ -76,4 +77,17 @@ export async function fetchNico(deps: NicoDeps): Promise<Video[]> {
     }
   }
   return [...byId.values()];
+}
+
+export function fetchNico(deps: NicoDeps): Promise<Video[]> {
+  return searchAll(QUERIES, deps);
+}
+
+// 「ウマ娘」タグが付いていなくても、キャラのタグ（〇〇(ウマ娘)）と音MAD が付いた動画を拾う。
+// 「ゴールドシップ」のような (ウマ娘) 無しのタグは実在の馬や別作品が混ざるので使わない
+export function fetchNicoByCharacters(names: string[], deps: NicoDeps): Promise<Video[]> {
+  return searchAll(
+    names.map((name) => `${name}(ウマ娘) 音MAD -ウマ娘 -ウマ娘プリティーダービー`),
+    deps,
+  );
 }

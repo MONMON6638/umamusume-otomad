@@ -1,4 +1,5 @@
-import type { ExcludeEntry, Video } from "../src/types.ts";
+import { matchCharacters } from "./characters.ts";
+import type { ExcludeEntry, NgRule, Video } from "../src/types.ts";
 
 export type Resolved = { videos: Video[]; ok: boolean; reason?: "failed" | "dropped" };
 
@@ -13,4 +14,18 @@ export function resolveSource(fetched: Video[] | null, previous: Video[]): Resol
 export function applyExclusions(videos: Video[], exclude: ExcludeEntry[]): Video[] {
   const ids = new Set(exclude.map((e) => e.id));
   return videos.filter((v) => !ids.has(v.id));
+}
+
+// ウマ娘の曲だけ使ってキャラは出てこない淫夢系の動画などを外す。
+// キャラのタグがあるか、タイトルにキャラ名があれば、ウマ娘のキャラが出ているとみなして残す
+export function applyNgTags(videos: Video[], rule: NgRule, dictionary: string[]): Video[] {
+  const ng = new Set(rule.tags);
+  const keep = new Set(rule.keep);
+  return videos.filter(
+    (v) =>
+      keep.has(v.id) ||
+      !v.tags.some((t) => ng.has(t)) ||
+      v.characters.length > 0 ||
+      matchCharacters(v.title, dictionary).length > 0,
+  );
 }

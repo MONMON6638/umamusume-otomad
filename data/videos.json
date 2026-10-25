@@ -1,41 +1,16 @@
 {
-  "generatedAt": "2026-10-25T05:15:15.363Z",
+  "generatedAt": "2026-10-25T05:36:19.919Z",
   "sources": {
     "nico": {
-      "fetchedAt": "2026-10-25T05:15:15.363Z",
-      "count": 1707
+      "fetchedAt": "2026-10-25T05:36:19.919Z",
+      "count": 1813
     },
     "youtube": {
-      "fetchedAt": "2026-10-25T05:15:15.363Z",
+      "fetchedAt": "2026-10-25T05:36:19.919Z",
       "count": 858
     }
   },
   "videos": [
-    {
-      "id": "sm46957881",
-      "source": "nico",
-      "title": "ウマ息子♂フルチンダービー　うまほい臀ケツ",
-      "url": "https://www.nicovideo.jp/watch/sm46957881",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/46957881/46957881.66110249",
-      "publishedAt": "2026-10-24T00:01:22+09:00",
-      "views": 116,
-      "likes": 15,
-      "duration": 98,
-      "tags": [
-        "レスリングシリーズ",
-        "音MAD",
-        "ウマ娘プリティーダービー",
-        "ウマ息子",
-        "木吉カズヤ巡回済み",
-        "10/24はダーク♂誕生祭",
-        "もっと評価されるべき歪みねぇ動画"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:145324267",
-        "name": "ルカリオル"
-      }
-    },
     {
       "id": "sm46957060",
       "source": "nico",
@@ -85,6 +60,30 @@
       "author": {
         "id": "nico:128912621",
         "name": "のーめ"
+      }
+    },
+    {
+      "id": "sm46918213",
+      "source": "nico",
+      "title": "ルラシ妖怪前線",
+      "url": "https://www.nicovideo.jp/watch/sm46918213",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46918213/46918213.52276937.original/a960x540l?key=9dc14951244145a673ee5ed34941e0137d64364fa00bc5b09dc3bfe81b18476f",
+      "publishedAt": "2026-10-12T21:41:12+09:00",
+      "views": 353,
+      "likes": 36,
+      "duration": 59,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "ルーラーシップ(ウマ娘)",
+        "遠野妖怪前線"
+      ],
+      "characters": [
+        "ルーラーシップ"
+      ],
+      "author": {
+        "id": "nico:141395961",
+        "name": "まへ"
       }
     },
     {
@@ -430,7 +429,7 @@
       "url": "https://www.youtube.com/watch?v=B1_pUKeJHeo",
       "thumbnail": "https://i.ytimg.com/vi/B1_pUKeJHeo/maxresdefault.jpg",
       "publishedAt": "2026-09-06T20:26:37Z",
-      "views": 2689,
+      "views": 2688,
       "likes": 128,
       "duration": 240,
       "tags": [],
@@ -557,7 +556,7 @@
       "url": "https://www.youtube.com/watch?v=yiJDf1mwMVQ",
       "thumbnail": "https://i.ytimg.com/vi/yiJDf1mwMVQ/maxresdefault.jpg",
       "publishedAt": "2026-08-30T13:02:08Z",
-      "views": 293,
+      "views": 292,
       "likes": 12,
       "duration": 36,
       "tags": [],
@@ -780,6 +779,33 @@
       }
     },
     {
+      "id": "sm46666793",
+      "source": "nico",
+      "title": "（船）ばしめん",
+      "url": "https://www.nicovideo.jp/watch/sm46666793",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46666793/46666793.98950900.original/a960x540l?key=2d5c13acb8556f83263fe4d6a947dd518abdbcadf0399e6df0c6f7199671bfd9",
+      "publishedAt": "2026-08-14T19:00:00+09:00",
+      "views": 3942,
+      "likes": 266,
+      "duration": 33,
+      "tags": [
+        "音MAD",
+        "フリオーソ(ウマ娘)",
+        "true_my_heart",
+        "きしめん",
+        "ウマ娘mad",
+        "UMA_Summer",
+        "空前のきしめんMADブーム"
+      ],
+      "characters": [
+        "フリオーソ"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
       "id": "ss46662809",
       "source": "nico",
       "title": "【ウマ娘MAD動画】ココロオドル　shortバージョン",
@@ -800,6 +826,55 @@
       "author": {
         "id": "nico:135738792",
         "name": "リピア"
+      }
+    },
+    {
+      "id": "ss46650847",
+      "source": "nico",
+      "title": "ミルドラース、お疲れ様！(short)",
+      "url": "https://www.nicovideo.jp/watch/ss46650847",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46650847/46650847.99570696.original/a960x540l?key=2fa25c081ec46d12c05f80554583d59320e74207a4a8387d581b5f19b9bfd6a3",
+      "publishedAt": "2026-08-10T19:51:44+09:00",
+      "views": 187,
+      "likes": 7,
+      "duration": 21,
+      "tags": [
+        "ゼンノロブロイ(ウマ娘)",
+        "大魔王",
+        "ミルドラース",
+        "音MAD"
+      ],
+      "characters": [
+        "ゼンノロブロイ"
+      ],
+      "author": {
+        "id": "nico:64522378",
+        "name": "咲夜さん愛してる"
+      }
+    },
+    {
+      "id": "sm46650808",
+      "source": "nico",
+      "title": "ミルドラース、お疲れ様！",
+      "url": "https://www.nicovideo.jp/watch/sm46650808",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46650808/46650808.47407370.original/r1280x720l?key=fbc0110e6835efd3aa4a9f56aaf8b5def51cd2423691f14fb6bbccb5569fcf03",
+      "publishedAt": "2026-08-10T19:48:41+09:00",
+      "views": 745,
+      "likes": 18,
+      "duration": 21,
+      "tags": [
+        "ゼンノロブロイ(ウマ娘)",
+        "大魔王",
+        "ミルドラース",
+        "音MAD",
+        "ウマ娘mad"
+      ],
+      "characters": [
+        "ゼンノロブロイ"
+      ],
+      "author": {
+        "id": "nico:64522378",
+        "name": "咲夜さん愛してる"
       }
     },
     {
@@ -969,6 +1044,30 @@
       }
     },
     {
+      "id": "sm46629713",
+      "source": "nico",
+      "title": "るーらーうっあっあー",
+      "url": "https://www.nicovideo.jp/watch/sm46629713",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46629713/46629713.1741882.original/a960x540l?key=8bda3b8dc7a71d2a1a0ebe4f7bd2e5bcb9dcb1bd632912349af7c4cef5825829",
+      "publishedAt": "2026-08-05T18:32:20+09:00",
+      "views": 307,
+      "likes": 36,
+      "duration": 16,
+      "tags": [
+        "ウマ娘mad",
+        "ルーラーシップ(ウマ娘)",
+        "音MAD",
+        "Witch_Doctor"
+      ],
+      "characters": [
+        "ルーラーシップ"
+      ],
+      "author": {
+        "id": "nico:136246795",
+        "name": "りさわん/AB"
+      }
+    },
+    {
       "id": "yt:vx5TrvsyDF4",
       "source": "youtube",
       "title": "たんぴんOTOMEDLAY3のThe Snippet/Clione/reiji no machi",
@@ -1103,6 +1202,32 @@
       }
     },
     {
+      "id": "sm46575207",
+      "source": "nico",
+      "title": "放火しちゃいそう！",
+      "url": "https://www.nicovideo.jp/watch/sm46575207",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46575207/46575207.37382993.original/a960x540l?key=1284740120907c5fc77a132000d3136349d76f577206ab311da1488cff87da45",
+      "publishedAt": "2026-07-21T20:32:14+09:00",
+      "views": 1454,
+      "likes": 84,
+      "duration": 73,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "シュヴァルグラン(ウマ娘)",
+        "MADうにかなっちゃいそう!",
+        "脱獄リスペクト",
+        "どうにかなっちゃいそう！"
+      ],
+      "characters": [
+        "シュヴァルグラン"
+      ],
+      "author": {
+        "id": "nico:144478237",
+        "name": "駄柵"
+      }
+    },
+    {
       "id": "yt:4p6R58liaOk",
       "source": "youtube",
       "title": "年の瀬FINAL 135だなあ",
@@ -1164,13 +1289,37 @@
       }
     },
     {
+      "id": "sm46473148",
+      "source": "nico",
+      "title": "特集でウマ娘のホッコータルマエについて取り上げている北海道の情報番組でボンバーマン",
+      "url": "https://www.nicovideo.jp/watch/sm46473148",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46473148/46473148.61081394.original/r1280x720l?key=07bcff03ec340ee857085bf0cf5a2c20e335a70f920ff0d06a4a3763b3d7dbce",
+      "publishedAt": "2026-06-24T20:06:02+09:00",
+      "views": 317,
+      "likes": 32,
+      "duration": 102,
+      "tags": [
+        "音MAD",
+        "ボンバーマンMAD",
+        "ホッコータルマエ",
+        "ホッコータルマエ（ウマ娘）"
+      ],
+      "characters": [
+        "ホッコータルマエ"
+      ],
+      "author": {
+        "id": "nico:16110117",
+        "name": "Grave"
+      }
+    },
+    {
       "id": "yt:QsZEDQzYV44",
       "source": "youtube",
       "title": "【合作単品】白金ディスコ",
       "url": "https://www.youtube.com/watch?v=QsZEDQzYV44",
       "thumbnail": "https://i.ytimg.com/vi/QsZEDQzYV44/maxresdefault.jpg",
       "publishedAt": "2026-06-23T07:31:10Z",
-      "views": 5226,
+      "views": 5233,
       "likes": 148,
       "duration": 35,
       "tags": [],
@@ -1195,6 +1344,31 @@
       "author": {
         "id": "yt:UC6E9G6lzwfvGQeFkcLCLqMw",
         "name": "Mil1a　"
+      }
+    },
+    {
+      "id": "sm46451143",
+      "source": "nico",
+      "title": "同じ作者だったのかシリーズ　特別編　零～ゼロ～編【ウマ娘たぬき】",
+      "url": "https://www.nicovideo.jp/watch/sm46451143",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46451143/46451143.80380862.original/a960x540l?key=4cf09d68bce32fbaba4757e6fe50d7cf08593438476d1c9651cf609823751cf7",
+      "publishedAt": "2026-06-19T02:04:56+09:00",
+      "views": 429,
+      "likes": 15,
+      "duration": 74,
+      "tags": [
+        "たぬき(ウマ娘)",
+        "正規輸入品",
+        "音MAD",
+        "viggleai",
+        "零〜ゼロ〜"
+      ],
+      "characters": [
+        "たぬき"
+      ],
+      "author": {
+        "id": "nico:38798817",
+        "name": "志麻村福/解説動画Wiki"
       }
     },
     {
@@ -1572,6 +1746,31 @@
       }
     },
     {
+      "id": "sm46344783",
+      "source": "nico",
+      "title": "Oshama Stillinlove",
+      "url": "https://www.nicovideo.jp/watch/sm46344783",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46344783/46344783.24492440.original/a960x540l?key=3e321e55bc05d3c3323de2ac2b2f0439fa182258e704a224fc9b1b409d079192",
+      "publishedAt": "2026-05-23T09:55:04+09:00",
+      "views": 161,
+      "likes": 21,
+      "duration": 37,
+      "tags": [
+        "音MAD",
+        "Oshama_Scramble!",
+        "スティルインラブ(ウマ娘)",
+        "ウマ娘mad",
+        "音ゲーMAD"
+      ],
+      "characters": [
+        "スティルインラブ"
+      ],
+      "author": {
+        "id": "nico:144324054",
+        "name": "揚げ焼ステーキ"
+      }
+    },
+    {
       "id": "sm46339874",
       "source": "nico",
       "title": "ネオユニ",
@@ -1689,7 +1888,7 @@
       "url": "https://www.youtube.com/watch?v=ke7ugBOyOzA",
       "thumbnail": "https://i.ytimg.com/vi/ke7ugBOyOzA/maxresdefault.jpg",
       "publishedAt": "2026-05-17T16:25:15Z",
-      "views": 1392,
+      "views": 1391,
       "likes": 46,
       "duration": 81,
       "tags": [],
@@ -1740,7 +1939,7 @@
       "url": "https://www.youtube.com/watch?v=zlWLPzUze50",
       "thumbnail": "https://i.ytimg.com/vi/zlWLPzUze50/maxresdefault.jpg",
       "publishedAt": "2026-05-14T17:29:55Z",
-      "views": 1150,
+      "views": 1149,
       "likes": 37,
       "duration": 76,
       "tags": [],
@@ -1797,7 +1996,7 @@
       "url": "https://www.youtube.com/watch?v=ZiXRvAIYK30",
       "thumbnail": "https://i.ytimg.com/vi/ZiXRvAIYK30/maxresdefault.jpg",
       "publishedAt": "2026-05-06T00:00:40Z",
-      "views": 479,
+      "views": 478,
       "likes": 20,
       "duration": 70,
       "tags": [],
@@ -2021,7 +2220,7 @@
       "url": "https://www.youtube.com/watch?v=4EkynhGeu4I",
       "thumbnail": "https://i.ytimg.com/vi/4EkynhGeu4I/maxresdefault.jpg",
       "publishedAt": "2026-04-24T16:10:30Z",
-      "views": 383,
+      "views": 381,
       "likes": 8,
       "duration": 37,
       "tags": [],
@@ -2161,6 +2360,32 @@
       }
     },
     {
+      "id": "sm46161094",
+      "source": "nico",
+      "title": "NEW-DIGITAL ZONE",
+      "url": "https://www.nicovideo.jp/watch/sm46161094",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46161094/46161094.15710994.original/r1280x720l?key=ccf8337ae53a50f195297b412fbd679a084e0e0eb97a0d974071335f9d2ceee7",
+      "publishedAt": "2026-04-13T01:53:03+09:00",
+      "views": 186,
+      "likes": 15,
+      "duration": 40,
+      "tags": [
+        "音MAD",
+        "RED_WINGリスペクトシリーズ",
+        "RED_ZONE",
+        "新福島シリーズ",
+        "ウマ娘mad",
+        "アグネスデジタル(ウマ娘)"
+      ],
+      "characters": [
+        "アグネスデジタル"
+      ],
+      "author": {
+        "id": "nico:64043665",
+        "name": "NEKOMIMI【札】"
+      }
+    },
+    {
       "id": "sm46132515",
       "source": "nico",
       "title": "マーシャル・マリンマイザー",
@@ -2193,7 +2418,7 @@
       "url": "https://www.youtube.com/watch?v=S7stZ-B3_hc",
       "thumbnail": "https://i.ytimg.com/vi/S7stZ-B3_hc/maxresdefault.jpg",
       "publishedAt": "2026-04-04T19:11:19Z",
-      "views": 10458,
+      "views": 10460,
       "likes": 745,
       "duration": 97,
       "tags": [],
@@ -2478,6 +2703,33 @@
       }
     },
     {
+      "id": "sm46066311",
+      "source": "nico",
+      "title": "LAB=98",
+      "url": "https://www.nicovideo.jp/watch/sm46066311",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/46066311/46066311.91550323.original/a960x540l?key=63ae8a97285df132366801a820e15abf21678000f117c400b41120da83120466",
+      "publishedAt": "2026-03-17T00:00:00+09:00",
+      "views": 683,
+      "likes": 38,
+      "duration": 35,
+      "tags": [
+        "音MAD",
+        "エルコンドルパサー(ウマ娘)",
+        "合作単品",
+        "ウマ娘mad",
+        "LAB=01",
+        "ここすき合作",
+        "M2(ニコニコメドレー)"
+      ],
+      "characters": [
+        "エルコンドルパサー"
+      ],
+      "author": {
+        "id": "nico:129438335",
+        "name": "ドリャパサー"
+      }
+    },
+    {
       "id": "sm46063354",
       "source": "nico",
       "title": "ドナぴょい伝説remix",
@@ -2561,7 +2813,7 @@
       "url": "https://www.youtube.com/watch?v=rWrW2p2bZj4",
       "thumbnail": "https://i.ytimg.com/vi/rWrW2p2bZj4/maxresdefault.jpg",
       "publishedAt": "2026-03-08T13:59:47Z",
-      "views": 54594,
+      "views": 54593,
       "likes": 2234,
       "duration": 89,
       "tags": [],
@@ -2694,7 +2946,7 @@
       "url": "https://www.youtube.com/watch?v=q-taLX-5LWM",
       "thumbnail": "https://i.ytimg.com/vi/q-taLX-5LWM/maxresdefault.jpg",
       "publishedAt": "2026-02-24T12:50:42Z",
-      "views": 1954,
+      "views": 1953,
       "likes": 41,
       "duration": 89,
       "tags": [],
@@ -2846,7 +3098,7 @@
       "url": "https://www.youtube.com/watch?v=aYFoEILdxUc",
       "thumbnail": "https://i.ytimg.com/vi/aYFoEILdxUc/sddefault.jpg",
       "publishedAt": "2026-02-23T13:44:02Z",
-      "views": 1123,
+      "views": 1122,
       "likes": 53,
       "duration": 126,
       "tags": [],
@@ -3074,7 +3326,7 @@
       "url": "https://www.youtube.com/watch?v=lPLMOvyc0-I",
       "thumbnail": "https://i.ytimg.com/vi/lPLMOvyc0-I/sddefault.jpg",
       "publishedAt": "2026-02-09T13:15:12Z",
-      "views": 96481,
+      "views": 96493,
       "likes": 5023,
       "duration": 113,
       "tags": [],
@@ -3203,7 +3455,7 @@
       "url": "https://www.youtube.com/watch?v=jFZ7AR_MiAI",
       "thumbnail": "https://i.ytimg.com/vi/jFZ7AR_MiAI/maxresdefault.jpg",
       "publishedAt": "2026-01-29T13:15:10Z",
-      "views": 41895,
+      "views": 41894,
       "likes": 1885,
       "duration": 94,
       "tags": [],
@@ -3329,7 +3581,7 @@
       "url": "https://www.youtube.com/watch?v=o5_Rv_h5YPY",
       "thumbnail": "https://i.ytimg.com/vi/o5_Rv_h5YPY/sddefault.jpg",
       "publishedAt": "2026-01-21T13:15:09Z",
-      "views": 43072,
+      "views": 43071,
       "likes": 1374,
       "duration": 63,
       "tags": [],
@@ -3479,7 +3731,7 @@
       "url": "https://www.youtube.com/watch?v=XFU46HpOzR0",
       "thumbnail": "https://i.ytimg.com/vi/XFU46HpOzR0/maxresdefault.jpg",
       "publishedAt": "2026-01-08T13:31:06Z",
-      "views": 22318,
+      "views": 22316,
       "likes": 1072,
       "duration": 56,
       "tags": [],
@@ -3820,6 +4072,33 @@
       }
     },
     {
+      "id": "sm45770925",
+      "source": "nico",
+      "title": "ここすき++単品",
+      "url": "https://www.nicovideo.jp/watch/sm45770925",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45770925/45770925.87782196.original/a960x540l?key=9d944149f873990ed1966e36a78da45ced48e604d47efced803a71d7c728fc59",
+      "publishedAt": "2025-12-27T14:10:04+09:00",
+      "views": 160,
+      "likes": 10,
+      "duration": 34,
+      "tags": [
+        "音MAD",
+        "ここすき合作",
+        "合作単品",
+        "ナイト・オブ・ナイツ",
+        "ウマ娘mad",
+        "OTOMAD's_6",
+        "クロノジェネシス(ウマ娘)"
+      ],
+      "characters": [
+        "クロノジェネシス"
+      ],
+      "author": {
+        "id": "nico:96254801",
+        "name": "あひるでんしゃ"
+      }
+    },
+    {
       "id": "yt:7fX-Mj87CW4",
       "source": "youtube",
       "title": "【合作単品】やがてエルは世界最強になるだろう",
@@ -4105,8 +4384,8 @@
       "url": "https://www.youtube.com/watch?v=ddQ7YR0qQSo",
       "thumbnail": "https://i.ytimg.com/vi/ddQ7YR0qQSo/hqdefault.jpg",
       "publishedAt": "2025-11-28T08:15:24Z",
-      "views": 4768299,
-      "likes": 144368,
+      "views": 4768364,
+      "likes": 144369,
       "duration": 65,
       "tags": [],
       "characters": [],
@@ -4154,7 +4433,7 @@
       "url": "https://www.youtube.com/watch?v=PMrHdbJ9IQc",
       "thumbnail": "https://i.ytimg.com/vi/PMrHdbJ9IQc/maxresdefault.jpg",
       "publishedAt": "2025-11-24T13:15:07Z",
-      "views": 17553,
+      "views": 17554,
       "likes": 611,
       "duration": 158,
       "tags": [],
@@ -4277,7 +4556,7 @@
       "url": "https://www.youtube.com/watch?v=NszzavXC-Yw",
       "thumbnail": "https://i.ytimg.com/vi/NszzavXC-Yw/maxresdefault.jpg",
       "publishedAt": "2025-11-14T13:15:05Z",
-      "views": 12632,
+      "views": 12634,
       "likes": 505,
       "duration": 37,
       "tags": [],
@@ -4294,7 +4573,7 @@
       "url": "https://www.youtube.com/watch?v=99WaBzYsGL0",
       "thumbnail": "https://i.ytimg.com/vi/99WaBzYsGL0/maxresdefault.jpg",
       "publishedAt": "2025-11-12T13:15:03Z",
-      "views": 25096,
+      "views": 25100,
       "likes": 985,
       "duration": 80,
       "tags": [],
@@ -4342,7 +4621,7 @@
       "url": "https://www.youtube.com/watch?v=-h6_HiJEa0Y",
       "thumbnail": "https://i.ytimg.com/vi/-h6_HiJEa0Y/maxresdefault.jpg",
       "publishedAt": "2025-11-09T13:15:00Z",
-      "views": 500145,
+      "views": 500160,
       "likes": 16255,
       "duration": 216,
       "tags": [],
@@ -4437,7 +4716,7 @@
       "url": "https://www.youtube.com/watch?v=BvPjrh2Pmb0",
       "thumbnail": "https://i.ytimg.com/vi/BvPjrh2Pmb0/maxresdefault.jpg",
       "publishedAt": "2025-11-04T13:15:01Z",
-      "views": 58335,
+      "views": 58336,
       "likes": 3252,
       "duration": 143,
       "tags": [],
@@ -4590,7 +4869,7 @@
       "url": "https://www.youtube.com/watch?v=ulEQUeKeT3I",
       "thumbnail": "https://i.ytimg.com/vi/ulEQUeKeT3I/maxresdefault.jpg",
       "publishedAt": "2025-10-24T13:15:08Z",
-      "views": 22319,
+      "views": 22320,
       "likes": 935,
       "duration": 90,
       "tags": [],
@@ -4660,7 +4939,7 @@
       "url": "https://www.youtube.com/watch?v=liwHqcu2r2Y",
       "thumbnail": "https://i.ytimg.com/vi/liwHqcu2r2Y/maxresdefault.jpg",
       "publishedAt": "2025-10-21T21:17:35Z",
-      "views": 87912,
+      "views": 87905,
       "likes": 2634,
       "duration": 60,
       "tags": [],
@@ -4677,7 +4956,7 @@
       "url": "https://www.youtube.com/watch?v=Kd8XGRAcOck",
       "thumbnail": "https://i.ytimg.com/vi/Kd8XGRAcOck/sddefault.jpg",
       "publishedAt": "2025-10-21T13:00:38Z",
-      "views": 16678,
+      "views": 16674,
       "likes": 678,
       "duration": 96,
       "tags": [],
@@ -4776,7 +5055,7 @@
       "url": "https://www.youtube.com/watch?v=8qelcpzQxOI",
       "thumbnail": "https://i.ytimg.com/vi/8qelcpzQxOI/maxresdefault.jpg",
       "publishedAt": "2025-10-17T13:00:18Z",
-      "views": 14902,
+      "views": 14908,
       "likes": 378,
       "duration": 126,
       "tags": [],
@@ -4793,7 +5072,7 @@
       "url": "https://www.youtube.com/watch?v=5W0QPnl4Oz4",
       "thumbnail": "https://i.ytimg.com/vi/5W0QPnl4Oz4/maxresdefault.jpg",
       "publishedAt": "2025-10-17T04:00:14Z",
-      "views": 22364,
+      "views": 22365,
       "likes": 918,
       "duration": 104,
       "tags": [],
@@ -4810,7 +5089,7 @@
       "url": "https://www.youtube.com/watch?v=yXxCCUj9IDk",
       "thumbnail": "https://i.ytimg.com/vi/yXxCCUj9IDk/maxresdefault.jpg",
       "publishedAt": "2025-10-15T12:15:10Z",
-      "views": 22354,
+      "views": 22353,
       "likes": 898,
       "duration": 309,
       "tags": [],
@@ -4835,35 +5114,6 @@
       "author": {
         "id": "yt:UCDynU8En6Lmsh-gUh4-nG7g",
         "name": "MAMB0_oz"
-      }
-    },
-    {
-      "id": "sm45518054",
-      "source": "nico",
-      "title": "課長のふとすぎ！あなる嫌ヨ パレード",
-      "url": "https://www.nicovideo.jp/watch/sm45518054",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/45518054/45518054.48387674",
-      "publishedAt": "2025-10-15T17:05:05+09:00",
-      "views": 648,
-      "likes": 27,
-      "duration": 206,
-      "tags": [
-        "野原ひろし_昼メシの流儀",
-        "真夏の夜の淫夢",
-        "音MAD",
-        "課長こわれる",
-        "ウマ娘プリティーダービー",
-        "ごはん食べヨ",
-        "流儀MADリンク",
-        "自分を野原ひろしだと思いこんでいる一般人",
-        "ウマすぎ!グルメパレード",
-        "例のアレ",
-        "淫夢オールスター"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:27503946",
-        "name": "うまれる"
       }
     },
     {
@@ -4938,7 +5188,7 @@
       "url": "https://www.youtube.com/watch?v=MT3WmiarY5o",
       "thumbnail": "https://i.ytimg.com/vi/MT3WmiarY5o/maxresdefault.jpg",
       "publishedAt": "2025-10-14T12:00:46Z",
-      "views": 51195,
+      "views": 51181,
       "likes": 1637,
       "duration": 71,
       "tags": [],
@@ -5006,7 +5256,7 @@
       "url": "https://www.youtube.com/watch?v=iXnBwmoAtbE",
       "thumbnail": "https://i.ytimg.com/vi/iXnBwmoAtbE/maxresdefault.jpg",
       "publishedAt": "2025-10-09T12:57:03Z",
-      "views": 33592,
+      "views": 33589,
       "likes": 1533,
       "duration": 70,
       "tags": [],
@@ -5178,33 +5428,6 @@
       }
     },
     {
-      "id": "sm45468251",
-      "source": "nico",
-      "title": "GIRLSを押し倒したLEGEND T",
-      "url": "https://www.nicovideo.jp/watch/sm45468251",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45468251/45468251.72922441.original/a960x540l?key=7db02f6922c63b6a80ab36c0e186c99a19c06705ff78ee30fdce6436f051beb3",
-      "publishedAt": "2025-10-02T08:10:00+09:00",
-      "views": 4764,
-      "likes": 114,
-      "duration": 216,
-      "tags": [
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "田所浩治(佐倉市)",
-        "kodax兄貴リスペクト",
-        "ウマ娘プリティーダービー",
-        "girls'_legend_u",
-        "推しキャラバレバレ兄貴",
-        "佐倉八千代ノオー",
-        "音MAD"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:1948165",
-        "name": "もっさま"
-      }
-    },
-    {
       "id": "sm45458577",
       "source": "nico",
       "title": "ネクロファンタジアが鳴るアグネスタキオンのオモチャ",
@@ -5240,7 +5463,7 @@
       "url": "https://www.youtube.com/watch?v=OFeSkSWzjFI",
       "thumbnail": "https://i.ytimg.com/vi/OFeSkSWzjFI/sddefault.jpg",
       "publishedAt": "2025-09-28T01:24:32Z",
-      "views": 4636,
+      "views": 4637,
       "likes": 81,
       "duration": 133,
       "tags": [],
@@ -5257,7 +5480,7 @@
       "url": "https://www.youtube.com/watch?v=po7-l3irm9Y",
       "thumbnail": "https://i.ytimg.com/vi/po7-l3irm9Y/maxresdefault.jpg",
       "publishedAt": "2025-09-27T13:18:25Z",
-      "views": 1314941,
+      "views": 1314963,
       "likes": 51281,
       "duration": 211,
       "tags": [],
@@ -5291,7 +5514,7 @@
       "url": "https://www.youtube.com/watch?v=OtjZndfvYnY",
       "thumbnail": "https://i.ytimg.com/vi/OtjZndfvYnY/maxresdefault.jpg",
       "publishedAt": "2025-09-26T11:21:15Z",
-      "views": 6039,
+      "views": 6040,
       "likes": 182,
       "duration": 63,
       "tags": [],
@@ -5308,7 +5531,7 @@
       "url": "https://www.youtube.com/watch?v=8u7bsisviGc",
       "thumbnail": "https://i.ytimg.com/vi/8u7bsisviGc/maxresdefault.jpg",
       "publishedAt": "2025-09-25T13:18:19Z",
-      "views": 52423,
+      "views": 52424,
       "likes": 2010,
       "duration": 116,
       "tags": [],
@@ -5325,7 +5548,7 @@
       "url": "https://www.youtube.com/watch?v=Xm_2Udi0wHo",
       "thumbnail": "https://i.ytimg.com/vi/Xm_2Udi0wHo/maxresdefault.jpg",
       "publishedAt": "2025-09-25T13:11:15Z",
-      "views": 8957,
+      "views": 8958,
       "likes": 185,
       "duration": 81,
       "tags": [],
@@ -5441,7 +5664,7 @@
       "url": "https://www.youtube.com/watch?v=qvaboZFY8p0",
       "thumbnail": "https://i.ytimg.com/vi/qvaboZFY8p0/maxresdefault.jpg",
       "publishedAt": "2025-09-23T13:46:31Z",
-      "views": 31638,
+      "views": 31637,
       "likes": 1250,
       "duration": 161,
       "tags": [],
@@ -5533,7 +5756,7 @@
       "url": "https://www.youtube.com/watch?v=UYNYp16C_og",
       "thumbnail": "https://i.ytimg.com/vi/UYNYp16C_og/sddefault.jpg",
       "publishedAt": "2025-09-22T10:19:10Z",
-      "views": 66738,
+      "views": 66739,
       "likes": 2010,
       "duration": 77,
       "tags": [],
@@ -5550,8 +5773,8 @@
       "url": "https://www.youtube.com/watch?v=6l0Qb_7Pm2o",
       "thumbnail": "https://i.ytimg.com/vi/6l0Qb_7Pm2o/maxresdefault.jpg",
       "publishedAt": "2025-09-21T10:39:22Z",
-      "views": 614207,
-      "likes": 22791,
+      "views": 614220,
+      "likes": 22792,
       "duration": 94,
       "tags": [],
       "characters": [],
@@ -5670,7 +5893,7 @@
       "url": "https://www.youtube.com/watch?v=Qj-o47EmRq4",
       "thumbnail": "https://i.ytimg.com/vi/Qj-o47EmRq4/maxresdefault.jpg",
       "publishedAt": "2025-09-16T12:10:10Z",
-      "views": 128209,
+      "views": 128210,
       "likes": 9772,
       "duration": 89,
       "tags": [],
@@ -5687,7 +5910,7 @@
       "url": "https://www.youtube.com/watch?v=R-wphoKVKDc",
       "thumbnail": "https://i.ytimg.com/vi/R-wphoKVKDc/maxresdefault.jpg",
       "publishedAt": "2025-09-16T06:17:07Z",
-      "views": 109264,
+      "views": 109274,
       "likes": 3037,
       "duration": 311,
       "tags": [],
@@ -5721,7 +5944,7 @@
       "url": "https://www.youtube.com/watch?v=pS3QtQOmo8Y",
       "thumbnail": "https://i.ytimg.com/vi/pS3QtQOmo8Y/maxresdefault.jpg",
       "publishedAt": "2025-09-15T06:31:36Z",
-      "views": 4875,
+      "views": 4876,
       "likes": 91,
       "duration": 80,
       "tags": [],
@@ -5738,8 +5961,8 @@
       "url": "https://www.youtube.com/watch?v=-PGsGfWVPx8",
       "thumbnail": "https://i.ytimg.com/vi/-PGsGfWVPx8/hqdefault.jpg",
       "publishedAt": "2025-09-14T06:09:10Z",
-      "views": 106752,
-      "likes": 3157,
+      "views": 106775,
+      "likes": 3158,
       "duration": 31,
       "tags": [],
       "characters": [],
@@ -5814,7 +6037,7 @@
       "url": "https://www.youtube.com/watch?v=qXSYCxxpdbQ",
       "thumbnail": "https://i.ytimg.com/vi/qXSYCxxpdbQ/maxresdefault.jpg",
       "publishedAt": "2025-09-11T19:18:51Z",
-      "views": 5702,
+      "views": 5703,
       "likes": 128,
       "duration": 122,
       "tags": [],
@@ -5848,7 +6071,7 @@
       "url": "https://www.youtube.com/watch?v=ufyFNAb2wrE",
       "thumbnail": "https://i.ytimg.com/vi/ufyFNAb2wrE/maxresdefault.jpg",
       "publishedAt": "2025-09-09T20:14:15Z",
-      "views": 4672,
+      "views": 4671,
       "likes": 73,
       "duration": 179,
       "tags": [],
@@ -6063,7 +6286,7 @@
       "url": "https://www.youtube.com/watch?v=K5CdS_53ClQ",
       "thumbnail": "https://i.ytimg.com/vi/K5CdS_53ClQ/maxresdefault.jpg",
       "publishedAt": "2025-09-03T06:16:12Z",
-      "views": 10350,
+      "views": 10360,
       "likes": 291,
       "duration": 142,
       "tags": [],
@@ -6178,7 +6401,7 @@
       "url": "https://www.youtube.com/watch?v=59hoDII8gtE",
       "thumbnail": "https://i.ytimg.com/vi/59hoDII8gtE/maxresdefault.jpg",
       "publishedAt": "2025-08-31T15:53:09Z",
-      "views": 25373,
+      "views": 25375,
       "likes": 1077,
       "duration": 88,
       "tags": [],
@@ -6369,7 +6592,7 @@
       "url": "https://www.youtube.com/watch?v=oHiA-lc-zxE",
       "thumbnail": "https://i.ytimg.com/vi/oHiA-lc-zxE/maxresdefault.jpg",
       "publishedAt": "2025-08-29T00:39:00Z",
-      "views": 22515,
+      "views": 22516,
       "likes": 786,
       "duration": 128,
       "tags": [],
@@ -6386,7 +6609,7 @@
       "url": "https://www.youtube.com/watch?v=SwrVeW3AhhI",
       "thumbnail": "https://i.ytimg.com/vi/SwrVeW3AhhI/maxresdefault.jpg",
       "publishedAt": "2025-08-29T00:30:21Z",
-      "views": 38718,
+      "views": 38716,
       "likes": 1332,
       "duration": 83,
       "tags": [],
@@ -6403,7 +6626,7 @@
       "url": "https://www.youtube.com/watch?v=jtkztxpFEWM",
       "thumbnail": "https://i.ytimg.com/vi/jtkztxpFEWM/maxresdefault.jpg",
       "publishedAt": "2025-08-27T10:42:43Z",
-      "views": 30981,
+      "views": 30993,
       "likes": 885,
       "duration": 128,
       "tags": [],
@@ -6502,7 +6725,7 @@
       "url": "https://www.youtube.com/watch?v=xmik-_n4FO4",
       "thumbnail": "https://i.ytimg.com/vi/xmik-_n4FO4/maxresdefault.jpg",
       "publishedAt": "2025-08-25T13:00:42Z",
-      "views": 122501,
+      "views": 122496,
       "likes": 8402,
       "duration": 61,
       "tags": [],
@@ -6544,7 +6767,7 @@
       "url": "https://www.youtube.com/watch?v=El36tltTUf0",
       "thumbnail": "https://i.ytimg.com/vi/El36tltTUf0/maxresdefault.jpg",
       "publishedAt": "2025-08-24T13:00:06Z",
-      "views": 30543,
+      "views": 30536,
       "likes": 691,
       "duration": 452,
       "tags": [],
@@ -6699,7 +6922,7 @@
       "url": "https://www.youtube.com/watch?v=mcF_6yAcjok",
       "thumbnail": "https://i.ytimg.com/vi/mcF_6yAcjok/maxresdefault.jpg",
       "publishedAt": "2025-08-18T09:10:06Z",
-      "views": 418268,
+      "views": 418269,
       "likes": 28559,
       "duration": 336,
       "tags": [],
@@ -6707,6 +6930,34 @@
       "author": {
         "id": "yt:UCAxIa-4vHTwJ5AXmggFZByQ",
         "name": "りむ【Rim】"
+      }
+    },
+    {
+      "id": "sm45289339",
+      "source": "nico",
+      "title": "フラウンスがやってきたぞっ！",
+      "url": "https://www.nicovideo.jp/watch/sm45289339",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45289339/45289339.99207167.original/a960x540l?key=66654b61582d567835263f1a4304ff5c88dc0d5a9235702a20408f4eb3d381a3",
+      "publishedAt": "2025-08-14T19:00:00+09:00",
+      "views": 496,
+      "likes": 33,
+      "duration": 168,
+      "tags": [
+        "ションボリルドルフ",
+        "たぬき(ウマ娘)",
+        "ニシノフラワー(ウマ娘)",
+        "セイウンスカイ(ウマ娘)",
+        "アカリがやってきたぞっ",
+        "音MAD"
+      ],
+      "characters": [
+        "たぬき",
+        "ニシノフラワー",
+        "セイウンスカイ"
+      ],
+      "author": {
+        "id": "nico:30472384",
+        "name": "マコミラクル【IF】"
       }
     },
     {
@@ -6766,7 +7017,7 @@
       "url": "https://www.youtube.com/watch?v=mZ75dz42AWM",
       "thumbnail": "https://i.ytimg.com/vi/mZ75dz42AWM/maxresdefault.jpg",
       "publishedAt": "2025-08-12T09:44:31Z",
-      "views": 43812,
+      "views": 43815,
       "likes": 2311,
       "duration": 133,
       "tags": [],
@@ -6800,7 +7051,7 @@
       "url": "https://www.youtube.com/watch?v=I5Rn9N8qPyE",
       "thumbnail": "https://i.ytimg.com/vi/I5Rn9N8qPyE/maxresdefault.jpg",
       "publishedAt": "2025-08-10T09:57:45Z",
-      "views": 24062,
+      "views": 24063,
       "likes": 1481,
       "duration": 214,
       "tags": [],
@@ -6808,6 +7059,52 @@
       "author": {
         "id": "yt:UC2xojceFBbL2__G2uRiZ4cQ",
         "name": "Something_from_space"
+      }
+    },
+    {
+      "id": "sm45273894",
+      "source": "nico",
+      "title": "渋みのないDaisuke's Themeが入りました♪",
+      "url": "https://www.nicovideo.jp/watch/sm45273894",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45273894/45273894.42487147.original/r1280x720l?key=c369fcf6535ccf117efcc0e0f2243751bb3ae5b63dc2e129b6a68bb99ff60ea3",
+      "publishedAt": "2025-08-10T04:23:00+09:00",
+      "views": 215,
+      "likes": 20,
+      "duration": 19,
+      "tags": [
+        "マンハッタンカフェ(ウマ娘)",
+        "音MAD"
+      ],
+      "characters": [
+        "マンハッタンカフェ"
+      ],
+      "author": {
+        "id": "nico:118661430",
+        "name": "藤枝豆"
+      }
+    },
+    {
+      "id": "sm45265214",
+      "source": "nico",
+      "title": "サニングデール",
+      "url": "https://www.nicovideo.jp/watch/sm45265214",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45265214/45265214.23368830.original/r1280x720l?key=5f60ff108173a8e4293897c24334f1eefac9ddd027bf2ac036aa52856d12c434",
+      "publishedAt": "2025-08-07T18:11:04+09:00",
+      "views": 977,
+      "likes": 50,
+      "duration": 98,
+      "tags": [
+        "音MAD",
+        "YTPMV",
+        "actor's_anteroom",
+        "カルストンライトオ(ウマ娘)"
+      ],
+      "characters": [
+        "カルストンライトオ"
+      ],
+      "author": {
+        "id": "nico:139401986",
+        "name": "ヤオ"
       }
     },
     {
@@ -6848,7 +7145,7 @@
       "url": "https://www.youtube.com/watch?v=avuJ_kGX_c0",
       "thumbnail": "https://i.ytimg.com/vi/avuJ_kGX_c0/maxresdefault.jpg",
       "publishedAt": "2025-08-02T13:03:53Z",
-      "views": 49087,
+      "views": 49086,
       "likes": 2645,
       "duration": 103,
       "tags": [],
@@ -6924,7 +7221,7 @@
       "url": "https://www.youtube.com/watch?v=9RpXeN5rnMw",
       "thumbnail": "https://i.ytimg.com/vi/9RpXeN5rnMw/maxresdefault.jpg",
       "publishedAt": "2025-07-13T13:35:00Z",
-      "views": 23056,
+      "views": 23062,
       "likes": 1033,
       "duration": 28,
       "tags": [],
@@ -6968,7 +7265,7 @@
       "url": "https://www.youtube.com/watch?v=qZWJ22xllZU",
       "thumbnail": "https://i.ytimg.com/vi/qZWJ22xllZU/maxresdefault.jpg",
       "publishedAt": "2025-07-09T15:39:55Z",
-      "views": 377703,
+      "views": 377705,
       "likes": 13721,
       "duration": 79,
       "tags": [],
@@ -6985,7 +7282,7 @@
       "url": "https://www.youtube.com/watch?v=E8AQOAyXln0",
       "thumbnail": "https://i.ytimg.com/vi/E8AQOAyXln0/maxresdefault.jpg",
       "publishedAt": "2025-06-28T02:16:43Z",
-      "views": 74750,
+      "views": 74746,
       "likes": 2082,
       "duration": 16,
       "tags": [],
@@ -7002,7 +7299,7 @@
       "url": "https://www.youtube.com/watch?v=DxIl6HDaJyw",
       "thumbnail": "https://i.ytimg.com/vi/DxIl6HDaJyw/maxresdefault.jpg",
       "publishedAt": "2025-06-26T11:00:22Z",
-      "views": 2023,
+      "views": 2024,
       "likes": 100,
       "duration": 135,
       "tags": [],
@@ -7524,6 +7821,30 @@
       }
     },
     {
+      "id": "sm45016680",
+      "source": "nico",
+      "title": "ネオユニ",
+      "url": "https://www.nicovideo.jp/watch/sm45016680",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45016680/45016680.24084804.original/r1280x720l?key=a9ec78ab07ab1353f6177ac5de719e6860061aa1f09b2cb06a84db6798891ebe",
+      "publishedAt": "2025-05-24T21:00:00+09:00",
+      "views": 1031,
+      "likes": 74,
+      "duration": 165,
+      "tags": [
+        "音MAD",
+        "ネオユニヴァース(ウマ娘)",
+        "ネオミニ",
+        "もってけ!セーラーふくEX.Motte[k]remix"
+      ],
+      "characters": [
+        "ネオユニヴァース"
+      ],
+      "author": {
+        "id": "nico:136800837",
+        "name": "レッサーパンダ"
+      }
+    },
+    {
       "id": "sm45017431",
       "source": "nico",
       "title": "ノルンエース達に反省を促すダンス[ウマ娘 シンデレラグレイ]",
@@ -7548,6 +7869,29 @@
       "author": {
         "id": "nico:67941326",
         "name": "ぽんぽん工房"
+      }
+    },
+    {
+      "id": "sm45009770",
+      "source": "nico",
+      "title": "ネオユニ",
+      "url": "https://www.nicovideo.jp/watch/sm45009770",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45009770/45009770.15666210.original/r1280x720l?key=6d1f42c288603b6c5ea464a70f26ae61197626a3d550790a46111c08251a5946",
+      "publishedAt": "2025-05-22T21:00:00+09:00",
+      "views": 831,
+      "likes": 72,
+      "duration": 63,
+      "tags": [
+        "音MAD",
+        "ネオユニヴァース(ウマ娘)",
+        "ネオミニ"
+      ],
+      "characters": [
+        "ネオユニヴァース"
+      ],
+      "author": {
+        "id": "nico:136800837",
+        "name": "レッサーパンダ"
       }
     },
     {
@@ -7611,6 +7955,31 @@
       }
     },
     {
+      "id": "sm45007442",
+      "source": "nico",
+      "title": "ネオユニ",
+      "url": "https://www.nicovideo.jp/watch/sm45007442",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/45007442/45007442.20313202.original/r1280x720l?key=2858c37733d930b25ae6641515afc1fbfb19a42ff51fa1a5a435ee9967a6b11c",
+      "publishedAt": "2025-05-21T21:00:00+09:00",
+      "views": 1106,
+      "likes": 74,
+      "duration": 58,
+      "tags": [
+        "ネオミニ",
+        "ネオユニヴァース(ウマ娘)",
+        "音MAD",
+        "かぶっちゃった結婚",
+        "ネオユニ×ネオミニタグリンク"
+      ],
+      "characters": [
+        "ネオユニヴァース"
+      ],
+      "author": {
+        "id": "nico:19470756",
+        "name": "ラグマット"
+      }
+    },
+    {
       "id": "sm45002652",
       "source": "nico",
       "title": "皇帝ラップ",
@@ -7640,6 +8009,33 @@
       "author": {
         "id": "nico:129302712",
         "name": "Xclamation!!"
+      }
+    },
+    {
+      "id": "sm44998869",
+      "source": "nico",
+      "title": "MAMBO MAMBO DANCE",
+      "url": "https://www.nicovideo.jp/watch/sm44998869",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44998869/44998869.70163495.original/a960x540l?key=b9c251026fef6f0d5929e4b21f816341485485ed49dd432c1f5e56a4e72eed10",
+      "publishedAt": "2025-05-19T07:30:05+09:00",
+      "views": 3648,
+      "likes": 225,
+      "duration": 154,
+      "tags": [
+        "音MAD",
+        "yona_yona_dancemadリンク",
+        "ウマ娘mad",
+        "マチカネタンホイザ(ウマ娘)",
+        "mambo",
+        "タンホダヨー",
+        "Lingan_Guli_Guli"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:118708161",
+        "name": "エントツ"
       }
     },
     {
@@ -8229,6 +8625,32 @@
       }
     },
     {
+      "id": "sm44907992",
+      "source": "nico",
+      "title": "たぬきで振り返る音MAD【ウマ娘たぬき】",
+      "url": "https://www.nicovideo.jp/watch/sm44907992",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44907992/44907992.1127814.original/r1280x720l?key=8d8e6e9013b3a807094324bfc76c629f3138d53f575e212ca21c6b02e2932e2c",
+      "publishedAt": "2025-04-23T23:53:04+09:00",
+      "views": 1099,
+      "likes": 29,
+      "duration": 82,
+      "tags": [
+        "たぬき(ウマ娘)",
+        "音MAD",
+        "ゴールドシップ(ウマ娘)",
+        "ションボリルドルフ",
+        "ニコニコMADレーシリーズ"
+      ],
+      "characters": [
+        "たぬき",
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:38798817",
+        "name": "志麻村福/解説動画Wiki"
+      }
+    },
+    {
       "id": "sm44892301",
       "source": "nico",
       "title": "UMMA_KICK",
@@ -8255,7 +8677,7 @@
       "url": "https://www.youtube.com/watch?v=Rzli4SL2azc",
       "thumbnail": "https://i.ytimg.com/vi/Rzli4SL2azc/maxresdefault.jpg",
       "publishedAt": "2025-04-18T20:02:35Z",
-      "views": 3073,
+      "views": 3074,
       "likes": 124,
       "duration": 80,
       "tags": [],
@@ -8349,7 +8771,7 @@
       "url": "https://www.youtube.com/watch?v=WSvwInR0Hj4",
       "thumbnail": "https://i.ytimg.com/vi/WSvwInR0Hj4/maxresdefault.jpg",
       "publishedAt": "2025-04-16T17:00:08Z",
-      "views": 2297,
+      "views": 2294,
       "likes": 49,
       "duration": 29,
       "tags": [],
@@ -8379,6 +8801,31 @@
       "author": {
         "id": "nico:59705506",
         "name": "dkun"
+      }
+    },
+    {
+      "id": "sm44878756",
+      "source": "nico",
+      "title": "東方原曲の音ＭＡＤ　星蓮船　４面テーマ　アグネスタキオンの時空を越えた旅",
+      "url": "https://www.nicovideo.jp/watch/sm44878756",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44878756/44878756.97462283.original/r1280x720l?key=f9ef8336f2e2ac7edf60345f74f61068cd39329a7b18231e059034c897f4b31c",
+      "publishedAt": "2025-04-15T21:00:00+09:00",
+      "views": 915,
+      "likes": 77,
+      "duration": 84,
+      "tags": [
+        "音MAD",
+        "第200回音MAD晒しイベント",
+        "テンプレ無視音MAD投稿祭",
+        "アグネスタキオン(ウマ娘)",
+        "幽霊客船の時空を越えた旅"
+      ],
+      "characters": [
+        "アグネスタキオン"
+      ],
+      "author": {
+        "id": "nico:12224942",
+        "name": "きっかん"
       }
     },
     {
@@ -8509,6 +8956,117 @@
       }
     },
     {
+      "id": "sm44858193",
+      "source": "nico",
+      "title": "今夜はhomeで寝てくれる？",
+      "url": "https://www.nicovideo.jp/watch/sm44858193",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44858193/44858193.68572501.original/a960x540l?key=454690a3804493d770042844c24e9de7a083c33bc01deb92cc01a5928d56d7b6",
+      "publishedAt": "2025-04-09T20:00:00+09:00",
+      "views": 8431,
+      "likes": 295,
+      "duration": 34,
+      "tags": [
+        "ウマ娘_シンデレラグレイ",
+        "ウマ娘mad",
+        "音MAD",
+        "home",
+        "今夜はここで寝てくれる？",
+        "ノルンエース",
+        "ノルンエース(ウマ娘)",
+        "空前のマイブーム",
+        "ココデネロイド",
+        "木山裕策"
+      ],
+      "characters": [
+        "ノルンエース"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
+      "id": "sm44853569",
+      "source": "nico",
+      "title": "踊ってない夜はここで寝てくれる？",
+      "url": "https://www.nicovideo.jp/watch/sm44853569",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44853569/44853569.82905630.original/a960x540l?key=f256b0a2d5a47394a90e491efe07509b9e7478b343b58224526609d5a41dfa17",
+      "publishedAt": "2025-04-07T20:00:00+09:00",
+      "views": 22733,
+      "likes": 516,
+      "duration": 31,
+      "tags": [
+        "ウマ娘_シンデレラグレイ",
+        "ウマ娘mad",
+        "音MAD",
+        "オドループのピコピコリミックス",
+        "オドループ",
+        "今夜はここで寝てくれる？",
+        "ノルンエース",
+        "ノルンエース(ウマ娘)",
+        "空前のマイブーム",
+        "深刻な素材不足",
+        "ココデネロイド"
+      ],
+      "characters": [
+        "ノルンエース"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
+      "id": "sm44851810",
+      "source": "nico",
+      "title": "【おまけ】シ　ョ　ン　ボ　リ　ル　ド　ル　フ",
+      "url": "https://www.nicovideo.jp/watch/sm44851810",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44851810/44851810.50628083.original/r1280x720l?key=b6b40e59268688bbb2b6266e299cdf74515eede2771db9683af61a7169e9b465",
+      "publishedAt": "2025-04-06T23:08:04+09:00",
+      "views": 407,
+      "likes": 17,
+      "duration": 107,
+      "tags": [
+        "たぬき(ウマ娘)",
+        "音MAD",
+        "unwelcome_school"
+      ],
+      "characters": [
+        "たぬき"
+      ],
+      "author": {
+        "id": "nico:80741431",
+        "name": "ビームタライ２号"
+      }
+    },
+    {
+      "id": "sm44845116",
+      "source": "nico",
+      "title": "最強/船橋",
+      "url": "https://www.nicovideo.jp/watch/sm44845116",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44845116/44845116.62610803.original/r1280x720l?key=43ff1795d4138e61acd5a6db00db1c8b8662034b0613de25c2d7659218bf65df",
+      "publishedAt": "2025-04-05T20:00:00+09:00",
+      "views": 5623,
+      "likes": 220,
+      "duration": 30,
+      "tags": [
+        "音MAD",
+        "フリオーソ(ウマ娘)",
+        "雑魚(柊マグネタイト)",
+        "ウマ娘mad",
+        "船橋の底力、お見せします",
+        "船橋",
+        "最強"
+      ],
+      "characters": [
+        "フリオーソ"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
       "id": "sm44831640",
       "source": "nico",
       "title": "デジイ",
@@ -8593,7 +9151,7 @@
       "url": "https://www.youtube.com/watch?v=fYYIf-3fvns",
       "thumbnail": "https://i.ytimg.com/vi/fYYIf-3fvns/maxresdefault.jpg",
       "publishedAt": "2025-03-31T11:07:47Z",
-      "views": 1378,
+      "views": 1377,
       "likes": 45,
       "duration": 309,
       "tags": [],
@@ -8785,7 +9343,7 @@
       "url": "https://www.youtube.com/watch?v=XxOtgP1At3I",
       "thumbnail": "https://i.ytimg.com/vi/XxOtgP1At3I/sddefault.jpg",
       "publishedAt": "2025-03-24T00:42:42Z",
-      "views": 72214,
+      "views": 72215,
       "likes": 2913,
       "duration": 131,
       "tags": [],
@@ -9056,6 +9614,55 @@
       }
     },
     {
+      "id": "sm44761261",
+      "source": "nico",
+      "title": "エル通信(告知動画)",
+      "url": "https://www.nicovideo.jp/watch/sm44761261",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44761261/44761261.64131721.original/a960x540l?key=cebe0a0e2fc6bfeb0fb7c33c3b522451b729343e363a5453561a7f50f7db9af1",
+      "publishedAt": "2025-03-14T19:00:00+09:00",
+      "views": 276,
+      "likes": 19,
+      "duration": 44,
+      "tags": [
+        "音MAD",
+        "合作告知",
+        "エルコンドルパサー(ウマ娘)",
+        "ウマ娘mad",
+        "バカ通信",
+        "ウマ娘合作"
+      ],
+      "characters": [
+        "エルコンドルパサー"
+      ],
+      "author": {
+        "id": "nico:129438335",
+        "name": "ドリャパサー"
+      }
+    },
+    {
+      "id": "sm44751100",
+      "source": "nico",
+      "title": "一等星",
+      "url": "https://www.nicovideo.jp/watch/sm44751100",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44751100/44751100.8801568.original/r1280x720l?key=88b20228b226736f8cef5c4d7dffbc16aaff2316551ce9229ffebbd47b8d53f4",
+      "publishedAt": "2025-03-12T00:00:00+09:00",
+      "views": 1378,
+      "likes": 116,
+      "duration": 31,
+      "tags": [
+        "音MAD",
+        "アドマイヤベガ(ウマ娘)",
+        "プラネテス(seiza)"
+      ],
+      "characters": [
+        "アドマイヤベガ"
+      ],
+      "author": {
+        "id": "nico:87132038",
+        "name": "いそかまい"
+      }
+    },
+    {
       "id": "yt:8r_9bvbifsQ",
       "source": "youtube",
       "title": "君は完璧で九冠のアイドル",
@@ -9144,6 +9751,32 @@
       "author": {
         "id": "nico:85856696",
         "name": "Mil1a"
+      }
+    },
+    {
+      "id": "sm44735962",
+      "source": "nico",
+      "title": "だんちいやま",
+      "url": "https://www.nicovideo.jp/watch/sm44735962",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44735962/44735962.13048181.original/r1280x720l?key=7a98ed0bc1e114cc8943ebe22a9deff6641ed4a3b2e424a9c1c80ab7794fc77d",
+      "publishedAt": "2025-03-07T22:42:03+09:00",
+      "views": 259,
+      "likes": 9,
+      "duration": 11,
+      "tags": [
+        "ゆでなぽ界隈",
+        "ゆでほい界隈",
+        "ダンツフレーム(ウマ娘)",
+        "おさしみやまシリーズ",
+        "音MAD",
+        "こなちいやまシリーズ"
+      ],
+      "characters": [
+        "ダンツフレーム"
+      ],
+      "author": {
+        "id": "nico:29219306",
+        "name": "ネルコノチヨ"
       }
     },
     {
@@ -9339,7 +9972,7 @@
       "url": "https://www.youtube.com/watch?v=Gf2NwN__lqI",
       "thumbnail": "https://i.ytimg.com/vi/Gf2NwN__lqI/maxresdefault.jpg",
       "publishedAt": "2025-02-25T10:34:28Z",
-      "views": 10308,
+      "views": 10310,
       "likes": 347,
       "duration": 36,
       "tags": [],
@@ -9356,7 +9989,7 @@
       "url": "https://www.youtube.com/watch?v=xu3hl_vWHVE",
       "thumbnail": "https://i.ytimg.com/vi/xu3hl_vWHVE/maxresdefault.jpg",
       "publishedAt": "2025-02-24T12:00:54Z",
-      "views": 198836,
+      "views": 198831,
       "likes": 5185,
       "duration": 595,
       "tags": [],
@@ -9476,6 +10109,31 @@
       }
     },
     {
+      "id": "sm44686345",
+      "source": "nico",
+      "title": "ドゥルグキ",
+      "url": "https://www.nicovideo.jp/watch/sm44686345",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44686345/44686345.40812451.original/a960x540l?key=1b74892f53b690229f137266b1511d9967de3d85da0c928250e9afba93a9cfe3",
+      "publishedAt": "2025-02-22T20:16:04+09:00",
+      "views": 989,
+      "likes": 54,
+      "duration": 55,
+      "tags": [
+        "たぬき(ウマ娘)",
+        "散り散り",
+        "音MAD",
+        "散り散り音madリンク",
+        "名作たぬき"
+      ],
+      "characters": [
+        "たぬき"
+      ],
+      "author": {
+        "id": "nico:80741431",
+        "name": "ビームタライ２号"
+      }
+    },
+    {
       "id": "yt:bEgsH3WrCJQ",
       "source": "youtube",
       "title": "【合作告知】『ウマ娘4周年祭 〜Feisty Party〜』投稿のお知らせ",
@@ -9589,6 +10247,33 @@
       "author": {
         "id": "nico:65487910",
         "name": "なめたけ"
+      }
+    },
+    {
+      "id": "sm44650165",
+      "source": "nico",
+      "title": "キャロキャロ",
+      "url": "https://www.nicovideo.jp/watch/sm44650165",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44650165/44650165.5797008.original/a960x540l?key=f4ee155ad233852ce68d9b67b190c1adb6fef0e8f9c4ac84e4ea170f97aab0d1",
+      "publishedAt": "2025-02-14T21:39:03+09:00",
+      "views": 319,
+      "likes": 8,
+      "duration": 242,
+      "tags": [
+        "音MAD",
+        "キャロットマン",
+        "まにまに(r-906)",
+        "言われたことことだけだけだけだけ",
+        "ウマ娘mad",
+        "ビコーペガサス(ウマ娘)",
+        "うp主はウケると思ってたシリーズ"
+      ],
+      "characters": [
+        "ビコーペガサス"
+      ],
+      "author": {
+        "id": "nico:86075204",
+        "name": "唐さんマン"
       }
     },
     {
@@ -9779,6 +10464,33 @@
       }
     },
     {
+      "id": "sm44585725",
+      "source": "nico",
+      "title": "私は絶対に絆されない！",
+      "url": "https://www.nicovideo.jp/watch/sm44585725",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44585725/44585725.45405757.original/a960x540l?key=57824add4111da848aabf1df628006c1261868a833e8189c575941713e723a91",
+      "publishedAt": "2025-01-27T20:00:00+09:00",
+      "views": 8856,
+      "likes": 384,
+      "duration": 59,
+      "tags": [
+        "音MAD",
+        "フリオーソ(ウマ娘)",
+        "ウマ娘mad",
+        "Bonetrousle",
+        "船橋の底力、お見せします",
+        "船橋",
+        "水を得た魚"
+      ],
+      "characters": [
+        "フリオーソ"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
       "id": "yt:jiXiOZe_Vw0",
       "source": "youtube",
       "title": "ChevalGrand vs Nemesis H V2 ボイパ対決 Bad Apple!!",
@@ -9828,7 +10540,7 @@
       "url": "https://www.youtube.com/watch?v=YYnXQDWLVmE",
       "thumbnail": "https://i.ytimg.com/vi/YYnXQDWLVmE/sddefault.jpg",
       "publishedAt": "2025-01-14T14:01:01Z",
-      "views": 2027,
+      "views": 2026,
       "likes": 75,
       "duration": 90,
       "tags": [],
@@ -9873,7 +10585,7 @@
       "url": "https://www.youtube.com/watch?v=fNLecxWokVY",
       "thumbnail": "https://i.ytimg.com/vi/fNLecxWokVY/maxresdefault.jpg",
       "publishedAt": "2025-01-11T18:00:33Z",
-      "views": 962,
+      "views": 961,
       "likes": 28,
       "duration": 90,
       "tags": [],
@@ -9881,6 +10593,30 @@
       "author": {
         "id": "yt:UC6E9G6lzwfvGQeFkcLCLqMw",
         "name": "Mil1a　"
+      }
+    },
+    {
+      "id": "sm44515812",
+      "source": "nico",
+      "title": "パンがこげこげになってしまったわ…",
+      "url": "https://www.nicovideo.jp/watch/sm44515812",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44515812/44515812.22690143.original/r1280x720l?key=2dfdf1194dca8db0433a5fd6552691a9dd897b14de27941eec10bd7819c27844",
+      "publishedAt": "2025-01-08T06:02:03+09:00",
+      "views": 1385,
+      "likes": 67,
+      "duration": 44,
+      "tags": [
+        "音MAD",
+        "パンこげこげになっちゃった",
+        "ウマ娘mad",
+        "アドマイヤベガ(ウマ娘)"
+      ],
+      "characters": [
+        "アドマイヤベガ"
+      ],
+      "author": {
+        "id": "nico:126280093",
+        "name": "東雲"
       }
     },
     {
@@ -10131,7 +10867,7 @@
       "url": "https://www.youtube.com/watch?v=Y-G9PqRxweg",
       "thumbnail": "https://i.ytimg.com/vi/Y-G9PqRxweg/maxresdefault.jpg",
       "publishedAt": "2024-12-15T12:49:51Z",
-      "views": 818189,
+      "views": 818289,
       "likes": 12785,
       "duration": 195,
       "tags": [],
@@ -10392,7 +11128,7 @@
       "url": "https://www.youtube.com/watch?v=rEgD2Rkc7uQ",
       "thumbnail": "https://i.ytimg.com/vi/rEgD2Rkc7uQ/maxresdefault.jpg",
       "publishedAt": "2024-11-28T10:53:51Z",
-      "views": 21597,
+      "views": 21598,
       "likes": 316,
       "duration": 38,
       "tags": [],
@@ -10403,38 +11139,13 @@
       }
     },
     {
-      "id": "sm44352761",
-      "source": "nico",
-      "title": "アナ娘　変なっちゃったダービー",
-      "url": "https://www.nicovideo.jp/watch/sm44352761",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/44352761/44352761.56325215",
-      "publishedAt": "2024-11-23T11:32:05+09:00",
-      "views": 10111,
-      "likes": 198,
-      "duration": 60,
-      "tags": [
-        "真夏の夜の淫夢",
-        "ア〇ルが変なっちゃった兄貴",
-        "音MAD",
-        "kodax兄貴リスペクト",
-        "うまぴょい伝説",
-        "例のアレ",
-        "ウマ娘プリティーダービー"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:120002076",
-        "name": "うんちぇ"
-      }
-    },
-    {
       "id": "yt:nKoEtykL5ZY",
       "source": "youtube",
       "title": "【ウマ娘】ちゃっちゃっちゃー",
       "url": "https://www.youtube.com/watch?v=nKoEtykL5ZY",
       "thumbnail": "https://i.ytimg.com/vi/nKoEtykL5ZY/maxresdefault.jpg",
       "publishedAt": "2024-11-22T13:39:56Z",
-      "views": 3160,
+      "views": 3159,
       "likes": 262,
       "duration": 52,
       "tags": [],
@@ -10482,7 +11193,7 @@
       "url": "https://www.youtube.com/watch?v=sYAxMMMdrWg",
       "thumbnail": "https://i.ytimg.com/vi/sYAxMMMdrWg/maxresdefault.jpg",
       "publishedAt": "2024-11-17T18:48:22Z",
-      "views": 3610,
+      "views": 3609,
       "likes": 154,
       "duration": 78,
       "tags": [],
@@ -10538,30 +11249,6 @@
       "author": {
         "id": "yt:UCrmmdQMobQqWTssycYCOm0A",
         "name": "敬愛"
-      }
-    },
-    {
-      "id": "sm44327966",
-      "source": "nico",
-      "title": "がばぴょい伝説",
-      "url": "https://www.nicovideo.jp/watch/sm44327966",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/44327966/44327966.18140537",
-      "publishedAt": "2024-11-16T19:05:03+09:00",
-      "views": 657,
-      "likes": 21,
-      "duration": 40,
-      "tags": [
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "ガバ穴ダディー",
-        "音MAD",
-        "ウマ娘プリティーダービー",
-        "うまぴょい伝説"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:134005826",
-        "name": "タウリン"
       }
     },
     {
@@ -10762,6 +11449,34 @@
       "author": {
         "id": "nico:76810525",
         "name": "まっしろ"
+      }
+    },
+    {
+      "id": "sm44257896",
+      "source": "nico",
+      "title": "フナーバシノ・サービス、お見せします",
+      "url": "https://www.nicovideo.jp/watch/sm44257896",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44257896/44257896.2776757.original/r1280x720l?key=82c784179ab56d8caddf93078b494ac99ad222722b1162d39537beec2d2dc567",
+      "publishedAt": "2024-10-30T20:00:00+09:00",
+      "views": 4647,
+      "likes": 198,
+      "duration": 87,
+      "tags": [
+        "音mad",
+        "フリオーソ(ウマ娘)",
+        "船橋の底力、お見せします",
+        "ウマ娘mad",
+        "めいあいへるぷゆー?",
+        "ふなっしー",
+        "船橋",
+        "空前の船橋底力見せますブーム"
+      ],
+      "characters": [
+        "フリオーソ"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
       }
     },
     {
@@ -11269,13 +11984,38 @@
       }
     },
     {
+      "id": "sm44184924",
+      "source": "nico",
+      "title": "【たぬき】Tanuki My Emotions【音MAD】",
+      "url": "https://www.nicovideo.jp/watch/sm44184924",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44184924/44184924.30255946.original/r1280x720l?key=359d7d1390892b18628de73db0f7cabb3e2fc08cc790a704d5f3fd28b46bf740",
+      "publishedAt": "2024-10-06T18:50:04+09:00",
+      "views": 1065,
+      "likes": 39,
+      "duration": 185,
+      "tags": [
+        "たぬき(ウマ娘)",
+        "音MAD",
+        "rock_my_emotions",
+        "変態はいる、悲しいが",
+        "変態はいる。そう思った。"
+      ],
+      "characters": [
+        "たぬき"
+      ],
+      "author": {
+        "id": "nico:259159",
+        "name": "あおいろ"
+      }
+    },
+    {
       "id": "yt:LgFGqd-F__Y",
       "source": "youtube",
       "title": "【ウマ娘MAD】ウマ娘に自己紹介してもらった【Bling-Bang-Bang-Born】",
       "url": "https://www.youtube.com/watch?v=LgFGqd-F__Y",
       "thumbnail": "https://i.ytimg.com/vi/LgFGqd-F__Y/maxresdefault.jpg",
       "publishedAt": "2024-10-05T08:41:26Z",
-      "views": 46470,
+      "views": 46469,
       "likes": 1621,
       "duration": 91,
       "tags": [],
@@ -11751,6 +12491,52 @@
       }
     },
     {
+      "id": "sm44067611",
+      "source": "nico",
+      "title": "オーバータキオン",
+      "url": "https://www.nicovideo.jp/watch/sm44067611",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44067611/44067611.94688589.original/a960x540l?key=e401349662f8ac4b04cb0f5412eddde49fa3ceccc09f913cb9c83e1cc306f3e7",
+      "publishedAt": "2024-09-05T16:52:03+09:00",
+      "views": 338,
+      "likes": 24,
+      "duration": 37,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "アグネスタキオン(ウマ娘)"
+      ],
+      "characters": [
+        "アグネスタキオン"
+      ],
+      "author": {
+        "id": "nico:132858092",
+        "name": "Mo Mo"
+      }
+    },
+    {
+      "id": "sm44066288",
+      "source": "nico",
+      "title": "バｸﾞ",
+      "url": "https://www.nicovideo.jp/watch/sm44066288",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44066288/44066288.80757091.original/r1280x720l?key=6007d5e9f9f7e13d923483297772f41d560715017012d3c87a9e91d599910f2f",
+      "publishedAt": "2024-09-05T03:33:03+09:00",
+      "views": 196,
+      "likes": 8,
+      "duration": 31,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "ウマ娘mad"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:132345517",
+        "name": "赤べこ"
+      }
+    },
+    {
       "id": "sm44057057",
       "source": "nico",
       "title": "うまシカ色ぴょい伝説デイズ",
@@ -11992,35 +12778,6 @@
       "author": {
         "id": "nico:120295902",
         "name": "徳志別"
-      }
-    },
-    {
-      "id": "sm44013341",
-      "source": "nico",
-      "title": "上様が刀を振り回すたびにガチャを回す動画",
-      "url": "https://www.nicovideo.jp/watch/sm44013341",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/44013341/44013341.53320587.original/a960x540l?key=2a977cba55d91fd794bd7b77cd2077856deaaf47497b048295730c885d484c0a",
-      "publishedAt": "2024-08-24T18:00:00+09:00",
-      "views": 1936,
-      "likes": 35,
-      "duration": 152,
-      "tags": [
-        "例のアレ",
-        "暴れん坊将軍",
-        "上様ご乱心シリーズ",
-        "ウマ娘プリティーダービー",
-        "音mad",
-        "上様が刀を振り回すたびにシリーズ",
-        "ゲーム",
-        "MAD",
-        "吹いたら打ち首",
-        "ウマ娘",
-        "ウマ娘mad"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:438218",
-        "name": "フレンチクルーザー"
       }
     },
     {
@@ -12321,7 +13078,7 @@
       "url": "https://www.youtube.com/watch?v=kAE5jRmQZ7k",
       "thumbnail": "https://i.ytimg.com/vi/kAE5jRmQZ7k/sddefault.jpg",
       "publishedAt": "2024-08-12T09:53:30Z",
-      "views": 89200,
+      "views": 89199,
       "likes": 2879,
       "duration": 138,
       "tags": [],
@@ -12606,6 +13363,31 @@
       }
     },
     {
+      "id": "sm43891850",
+      "source": "nico",
+      "title": "【ここすき1単品】アウトドア系ならお料理メイカー【Nico Charm☆彡】",
+      "url": "https://www.nicovideo.jp/watch/sm43891850",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43891850/43891850.90922306.original/r1280x720l?key=86cceffa97aab1f81ae31a7c0e5ea1fa807d8ba0e1088c11c8e5a116024aed30",
+      "publishedAt": "2024-08-05T16:32:09+09:00",
+      "views": 223,
+      "likes": 7,
+      "duration": 19,
+      "tags": [
+        "ヒシアケボノ(ウマ娘)",
+        "音MAD",
+        "ウマ娘MAD",
+        "合作単品",
+        "インドア系ならトラックメイカー"
+      ],
+      "characters": [
+        "ヒシアケボノ"
+      ],
+      "author": {
+        "id": "nico:7374448",
+        "name": "ヨシダネ"
+      }
+    },
+    {
       "id": "sm43888452",
       "source": "nico",
       "title": "ライアーバクシン",
@@ -12809,7 +13591,7 @@
       "url": "https://www.youtube.com/watch?v=-IBq74cfgW0",
       "thumbnail": "https://i.ytimg.com/vi/-IBq74cfgW0/maxresdefault.jpg",
       "publishedAt": "2024-07-01T16:47:57Z",
-      "views": 18981,
+      "views": 18983,
       "likes": 323,
       "duration": 45,
       "tags": [],
@@ -12826,7 +13608,7 @@
       "url": "https://www.youtube.com/watch?v=aAu-fyY9BrY",
       "thumbnail": "https://i.ytimg.com/vi/aAu-fyY9BrY/maxresdefault.jpg",
       "publishedAt": "2024-06-23T15:21:30Z",
-      "views": 45673,
+      "views": 45674,
       "likes": 1050,
       "duration": 32,
       "tags": [],
@@ -12906,6 +13688,35 @@
       "author": {
         "id": "yt:UCmfxewIaiWvap7K9bevnu0A",
         "name": "クルマユ"
+      }
+    },
+    {
+      "id": "sm43878175",
+      "source": "nico",
+      "title": "底力見たいよ",
+      "url": "https://www.nicovideo.jp/watch/sm43878175",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43878175/43878175.42361312.original/a960x540l?key=49b2dfbfc73e5a474dc52a72504572f0934a233b4337bb8b861247bd6054262b",
+      "publishedAt": "2024-06-06T20:00:00+09:00",
+      "views": 7607,
+      "likes": 278,
+      "duration": 49,
+      "tags": [
+        "音mad",
+        "フリオーソ(ウマ娘)",
+        "船橋の底力、お見せします",
+        "ウマ娘mad",
+        "チョコデート・サンデー",
+        "月曜が近いよ",
+        "船橋",
+        "アイドルマスターシャイニーカラーズ",
+        "空前の船橋底力見せますブーム"
+      ],
+      "characters": [
+        "フリオーソ"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
       }
     },
     {
@@ -13395,7 +14206,7 @@
       "url": "https://www.youtube.com/watch?v=pPPuPwbIie0",
       "thumbnail": "https://i.ytimg.com/vi/pPPuPwbIie0/maxresdefault.jpg",
       "publishedAt": "2024-05-17T15:03:00Z",
-      "views": 42737,
+      "views": 42738,
       "likes": 967,
       "duration": 271,
       "tags": [],
@@ -13708,30 +14519,6 @@
       "author": {
         "id": "nico:119334292",
         "name": "黃老鳥"
-      }
-    },
-    {
-      "id": "sm43736261",
-      "source": "nico",
-      "title": "TAKUYA様",
-      "url": "https://www.nicovideo.jp/watch/sm43736261",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/43736261/43736261.41182577",
-      "publishedAt": "2024-05-02T16:07:02+09:00",
-      "views": 1015,
-      "likes": 23,
-      "duration": 132,
-      "tags": [
-        "例のアレ",
-        "音takuya",
-        "タクヤさん",
-        "kodax兄貴リスペクト",
-        "音MAD",
-        "ウマ娘プリティーダービー"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:942602",
-        "name": "ぽん酢"
       }
     },
     {
@@ -14204,7 +14991,7 @@
       "url": "https://www.youtube.com/watch?v=8qdULC1Vd84",
       "thumbnail": "https://i.ytimg.com/vi/8qdULC1Vd84/maxresdefault.jpg",
       "publishedAt": "2024-04-09T06:56:47Z",
-      "views": 53575,
+      "views": 53578,
       "likes": 1100,
       "duration": 97,
       "tags": [],
@@ -14359,6 +15146,32 @@
       }
     },
     {
+      "id": "sm43619304",
+      "source": "nico",
+      "title": "エルコンドルパサーが吹 っ 切 れ た",
+      "url": "https://www.nicovideo.jp/watch/sm43619304",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43619304/43619304.22765300.original/r1280x720l?key=9bf8ca623a1733ef1126d6be4a0e5488c0ec76aee32934f4ba839967c7e5a167",
+      "publishedAt": "2024-04-04T22:07:03+09:00",
+      "views": 269,
+      "likes": 11,
+      "duration": 23,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "エルコンドルパサー(ウマ娘)",
+        "おちゃめ機能",
+        "吹っ切れた",
+        "暴歌ロイド"
+      ],
+      "characters": [
+        "エルコンドルパサー"
+      ],
+      "author": {
+        "id": "nico:129438335",
+        "name": "ドリャパサー"
+      }
+    },
+    {
       "id": "sm43611955",
       "source": "nico",
       "title": "ネオメジ",
@@ -14475,6 +15288,33 @@
       "author": {
         "id": "yt:UCJ06RJARQghXLqAzqsOH5Ag",
         "name": "ネルコノチヨ"
+      }
+    },
+    {
+      "id": "sm43602883",
+      "source": "nico",
+      "title": "カラオケにいく、タニノギムレットとウオッカ",
+      "url": "https://www.nicovideo.jp/watch/sm43602883",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43602883/43602883.24610364.original/a960x540l?key=644d18b5757a73b80e93fb4c3e75066e5aca2dcdf6751cbec28c5d12a64259f0",
+      "publishedAt": "2024-03-31T23:14:03+09:00",
+      "views": 651,
+      "likes": 27,
+      "duration": 34,
+      "tags": [
+        "歌謡祭にいく、シュルクとライン",
+        "音mad",
+        "シュルクとラインが使ったカラオケリンク",
+        "ウマ娘mad",
+        "タニノギムレット(ウマ娘)",
+        "ウオッカ(ウマ娘)"
+      ],
+      "characters": [
+        "タニノギムレット",
+        "ウオッカ"
+      ],
+      "author": {
+        "id": "nico:116432582",
+        "name": "塩れもん"
       }
     },
     {
@@ -14613,7 +15453,7 @@
       "url": "https://www.youtube.com/watch?v=wzdwa8LU7fo",
       "thumbnail": "https://i.ytimg.com/vi/wzdwa8LU7fo/maxresdefault.jpg",
       "publishedAt": "2024-03-27T14:50:01Z",
-      "views": 31364,
+      "views": 31362,
       "likes": 465,
       "duration": 46,
       "tags": [],
@@ -14957,7 +15797,7 @@
       "url": "https://www.youtube.com/watch?v=PSdquLOa06g",
       "thumbnail": "https://i.ytimg.com/vi/PSdquLOa06g/maxresdefault.jpg",
       "publishedAt": "2024-03-17T12:12:15Z",
-      "views": 23620,
+      "views": 23618,
       "likes": 363,
       "duration": 34,
       "tags": [],
@@ -15045,6 +15885,32 @@
       }
     },
     {
+      "id": "sm43532758",
+      "source": "nico",
+      "title": "コンドーパサー(リメイク)",
+      "url": "https://www.nicovideo.jp/watch/sm43532758",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43532758/43532758.27235653.original/r1280x720l?key=1a2aa5c28815778a21ea4b0bc914035de445508235a88826489ba1110b19911e",
+      "publishedAt": "2024-03-17T00:01:00+09:00",
+      "views": 241,
+      "likes": 10,
+      "duration": 95,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "エルコンドルパサー(ウマ娘)",
+        "ライアーダンサー音madリンク",
+        "第188回音mad晒しイベント",
+        "ライアーダンサー"
+      ],
+      "characters": [
+        "エルコンドルパサー"
+      ],
+      "author": {
+        "id": "nico:129438335",
+        "name": "ドリャパサー"
+      }
+    },
+    {
       "id": "sm43532841",
       "source": "nico",
       "title": "エルマニア",
@@ -15072,6 +15938,68 @@
       }
     },
     {
+      "id": "sm43523338",
+      "source": "nico",
+      "title": "散りぴし",
+      "url": "https://www.nicovideo.jp/watch/sm43523338",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43523338/43523338.29876294.original/r1280x720l?key=8ffbf80fbe74ebee41359eced5194039091f9308172034abc9a95bde1423824d",
+      "publishedAt": "2024-03-17T00:00:00+09:00",
+      "views": 991,
+      "likes": 33,
+      "duration": 51,
+      "tags": [
+        "音MAD",
+        "エルコンドルパサー(ウマ娘)",
+        "ウマ娘mad",
+        "散り散り音madリンク",
+        "ヂニリヂ",
+        "第188回音mad晒しイベント",
+        "空前のヂニリヂブーム",
+        "散り散り",
+        "作曲者巡回済み",
+        "イリキンヂリピシー（忌魅滲)",
+        "位置MID"
+      ],
+      "characters": [
+        "エルコンドルパサー"
+      ],
+      "author": {
+        "id": "nico:129438335",
+        "name": "ドリャパサー"
+      }
+    },
+    {
+      "id": "sm43531514",
+      "source": "nico",
+      "title": "マーシャル・オラオラ狼ＶＳ船橋ばあサーン",
+      "url": "https://www.nicovideo.jp/watch/sm43531514",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43531514/43531514.52407019.original/r1280x720l?key=007271edcf128ee5c90dd56d6277decc9f269887057754a826d3cf838aaa33b9",
+      "publishedAt": "2024-03-16T20:00:00+09:00",
+      "views": 11551,
+      "likes": 370,
+      "duration": 106,
+      "tags": [
+        "音mad",
+        "マーシャル・マキシマイザー8bit",
+        "トランセンド(ウマ娘)",
+        "フリオーソ(ウマ娘)",
+        "エスポワールシチー(ウマ娘)",
+        "ウマ娘mad",
+        "空前のマイブーム",
+        "2784再生",
+        "ゲーム"
+      ],
+      "characters": [
+        "トランセンド",
+        "フリオーソ",
+        "エスポワールシチー"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
       "id": "sm43531470",
       "source": "nico",
       "title": "シンボリルドルフ　誕生日会話集　を見ました",
@@ -15096,41 +16024,13 @@
       }
     },
     {
-      "id": "sm43527875",
-      "source": "nico",
-      "title": "Make 胸囲",
-      "url": "https://www.nicovideo.jp/watch/sm43527875",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43527875/43527875.98169318.original/a960x540l?key=ce9339f0f3347799d325c26b86031ee389e1bab5a6ca6e9d397d7ea59ef8d7bb",
-      "publishedAt": "2024-03-15T20:54:02+09:00",
-      "views": 1974,
-      "likes": 28,
-      "duration": 109,
-      "tags": [
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "バクシン空手部",
-        "nktidksg",
-        "ウマ娘プリティーダービー",
-        "音mad",
-        "kodax兄貴リスペクト",
-        "イメージ損グ",
-        "淫夢音madリンク",
-        "make_debut!"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:117519144",
-        "name": "ジャンクフードと俺"
-      }
-    },
-    {
       "id": "yt:LIS-XkQmp1c",
       "source": "youtube",
       "title": "オーバーシュヴァル",
       "url": "https://www.youtube.com/watch?v=LIS-XkQmp1c",
       "thumbnail": "https://i.ytimg.com/vi/LIS-XkQmp1c/maxresdefault.jpg",
       "publishedAt": "2024-03-14T13:23:45Z",
-      "views": 218422,
+      "views": 218421,
       "likes": 5895,
       "duration": 89,
       "tags": [],
@@ -15564,7 +16464,7 @@
       "url": "https://www.youtube.com/watch?v=HNPWx-QXK3Y",
       "thumbnail": "https://i.ytimg.com/vi/HNPWx-QXK3Y/sddefault.jpg",
       "publishedAt": "2024-03-03T09:30:06Z",
-      "views": 6162,
+      "views": 6161,
       "likes": 254,
       "duration": 82,
       "tags": [],
@@ -16018,7 +16918,7 @@
       "url": "https://www.youtube.com/watch?v=Jv7lwTiq7iw",
       "thumbnail": "https://i.ytimg.com/vi/Jv7lwTiq7iw/sddefault.jpg",
       "publishedAt": "2024-02-25T13:00:15Z",
-      "views": 250236,
+      "views": 250233,
       "likes": 4709,
       "duration": 641,
       "tags": [],
@@ -16154,7 +17054,7 @@
       "url": "https://www.youtube.com/watch?v=86JkJWan2bI",
       "thumbnail": "https://i.ytimg.com/vi/86JkJWan2bI/maxresdefault.jpg",
       "publishedAt": "2024-02-24T10:00:47Z",
-      "views": 23303,
+      "views": 23305,
       "likes": 884,
       "duration": 134,
       "tags": [],
@@ -16375,6 +17275,29 @@
       "author": {
         "id": "nico:129438335",
         "name": "ドリャパサー"
+      }
+    },
+    {
+      "id": "sm43414332",
+      "source": "nico",
+      "title": "マチカネギャラクシー",
+      "url": "https://www.nicovideo.jp/watch/sm43414332",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43414332/43414332.71019695.original/r1280x720l?key=e48c21c4503df8f8a7188f80d222ed029f44535f6f7855b066364912c796993e",
+      "publishedAt": "2024-02-19T02:22:02+09:00",
+      "views": 306,
+      "likes": 7,
+      "duration": 205,
+      "tags": [
+        "音mad",
+        "サイハテギャラクシー",
+        "マチカネフクキタル(ウマ娘)"
+      ],
+      "characters": [
+        "マチカネフクキタル"
+      ],
+      "author": {
+        "id": "nico:66846796",
+        "name": "枝休め"
       }
     },
     {
@@ -16763,7 +17686,7 @@
       "url": "https://www.youtube.com/watch?v=DmRHof-6q-0",
       "thumbnail": "https://i.ytimg.com/vi/DmRHof-6q-0/maxresdefault.jpg",
       "publishedAt": "2024-01-30T09:00:13Z",
-      "views": 274000,
+      "views": 273999,
       "likes": 5689,
       "duration": 90,
       "tags": [],
@@ -16838,7 +17761,7 @@
       "url": "https://www.youtube.com/watch?v=d4eKKdbeyd4",
       "thumbnail": "https://i.ytimg.com/vi/d4eKKdbeyd4/maxresdefault.jpg",
       "publishedAt": "2024-01-22T14:00:26Z",
-      "views": 91222,
+      "views": 91220,
       "likes": 2650,
       "duration": 35,
       "tags": [],
@@ -16933,6 +17856,33 @@
       "author": {
         "id": "nico:127848413",
         "name": "ニューロシスシティ"
+      }
+    },
+    {
+      "id": "sm43282427",
+      "source": "nico",
+      "title": "厚岸ダンサー (Hardcore）",
+      "url": "https://www.nicovideo.jp/watch/sm43282427",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43282427/43282427.79212349.original/a960x540l?key=3ff666a049119b847e6063058940ad4b6026f656896f45c3dc3ede61d068a0ed",
+      "publishedAt": "2024-01-17T17:58:03+09:00",
+      "views": 1772,
+      "likes": 44,
+      "duration": 105,
+      "tags": [
+        "厚岸コンキリエ",
+        "ディージェイ",
+        "ホッコータルマエ(ウマ娘)",
+        "ライアーダンサー",
+        "音mad",
+        "ハイスピード音割れライアーダンサーリンク",
+        "ライアーダンサー音madリンク"
+      ],
+      "characters": [
+        "ホッコータルマエ"
+      ],
+      "author": {
+        "id": "nico:120291432",
+        "name": "かきつばた"
       }
     },
     {
@@ -17949,6 +18899,31 @@
       }
     },
     {
+      "id": "sm43120833",
+      "source": "nico",
+      "title": "もはやマチカネタンホイザだけで曲作れるから",
+      "url": "https://www.nicovideo.jp/watch/sm43120833",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43120833/43120833.76700202.original/a960x540l?key=551370489d3c95fe03ba6be267f4d565677791edbb9d9e6f352c5020870aeff2",
+      "publishedAt": "2023-12-08T18:51:02+09:00",
+      "views": 727,
+      "likes": 19,
+      "duration": 60,
+      "tags": [
+        "音MAD",
+        "マチカネタンホイザ(ウマ娘)",
+        "ウマ娘音madリンク",
+        "もはや○○だけで曲作れるから",
+        "unwelcome_school"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:49962211",
+        "name": "あんこつぶつぶ"
+      }
+    },
+    {
       "id": "yt:ZtO35CNdow0",
       "source": "youtube",
       "title": "もはやマチカネタンホイザだけで曲作れるから",
@@ -17986,6 +18961,29 @@
       "author": {
         "id": "nico:127772239",
         "name": "シリウスシンボリ"
+      }
+    },
+    {
+      "id": "sm43078924",
+      "source": "nico",
+      "title": "やだやだやだー！",
+      "url": "https://www.nicovideo.jp/watch/sm43078924",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/43078924/43078924.50732382.original/r1280x720l?key=11a45b171be6363b461bb170b0fbd07d668e5f1b0dc2449f0141a6e2cd9626a8",
+      "publishedAt": "2023-11-28T16:00:00+09:00",
+      "views": 264,
+      "likes": 14,
+      "duration": 31,
+      "tags": [
+        "音mad",
+        "p.h.madリンク",
+        "スイープトウショウ(ウマ娘)"
+      ],
+      "characters": [
+        "スイープトウショウ"
+      ],
+      "author": {
+        "id": "nico:116502932",
+        "name": "ふじつぼ"
       }
     },
     {
@@ -18429,7 +19427,7 @@
       "url": "https://www.youtube.com/watch?v=wtKD09XlHmw",
       "thumbnail": "https://i.ytimg.com/vi/wtKD09XlHmw/maxresdefault.jpg",
       "publishedAt": "2023-11-05T14:04:00Z",
-      "views": 106910,
+      "views": 106918,
       "likes": 3775,
       "duration": 101,
       "tags": [],
@@ -18561,6 +19559,32 @@
       }
     },
     {
+      "id": "sm42965944",
+      "source": "nico",
+      "title": "闇鍋合作2単品",
+      "url": "https://www.nicovideo.jp/watch/sm42965944",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42965944/42965944.19974268.original/r1280x720l?key=0836d3308d435786200f816a2b0a76c5f54f0975df61bd18ffda0d599a6b8c61",
+      "publishedAt": "2023-11-01T03:52:02+09:00",
+      "views": 591,
+      "likes": 7,
+      "duration": 22,
+      "tags": [
+        "音MAD",
+        "闇鍋合作2",
+        "闇鍋合作2単品リンク",
+        "ウマ娘mad",
+        "人力ウマ娘",
+        "メジロマックイーン(ウマ娘)"
+      ],
+      "characters": [
+        "メジロマックイーン"
+      ],
+      "author": {
+        "id": "nico:74535466",
+        "name": "つくし"
+      }
+    },
+    {
       "id": "yt:utXKHanZDak",
       "source": "youtube",
       "title": "【ウマ娘MAD】ライアンダンサー",
@@ -18643,6 +19667,32 @@
       }
     },
     {
+      "id": "sm42963975",
+      "source": "nico",
+      "title": "闇鍋合作2単品",
+      "url": "https://www.nicovideo.jp/watch/sm42963975",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42963975/42963975.82069297.original/a960x540l?key=0f2573d6256d697560c0cc2d3dc165b170ef7d96cf6b8fba4a1bd00629115e1b",
+      "publishedAt": "2023-10-31T20:30:00+09:00",
+      "views": 3747,
+      "likes": 161,
+      "duration": 78,
+      "tags": [
+        "音MAD",
+        "早瀬ユウカ",
+        "トウカイテイオー(ウマ娘)",
+        "聖園ミカ",
+        "闇鍋合作2単品リンク",
+        "具"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:11868040",
+        "name": "カフェオレ健冶"
+      }
+    },
+    {
       "id": "sm42959995",
       "source": "nico",
       "title": "カラバリ的にUnveiledとかど？",
@@ -18677,7 +19727,7 @@
       "url": "https://www.youtube.com/watch?v=YwOnldauaao",
       "thumbnail": "https://i.ytimg.com/vi/YwOnldauaao/maxresdefault.jpg",
       "publishedAt": "2023-10-30T11:00:27Z",
-      "views": 9305,
+      "views": 9306,
       "likes": 507,
       "duration": 69,
       "tags": [],
@@ -18929,6 +19979,34 @@
       }
     },
     {
+      "id": "sm42938748",
+      "source": "nico",
+      "title": "妖怪のぱかチューブっ！",
+      "url": "https://www.nicovideo.jp/watch/sm42938748",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42938748/42938748.17145290.original/r1280x720l?key=3f10dd6aca1507f8744bd54a1b6e3e9895c381551b79a385a6586ba5a75c9636",
+      "publishedAt": "2023-10-25T21:31:03+09:00",
+      "views": 1090,
+      "likes": 34,
+      "duration": 91,
+      "tags": [
+        "音mad",
+        "妖怪の山_~_mysterious_mountain",
+        "ウマ娘mad",
+        "まつこリスペクト",
+        "東方競馬娘",
+        "ゴールドシップ(ウマ娘)",
+        "ぱかチューブっ!",
+        "レズゴルシ"
+      ],
+      "characters": [
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:104490891",
+        "name": "あきとる"
+      }
+    },
+    {
       "id": "sm42931448",
       "source": "nico",
       "title": "ムカつくウザイお人好しストーカー盗み聞きスマホ勝手に見んなデリカシー無いしつこいタリナイ",
@@ -19032,7 +20110,7 @@
       "url": "https://www.youtube.com/watch?v=ZhArpReZIN4",
       "thumbnail": "https://i.ytimg.com/vi/ZhArpReZIN4/maxresdefault.jpg",
       "publishedAt": "2023-10-22T10:22:36Z",
-      "views": 41288,
+      "views": 41286,
       "likes": 754,
       "duration": 33,
       "tags": [],
@@ -19133,13 +20211,36 @@
       }
     },
     {
+      "id": "sm42913978",
+      "source": "nico",
+      "title": "[COFFEEBREAK] 渋みのないCompactが入りました…。",
+      "url": "https://www.nicovideo.jp/watch/sm42913978",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42913978/42913978.81039176.original/r1280x720l?key=37573c6046cceb3a2432ad98c0ff80b00c21579e6f70815f63abc36b678705c9",
+      "publishedAt": "2023-10-20T00:00:00+09:00",
+      "views": 190,
+      "likes": 15,
+      "duration": 52,
+      "tags": [
+        "マンハッタンカフェ(ウマ娘)",
+        "DAYBREAK_Compact",
+        "音MAD"
+      ],
+      "characters": [
+        "マンハッタンカフェ"
+      ],
+      "author": {
+        "id": "nico:118661430",
+        "name": "藤枝豆"
+      }
+    },
+    {
       "id": "yt:XJjYZUt2EOo",
       "source": "youtube",
       "title": "Gold Shipped Lotus Butterfly",
       "url": "https://www.youtube.com/watch?v=XJjYZUt2EOo",
       "thumbnail": "https://i.ytimg.com/vi/XJjYZUt2EOo/hqdefault.jpg",
       "publishedAt": "2023-10-15T10:11:02Z",
-      "views": 4974,
+      "views": 4975,
       "likes": 165,
       "duration": 78,
       "tags": [],
@@ -19341,7 +20442,7 @@
       "url": "https://www.youtube.com/watch?v=IQi-ARTP3Io",
       "thumbnail": "https://i.ytimg.com/vi/IQi-ARTP3Io/maxresdefault.jpg",
       "publishedAt": "2023-10-06T15:30:48Z",
-      "views": 4347,
+      "views": 4346,
       "likes": 144,
       "duration": 75,
       "tags": [],
@@ -19515,35 +20616,6 @@
         "スペシャルウィーク"
       ],
       "author": null
-    },
-    {
-      "id": "sm42803972",
-      "source": "nico",
-      "title": "野獣の日に自殺をしようと試みる一般男子学生",
-      "url": "https://www.nicovideo.jp/watch/sm42803972",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/42803972/42803972.73808164",
-      "publishedAt": "2023-09-24T22:08:02+09:00",
-      "views": 1447,
-      "likes": 17,
-      "duration": 230,
-      "tags": [
-        "hikakin_mania",
-        "例のアレ",
-        "ヒカマニ外伝リンク",
-        "音MAD",
-        "ウマ娘プリティーダービー",
-        "真夏の夜の淫夢",
-        "にじさんじ",
-        "ホロライブ",
-        "bb先輩劇場",
-        "VOICEROID",
-        "淫夢実況シリーズ"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:123845998",
-        "name": "高龍"
-      }
     },
     {
       "id": "sm42780420",
@@ -19861,6 +20933,32 @@
       }
     },
     {
+      "id": "sm42650744",
+      "source": "nico",
+      "title": "散しゃい散しゃい",
+      "url": "https://www.nicovideo.jp/watch/sm42650744",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42650744/42650744.36461538.original/r1280x720l?key=8c4bcd1e8d343ac3ddb48f8fb81323231b380eae41fc243a1ea55bd2c17da76f",
+      "publishedAt": "2023-08-20T20:32:03+09:00",
+      "views": 2322,
+      "likes": 114,
+      "duration": 54,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "スマートファルコン（ウマ娘）",
+        "散り散り音madリンク",
+        "う~~~っしゃーいシリーズ",
+        "散り散り"
+      ],
+      "characters": [
+        "スマートファルコン"
+      ],
+      "author": {
+        "id": "nico:126280093",
+        "name": "東雲"
+      }
+    },
+    {
       "id": "yt:4DUzcFtmyog",
       "source": "youtube",
       "title": "夏の！ウマ娘合宿合作",
@@ -19929,6 +21027,33 @@
       "author": {
         "id": "nico:62354728",
         "name": "青い焔-LSHY"
+      }
+    },
+    {
+      "id": "sm42602361",
+      "source": "nico",
+      "title": "エルっぽいな",
+      "url": "https://www.nicovideo.jp/watch/sm42602361",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42602361/42602361.20055171.original/a960x540l?key=2efd85b2c20e57e9afc644c1efca7223ebbc8afc24ecb7ddfcab56c4177a05b8",
+      "publishedAt": "2023-08-10T08:11:02+09:00",
+      "views": 285,
+      "likes": 7,
+      "duration": 105,
+      "tags": [
+        "エルコンドルパサー(ウマ娘)",
+        "音MAD",
+        "神っぽいなmadリンク",
+        "野獣先輩",
+        "野獣の日2023",
+        "ウマ娘音madリンク",
+        "神っぽいな"
+      ],
+      "characters": [
+        "エルコンドルパサー"
+      ],
+      "author": {
+        "id": "nico:129438335",
+        "name": "ドリャパサー"
       }
     },
     {
@@ -20129,6 +21254,35 @@
       }
     },
     {
+      "id": "sm42505438",
+      "source": "nico",
+      "title": "ふざけるなーっ！！！",
+      "url": "https://www.nicovideo.jp/watch/sm42505438",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42505438/42505438.54140934.original/r1280x720l?key=a288fa2d2f7133ffef88714d1292d8f1dbb01560a5d170f2b073d20e926ebd6b",
+      "publishedAt": "2023-07-19T22:59:04+09:00",
+      "views": 6486,
+      "likes": 234,
+      "duration": 158,
+      "tags": [
+        "音mad",
+        "バカヤロイド",
+        "baqeela",
+        "baqeelaフルmadリンク",
+        "ゴールドシップ(ウマ娘)",
+        "ただいまーっ!!!シリーズ",
+        "音楽",
+        "もっと評価されるべき",
+        "アニメ"
+      ],
+      "characters": [
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:126916439",
+        "name": "No25.にゃ介"
+      }
+    },
+    {
       "id": "yt:nAatfwJhbv0",
       "source": "youtube",
       "title": "フゥキイ",
@@ -20309,6 +21463,36 @@
       }
     },
     {
+      "id": "sm42454737",
+      "source": "nico",
+      "title": "厚岸ダンサー",
+      "url": "https://www.nicovideo.jp/watch/sm42454737",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42454737/42454737.99158609.original/a960x540l?key=995be8229a0e2999364b69e04451f24b6aa9a6733a5de8cb110c736a1674ffa9",
+      "publishedAt": "2023-07-08T00:00:00+09:00",
+      "views": 79302,
+      "likes": 1709,
+      "duration": 121,
+      "tags": [
+        "音mad",
+        "厚岸コンキリエ",
+        "ディージェイ",
+        "ホッコータルマエ(ウマ娘)",
+        "ライアーダンサー",
+        "ライアーダンサー音madリンク",
+        "ウマ娘mad",
+        "音MA小牧",
+        "仲良し三人組(厚岸)",
+        "名誉厚岸町民"
+      ],
+      "characters": [
+        "ホッコータルマエ"
+      ],
+      "author": {
+        "id": "nico:121779257",
+        "name": "010鰤"
+      }
+    },
+    {
       "id": "yt:eoKwUlfHOXE",
       "source": "youtube",
       "title": "【ウマ娘】しゃi",
@@ -20421,8 +21605,8 @@
       "url": "https://www.youtube.com/watch?v=6vwFnKLamKY",
       "thumbnail": "https://i.ytimg.com/vi/6vwFnKLamKY/hqdefault.jpg",
       "publishedAt": "2023-07-03T04:54:11Z",
-      "views": 1492952,
-      "likes": 74183,
+      "views": 1492969,
+      "likes": 74185,
       "duration": 67,
       "tags": [],
       "characters": [],
@@ -20456,6 +21640,30 @@
       "author": {
         "id": "nico:7374448",
         "name": "ヨシダネ"
+      }
+    },
+    {
+      "id": "sm42416864",
+      "source": "nico",
+      "title": "バンバード流し",
+      "url": "https://www.nicovideo.jp/watch/sm42416864",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42416864/42416864.32142317.original/r1280x720l?key=0fe00d449713001a6cfe9956230b7d44ef337c936a6c4574cdc71f50b17fdff5",
+      "publishedAt": "2023-06-29T19:48:02+09:00",
+      "views": 1605,
+      "likes": 66,
+      "duration": 195,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "マチカネフクキタル(ウマ娘)",
+        "バンバード"
+      ],
+      "characters": [
+        "マチカネフクキタル"
+      ],
+      "author": {
+        "id": "nico:125058320",
+        "name": "飛駆鳥宴会大好大将軍"
       }
     },
     {
@@ -20881,13 +22089,67 @@
       }
     },
     {
+      "id": "sm42340402",
+      "source": "nico",
+      "title": "【ウマ娘音MAD】カンパイ宣言",
+      "url": "https://www.nicovideo.jp/watch/sm42340402",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42340402/42340402.43840963.original/r1280x720l?key=96a89c75797c1eb7b76ba317745dbceb1391fef01dea023117857dd72863c3ca",
+      "publishedAt": "2023-06-11T16:40:02+09:00",
+      "views": 613,
+      "likes": 15,
+      "duration": 80,
+      "tags": [
+        "ウマ娘音madリンク",
+        "タニノギムレット(ウマ娘)",
+        "グッバイ宣言madリンク",
+        "人力ウマ娘",
+        "音mad"
+      ],
+      "characters": [
+        "タニノギムレット"
+      ],
+      "author": {
+        "id": "nico:86310979",
+        "name": "E-ロック"
+      }
+    },
+    {
+      "id": "sm42337472",
+      "source": "nico",
+      "title": "SHI的オールスターにマイケルと布袋を添えて",
+      "url": "https://www.nicovideo.jp/watch/sm42337472",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42337472/42337472.28813083.original/r1280x720l?key=e20d085ddfd0e8dda857bc989ce33b524faae3ec90ab07d5b228e9c6e2a4d1c9",
+      "publishedAt": "2023-06-10T23:26:02+09:00",
+      "views": 1235,
+      "likes": 50,
+      "duration": 151,
+      "tags": [
+        "音MAD",
+        "SHI的オールスター",
+        "マイケル・ジャクソン",
+        "布袋寅泰",
+        "オグリキャップ(ウマ娘)",
+        "めいじろう",
+        "明治大学の人",
+        "エンドマークに希望と涙を添えて",
+        "私的オールスター"
+      ],
+      "characters": [
+        "オグリキャップ"
+      ],
+      "author": {
+        "id": "nico:37507038",
+        "name": "B-Meg (SHIRYU)"
+      }
+    },
+    {
       "id": "yt:FpcrvgFkza4",
       "source": "youtube",
       "title": "【ウマ娘mad】タイシンデレラ",
       "url": "https://www.youtube.com/watch?v=FpcrvgFkza4",
       "thumbnail": "https://i.ytimg.com/vi/FpcrvgFkza4/maxresdefault.jpg",
       "publishedAt": "2023-06-10T03:00:07Z",
-      "views": 21994,
+      "views": 21995,
       "likes": 760,
       "duration": 84,
       "tags": [],
@@ -20937,6 +22199,30 @@
       "author": {
         "id": "nico:117724996",
         "name": "大福"
+      }
+    },
+    {
+      "id": "sm42318711",
+      "source": "nico",
+      "title": "To-Kai(ﾃｲｵｰ) Disco",
+      "url": "https://www.nicovideo.jp/watch/sm42318711",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42318711/42318711.10588283.original/a960x540l?key=d43c698fe4f84bc8feb187fb25f160445180060668cb59eb52ce513be8ae76aa",
+      "publishedAt": "2023-06-06T18:40:02+09:00",
+      "views": 523,
+      "likes": 15,
+      "duration": 54,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "yo-kai_disco",
+        "期待の新人"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:123076748",
+        "name": "一酸化二水素"
       }
     },
     {
@@ -21044,6 +22330,36 @@
       }
     },
     {
+      "id": "sm42266639",
+      "source": "nico",
+      "title": "万年置きがしゃいにご注意を",
+      "url": "https://www.nicovideo.jp/watch/sm42266639",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42266639/42266639.21602159.original/a960x540l?key=a66b92f2594ab052f016d51e42cfc684eb3fc109606fb6623db16032bbc57f7e",
+      "publishedAt": "2023-05-25T20:55:03+09:00",
+      "views": 3317,
+      "likes": 98,
+      "duration": 63,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "万年置き傘にご注意を",
+        "東方競馬娘",
+        "う~~~っしゃーいシリーズ",
+        "ウマ娘音madリンク",
+        "スマートファルコン(ウマ娘)",
+        "適当なこと言うな",
+        "東方",
+        "最後まで見るべき"
+      ],
+      "characters": [
+        "スマートファルコン"
+      ],
+      "author": {
+        "id": "nico:121034948",
+        "name": "ねぷてと"
+      }
+    },
+    {
       "id": "yt:vrfvfpf7S8s",
       "source": "youtube",
       "title": "ヤエめろダンス",
@@ -21084,8 +22400,8 @@
       "url": "https://www.youtube.com/watch?v=iPcc_9KYnpU",
       "thumbnail": "https://i.ytimg.com/vi/iPcc_9KYnpU/maxresdefault.jpg",
       "publishedAt": "2023-05-22T04:25:30Z",
-      "views": 330247,
-      "likes": 13138,
+      "views": 330286,
+      "likes": 13139,
       "duration": 124,
       "tags": [],
       "characters": [],
@@ -21546,6 +22862,30 @@
       }
     },
     {
+      "id": "sm42162288",
+      "source": "nico",
+      "title": "レンスズさん",
+      "url": "https://www.nicovideo.jp/watch/sm42162288",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42162288/42162288.89156857.original/r1280x720l?key=f1692b2a2d77ca4dc28b179e32c39f1628cb6fb3aab4944dcf0871bdadf9046b",
+      "publishedAt": "2023-05-02T00:15:02+09:00",
+      "views": 349,
+      "likes": 31,
+      "duration": 46,
+      "tags": [
+        "音MAD",
+        "森ステージ",
+        "サイレンススズカ(ウマ娘)",
+        "グランブルーファンタジー"
+      ],
+      "characters": [
+        "サイレンススズカ"
+      ],
+      "author": {
+        "id": "nico:55478760",
+        "name": "ネギ系"
+      }
+    },
+    {
       "id": "sm42157209",
       "source": "nico",
       "title": "星座を掴めたら",
@@ -21749,6 +23089,29 @@
       }
     },
     {
+      "id": "sm42128729",
+      "source": "nico",
+      "title": "ダイタクヘリオス64",
+      "url": "https://www.nicovideo.jp/watch/sm42128729",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42128729/42128729.99052590.original/a960x540l?key=f327c2b5fae4a951e1c58b68528662f814dd000d84ee03ca14d01cddcf558243",
+      "publishedAt": "2023-04-24T19:24:02+09:00",
+      "views": 1295,
+      "likes": 50,
+      "duration": 30,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "ダイタクヘリオス(ウマ娘)"
+      ],
+      "characters": [
+        "ダイタクヘリオス"
+      ],
+      "author": {
+        "id": "nico:67503481",
+        "name": "鮭醤油"
+      }
+    },
+    {
       "id": "yt:sUFlsjAgtDo",
       "source": "youtube",
       "title": "強風大額頭",
@@ -21762,6 +23125,32 @@
       "characters": [],
       "author": {
         "id": "yt:UCHkJAoG_QDRfABDZZLj7RJw",
+        "name": "黃老鳥"
+      }
+    },
+    {
+      "id": "sm42128625",
+      "source": "nico",
+      "title": "強風大額頭",
+      "url": "https://www.nicovideo.jp/watch/sm42128625",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42128625/42128625.90711050.original/a960x540l?key=78e1ee50d3fddbbb9cbb478257e09ba793398c0ac73a81a08bc63d70e4579d2e",
+      "publishedAt": "2023-04-24T19:03:02+09:00",
+      "views": 239,
+      "likes": 12,
+      "duration": 32,
+      "tags": [
+        "音MAD",
+        "ナリタトップロード(ウマ娘)",
+        "ウマ娘mad",
+        "強風オールバックmadリンク",
+        "強風オールバック",
+        "人の心無いんか？"
+      ],
+      "characters": [
+        "ナリタトップロード"
+      ],
+      "author": {
+        "id": "nico:119334292",
         "name": "黃老鳥"
       }
     },
@@ -21987,6 +23376,35 @@
       "author": {
         "id": "nico:128437195",
         "name": "シソボリﾉﾚドﾉﾚフ"
+      }
+    },
+    {
+      "id": "sm42103486",
+      "source": "nico",
+      "title": "YOUKAI ZONE SCARLET 0.75倍速",
+      "url": "https://www.nicovideo.jp/watch/sm42103486",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42103486/42103486.90360509.original/r1280x720l?key=742aa3cd9cbdac8e3a2e75a8ed8f4049082b42ab3ab898cd52af9eff2fee1647",
+      "publishedAt": "2023-04-19T22:49:02+09:00",
+      "views": 538,
+      "likes": 9,
+      "duration": 52,
+      "tags": [
+        "〇〇テクニック",
+        "red_zone",
+        "scarlet_zone",
+        "ウマ娘mad",
+        "ダイワスカーレット(ウマ娘)",
+        "ようかい体操第一",
+        "妖怪ウォッチ",
+        "youkai_zone",
+        "音mad"
+      ],
+      "characters": [
+        "ダイワスカーレット"
+      ],
+      "author": {
+        "id": "nico:37054089",
+        "name": "ぐんま！"
       }
     },
     {
@@ -22287,6 +23705,31 @@
       "author": {
         "id": "nico:124832440",
         "name": "ほろび餅"
+      }
+    },
+    {
+      "id": "sm42047569",
+      "source": "nico",
+      "title": "ウマのシービィ47 カツラギエース戦",
+      "url": "https://www.nicovideo.jp/watch/sm42047569",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/42047569/42047569.70786224.original/a960x540l?key=98ec756ca56f45dcfbdeb0e898b047e0327f561f036ea0fc99336ab4ec4f78c9",
+      "publishedAt": "2023-04-07T11:54:02+09:00",
+      "views": 512,
+      "likes": 11,
+      "duration": 56,
+      "tags": [
+        "音MAD",
+        "ミスターシービー(ウマ娘)",
+        "星のカービィ64",
+        "ウマ娘mad",
+        "カービィ64ボス戦mad"
+      ],
+      "characters": [
+        "ミスターシービー"
+      ],
+      "author": {
+        "id": "nico:126916439",
+        "name": "No25.にゃ介"
       }
     },
     {
@@ -22708,7 +24151,7 @@
       "url": "https://www.youtube.com/watch?v=HrguvOJ0XI0",
       "thumbnail": "https://i.ytimg.com/vi/HrguvOJ0XI0/maxresdefault.jpg",
       "publishedAt": "2023-03-29T11:05:53Z",
-      "views": 20746,
+      "views": 20749,
       "likes": 295,
       "duration": 92,
       "tags": [],
@@ -22748,6 +24191,32 @@
       "author": {
         "id": "nico:23134049",
         "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
+      "id": "sm41997992",
+      "source": "nico",
+      "title": "黒塗り景色宛て書簡",
+      "url": "https://www.nicovideo.jp/watch/sm41997992",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41997992/41997992.5225504.original/r1280x720l?key=43a9e055871778556703aefce1801cf0dd899dcb9ab279f764ca2081c834afd1",
+      "publishedAt": "2023-03-27T20:56:02+09:00",
+      "views": 1590,
+      "likes": 65,
+      "duration": 131,
+      "tags": [
+        "ウマ娘mad",
+        "スズ楽器",
+        "人力vocaloid",
+        "黒塗り世界宛てmad",
+        "サイレンススズカ(ウマ娘)",
+        "音MAD"
+      ],
+      "characters": [
+        "サイレンススズカ"
+      ],
+      "author": {
+        "id": "nico:79222809",
+        "name": "モカ"
       }
     },
     {
@@ -23134,6 +24603,33 @@
       }
     },
     {
+      "id": "sm41967439",
+      "source": "nico",
+      "title": "ノリノリゴルシとノリノリオグリのノリノリ空気読み",
+      "url": "https://www.nicovideo.jp/watch/sm41967439",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41967439/41967439.38317262.original/a960x540l?key=771614867fe7a57b0fccf56458f9737fd1d103c3eddb35dc8aa3e0cb7df6890f",
+      "publishedAt": "2023-03-21T20:00:00+09:00",
+      "views": 1174,
+      "likes": 41,
+      "duration": 135,
+      "tags": [
+        "音MAD",
+        "オグリキャップ(ウマ娘)",
+        "ゴールドシップ(ウマ娘)",
+        "unwelcome_school",
+        "ウマ娘mad",
+        "空気読み。"
+      ],
+      "characters": [
+        "オグリキャップ",
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:85236329",
+        "name": "DJ OGMM"
+      }
+    },
+    {
       "id": "sm41964666",
       "source": "nico",
       "title": "Eishin/Flash Song",
@@ -23300,6 +24796,31 @@
       }
     },
     {
+      "id": "sm41951480",
+      "source": "nico",
+      "title": "ふるさト(マト)",
+      "url": "https://www.nicovideo.jp/watch/sm41951480",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41951480/41951480.20283112.original/r1280x720l?key=84ad15786a90080b5f1e9ee1afd97f23e107985a32997a146feb0c83cdc46112",
+      "publishedAt": "2023-03-18T20:35:04+09:00",
+      "views": 261,
+      "likes": 13,
+      "duration": 47,
+      "tags": [
+        "マチカネタンホイザ(ウマ娘)",
+        "クンナ・ダッシュ",
+        "ふるさと(唱歌)",
+        "音MAD",
+        "人類には早すぎる動画"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:118765044",
+        "name": "コンスタンティン"
+      }
+    },
+    {
       "id": "yt:0f7_qswM14M",
       "source": "youtube",
       "title": "アグネス跋扈",
@@ -23405,7 +24926,7 @@
       "url": "https://www.youtube.com/watch?v=7gIrVdfC-U0",
       "thumbnail": "https://i.ytimg.com/vi/7gIrVdfC-U0/maxresdefault.jpg",
       "publishedAt": "2023-03-12T15:00:08Z",
-      "views": 16402,
+      "views": 16401,
       "likes": 358,
       "duration": 127,
       "tags": [],
@@ -23693,6 +25214,30 @@
       }
     },
     {
+      "id": "sm41868395",
+      "source": "nico",
+      "title": "もはやマンハッタンだけでカフェ作れるから",
+      "url": "https://www.nicovideo.jp/watch/sm41868395",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41868395/41868395.46977494.original/a960x540l?key=bbcd954b8ac88a60960f2ce538a26abb732823ef3f2345228059ad57e0767107",
+      "publishedAt": "2023-03-01T21:00:02+09:00",
+      "views": 975,
+      "likes": 26,
+      "duration": 94,
+      "tags": [
+        "音MAD",
+        "マンハッタンカフェ(ウマ娘)",
+        "もはや○○だけで曲作れるから",
+        "ウマ娘音madリンク"
+      ],
+      "characters": [
+        "マンハッタンカフェ"
+      ],
+      "author": {
+        "id": "nico:34646349",
+        "name": "豹猩狸"
+      }
+    },
+    {
       "id": "sm41863770",
       "source": "nico",
       "title": "おにぴょい伝説",
@@ -23745,6 +25290,32 @@
       "author": {
         "id": "nico:96831624",
         "name": "a11 エーイチイチ"
+      }
+    },
+    {
+      "id": "sm41854201",
+      "source": "nico",
+      "title": "無題です。",
+      "url": "https://www.nicovideo.jp/watch/sm41854201",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41854201/41854201.32071302.original/a960x540l?key=e3723c8c40f18dfe39957d634364febb2dc0714fcb228f17e3c5b2699eba6ae9",
+      "publishedAt": "2023-02-26T19:12:02+09:00",
+      "views": 1103,
+      "likes": 39,
+      "duration": 20,
+      "tags": [
+        "音mad",
+        "無題です。",
+        "全てあなたの所為です",
+        "マチカネタンホイザ(ウマ娘)",
+        "もっと評価されるべき",
+        "すべあな界隈曲音MADリンク"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:63441576",
+        "name": "のるねる"
       }
     },
     {
@@ -23824,7 +25395,7 @@
       "url": "https://www.youtube.com/watch?v=iSnLVY0AF20",
       "thumbnail": "https://i.ytimg.com/vi/iSnLVY0AF20/maxresdefault.jpg",
       "publishedAt": "2023-02-24T12:00:24Z",
-      "views": 379033,
+      "views": 379036,
       "likes": 5236,
       "duration": 767,
       "tags": [],
@@ -24260,32 +25831,6 @@
       }
     },
     {
-      "id": "sm41780891",
-      "source": "nico",
-      "title": "Baqeela♂",
-      "url": "https://www.nicovideo.jp/watch/sm41780891",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41780891/41780891.2291736.original/a960x540l?key=744856fe81e13f1eedfc2965c939bd06288d46e5d64d18b54b63766514cfc8ca",
-      "publishedAt": "2023-02-11T18:25:03+09:00",
-      "views": 1105,
-      "likes": 26,
-      "duration": 56,
-      "tags": [
-        "音MAD",
-        "本格的男尻祭",
-        "歪音エナ",
-        "ガチムチメドレーシリーズ",
-        "音MAD合作",
-        "Baqeela",
-        "レスリングシリーズ",
-        "ウマ娘プリティーダービー"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:126643390",
-        "name": "Shiktack"
-      }
-    },
-    {
       "id": "sm41771350",
       "source": "nico",
       "title": "カフェ_ZONE",
@@ -24651,6 +26196,32 @@
       }
     },
     {
+      "id": "sm41708835",
+      "source": "nico",
+      "title": "苦いよーっ！！！",
+      "url": "https://www.nicovideo.jp/watch/sm41708835",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41708835/41708835.49135877.original/a960x540l?key=5bb8c7cda3130322fb56743bcc4dd421dd2c5c0caf1a8a6379cc6d63c94413f0",
+      "publishedAt": "2023-01-27T17:59:02+09:00",
+      "views": 941,
+      "likes": 49,
+      "duration": 25,
+      "tags": [
+        "音MAD",
+        "Baqeela",
+        "トウカイテイオー(ウマ娘)",
+        "シンボリルドルフ(ウマ娘)",
+        "ニガイヨー！"
+      ],
+      "characters": [
+        "トウカイテイオー",
+        "シンボリルドルフ"
+      ],
+      "author": {
+        "id": "nico:127166711",
+        "name": "竹脇 勝彦"
+      }
+    },
+    {
       "id": "yt:ugLrk1O7YjY",
       "source": "youtube",
       "title": "明日も明後日もテンアゲでいこ☆",
@@ -24933,35 +26504,6 @@
       }
     },
     {
-      "id": "sm41681172",
-      "source": "nico",
-      "title": "ヒカマ / アナルかいはつベア",
-      "url": "https://www.nicovideo.jp/watch/sm41681172",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/41681172/41681172.98166500",
-      "publishedAt": "2023-01-21T15:49:02+09:00",
-      "views": 1576,
-      "likes": 41,
-      "duration": 137,
-      "tags": [
-        "ヒカマー",
-        "Hikakin_mania",
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "ウマ娘",
-        "ぼっち・ざ・ろっく!",
-        "音mad",
-        "ぼっち・ざ・まっど!",
-        "hikakin_mad",
-        "ヒカマーmadリンク",
-        "ルマ(かいりきベア)"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:126774647",
-        "name": "高龍"
-      }
-    },
-    {
       "id": "yt:cMMRd7QkiG8",
       "source": "youtube",
       "title": "パンが…こげこげになってしまいました…。",
@@ -25234,7 +26776,7 @@
       "url": "https://www.youtube.com/watch?v=kcGhabXbkgg",
       "thumbnail": "https://i.ytimg.com/vi/kcGhabXbkgg/maxresdefault.jpg",
       "publishedAt": "2023-01-07T11:00:32Z",
-      "views": 49508,
+      "views": 49505,
       "likes": 1219,
       "duration": 301,
       "tags": [],
@@ -26057,6 +27599,36 @@
       }
     },
     {
+      "id": "sm41532707",
+      "source": "nico",
+      "title": "華麗なる一族のこども",
+      "url": "https://www.nicovideo.jp/watch/sm41532707",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41532707/41532707.89652518.original/a960x540l?key=1f404709aa600e11107d591d60a663b8f668095b14dc7d59de4e0d98f210c935",
+      "publishedAt": "2022-12-20T21:07:03+09:00",
+      "views": 1128,
+      "likes": 49,
+      "duration": 131,
+      "tags": [
+        "音MAD",
+        "ダイイチルビー(ウマ娘)",
+        "妖精族のこども",
+        "ウマ娘mad",
+        "ゲーム",
+        "ダイタクヘリオス(ウマ娘)",
+        "磯部花凛",
+        "山根綺",
+        "MAD"
+      ],
+      "characters": [
+        "ダイイチルビー",
+        "ダイタクヘリオス"
+      ],
+      "author": {
+        "id": "nico:124607365",
+        "name": "マテマティカ"
+      }
+    },
+    {
       "id": "yt:KVo4YNIOWmg",
       "source": "youtube",
       "title": "【MAD】36秒で分かる「うまゆる 第5話」キャニオン",
@@ -26239,35 +27811,6 @@
       }
     },
     {
-      "id": "sm41502607",
-      "source": "nico",
-      "title": "後藤ひとりの抜けるエロ画像集",
-      "url": "https://www.nicovideo.jp/watch/sm41502607",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/41502607/41502607.74864948",
-      "publishedAt": "2022-12-13T21:22:02+09:00",
-      "views": 27687,
-      "likes": 182,
-      "duration": 64,
-      "tags": [
-        "ヒカマーmadリンク",
-        "真夏の夜の淫夢",
-        "例のアレ",
-        "ひかまーず・ぶ・ろっく!",
-        "ヒカマー",
-        "hikakin_mania",
-        "ぼっち・ざ・ろっく!",
-        "ぼっち・ざ・まっど!",
-        "必須アモト酸",
-        "音mad",
-        "ウマ娘"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:126774647",
-        "name": "高龍"
-      }
-    },
-    {
       "id": "yt:yktZd-Ww6kQ",
       "source": "youtube",
       "title": "【ウマ娘】サイレンダンス",
@@ -26390,6 +27933,31 @@
       "author": {
         "id": "yt:UCo-kMa5v6PdmQQGhpkMTcNg",
         "name": "Rlcemaster3 ライスマスター3"
+      }
+    },
+    {
+      "id": "sm41498726",
+      "source": "nico",
+      "title": "【音mad】 ライスリゾート",
+      "url": "https://www.nicovideo.jp/watch/sm41498726",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41498726/41498726.49336951.original/r1280x720l?key=89586c9c845883396d12a12d6204b65e71c33022fe86db843e2987d8a93ad757",
+      "publishedAt": "2022-12-12T21:57:02+09:00",
+      "views": 170,
+      "likes": 2,
+      "duration": 39,
+      "tags": [
+        "ウマ娘mad",
+        "音mad",
+        "ラストリゾート(ayase)",
+        "人力ボカロはないよ",
+        "ライスシャワー(ウマ娘)"
+      ],
+      "characters": [
+        "ライスシャワー"
+      ],
+      "author": {
+        "id": "nico:121850352",
+        "name": "森野"
       }
     },
     {
@@ -26753,31 +28321,6 @@
       "author": {
         "id": "yt:UCDSyJB7l7gLOJ1XVWi2VTLw",
         "name": "かむくら"
-      }
-    },
-    {
-      "id": "sm41420755",
-      "source": "nico",
-      "title": "ガバ穴ファンファーレ（東京中山重賞）",
-      "url": "https://www.nicovideo.jp/watch/sm41420755",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41420755/41420755.91788953.original/a960x540l?key=c64c655362060d281587c6948bcdcdc7b836875334d55bf78b59a548ff4cc866",
-      "publishedAt": "2022-11-25T19:03:02+09:00",
-      "views": 2375,
-      "likes": 15,
-      "duration": 15,
-      "tags": [
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "ガバ穴ダディー",
-        "音MAD",
-        "競馬ファンファーレ",
-        "競馬淫夢",
-        "ウマ娘"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:121171008",
-        "name": "名前未定"
       }
     },
     {
@@ -27365,7 +28908,7 @@
       "url": "https://www.youtube.com/watch?v=QPjo6qgO-ME",
       "thumbnail": "https://i.ytimg.com/vi/QPjo6qgO-ME/maxresdefault.jpg",
       "publishedAt": "2022-11-10T10:30:05Z",
-      "views": 326188,
+      "views": 326195,
       "likes": 7214,
       "duration": 143,
       "tags": [],
@@ -27742,7 +29285,7 @@
       "url": "https://www.youtube.com/watch?v=K9QpUHa8EKU",
       "thumbnail": "https://i.ytimg.com/vi/K9QpUHa8EKU/maxresdefault.jpg",
       "publishedAt": "2022-11-05T03:58:58Z",
-      "views": 12723,
+      "views": 12722,
       "likes": 618,
       "duration": 64,
       "tags": [],
@@ -27813,7 +29356,7 @@
       "url": "https://www.youtube.com/watch?v=1pq_aSrtMW8",
       "thumbnail": "https://i.ytimg.com/vi/1pq_aSrtMW8/maxresdefault.jpg",
       "publishedAt": "2022-11-04T13:04:40Z",
-      "views": 82311,
+      "views": 82312,
       "likes": 2381,
       "duration": 85,
       "tags": [],
@@ -27995,6 +29538,36 @@
       }
     },
     {
+      "id": "sm41316315",
+      "source": "nico",
+      "title": "バンブー宣言",
+      "url": "https://www.nicovideo.jp/watch/sm41316315",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41316315/41316315.68136176.original/a960x540l?key=9e57daec50389c7c92748a8d012297c3aebf572d2125aa29752e9a9722553721",
+      "publishedAt": "2022-11-02T20:00:00+09:00",
+      "views": 11379,
+      "likes": 502,
+      "duration": 83,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "グッバイ宣言",
+        "グッバイ宣言madリンク",
+        "バンブーメモリー(ウマ娘)",
+        "タフ娘",
+        "投コメ怪文書兄貴",
+        "もっと評価されるべき",
+        "ウマ娘音madリンク",
+        "ギャルアッド"
+      ],
+      "characters": [
+        "バンブーメモリー"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
+      }
+    },
+    {
       "id": "yt:AvD0LfipStY",
       "source": "youtube",
       "title": "メンタルテイオー",
@@ -28081,7 +29654,7 @@
       "url": "https://www.youtube.com/watch?v=C7nXG95Qdvk",
       "thumbnail": "https://i.ytimg.com/vi/C7nXG95Qdvk/maxresdefault.jpg",
       "publishedAt": "2022-11-01T11:00:14Z",
-      "views": 237866,
+      "views": 237864,
       "likes": 6605,
       "duration": 93,
       "tags": [],
@@ -28288,6 +29861,37 @@
       }
     },
     {
+      "id": "sm41290312",
+      "source": "nico",
+      "title": "【MAD】36秒で分かる「うまゆる 第3話」キャニオン",
+      "url": "https://www.nicovideo.jp/watch/sm41290312",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41290312/41290312.89676507.original/r1280x720l?key=260c3bc774f74f1dffeb1c21302e0d4edd256b2f90ac7214e71b5421e7123b1c",
+      "publishedAt": "2022-10-28T00:47:03+09:00",
+      "views": 2660,
+      "likes": 28,
+      "duration": 36,
+      "tags": [
+        "音mad",
+        "ウマ娘プリティダービー",
+        "うまゆる",
+        "ウマ娘mad",
+        "サンドキャニオン",
+        "36秒で分かるシリーズ",
+        "もっと評価されるべき",
+        "星のダービィ",
+        "タニノギムレット(ウマ娘)",
+        "ウオッカ(ウマ娘)"
+      ],
+      "characters": [
+        "タニノギムレット",
+        "ウオッカ"
+      ],
+      "author": {
+        "id": "nico:59705506",
+        "name": "dkun"
+      }
+    },
+    {
       "id": "sm41286340",
       "source": "nico",
       "title": "マチタンカラー",
@@ -28441,6 +30045,31 @@
       }
     },
     {
+      "id": "sm41266596",
+      "source": "nico",
+      "title": "タキオンでヒアソビ",
+      "url": "https://www.nicovideo.jp/watch/sm41266596",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41266596/41266596.14656662.original/r1280x720l?key=a70fc614cde37bf59a1d086490259dca94b353baf491d0c2004d2ff9367e447c",
+      "publishedAt": "2022-10-22T18:26:03+09:00",
+      "views": 1742,
+      "likes": 102,
+      "duration": 80,
+      "tags": [
+        "音MAD",
+        "アグネスタキオン(ウマ娘)",
+        "ウマ娘mad",
+        "ヒアソビ（かめりあ）",
+        "もっと評価されるべき"
+      ],
+      "characters": [
+        "アグネスタキオン"
+      ],
+      "author": {
+        "id": "nico:124607365",
+        "name": "マテマティカ"
+      }
+    },
+    {
       "id": "sm41258316",
       "source": "nico",
       "title": "【MAD】36秒で分かる「うまゆる 第2話」キャニオン",
@@ -28472,6 +30101,36 @@
       }
     },
     {
+      "id": "sm41255797",
+      "source": "nico",
+      "title": "らーめんーっ！！！",
+      "url": "https://www.nicovideo.jp/watch/sm41255797",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41255797/41255797.72461571.original/a960x540l?key=dc443a1f037df1742570bcdfc10effba66a19c3d3b5786666dd0ec19050b41b5",
+      "publishedAt": "2022-10-20T01:40:02+09:00",
+      "views": 2153,
+      "likes": 89,
+      "duration": 24,
+      "tags": [
+        "音MAD",
+        "Baqeela",
+        "サクラバクシンオー(ウマ娘)",
+        "そばーっ!!!シリーズ",
+        "ただいまーっ!!!シリーズ",
+        "キャプテン・ファルコン",
+        "さすがCF",
+        "カービィ",
+        "ミェンミェン",
+        "バクシン・ランチ"
+      ],
+      "characters": [
+        "サクラバクシンオー"
+      ],
+      "author": {
+        "id": "nico:88663495",
+        "name": "本体"
+      }
+    },
+    {
       "id": "yt:pnBAxSCWkH8",
       "source": "youtube",
       "title": "はしれ　おおめ　レモントッピング",
@@ -28488,6 +30147,31 @@
       "author": {
         "id": "yt:UCB-BUVOSZ5tWLq8l6LQjZWg",
         "name": "伊藤社長"
+      }
+    },
+    {
+      "id": "sm41249332",
+      "source": "nico",
+      "title": "練習",
+      "url": "https://www.nicovideo.jp/watch/sm41249332",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41249332/41249332.61355410.original/r1280x720l?key=a5499b9d576ffb1de49e5412fcff9e5c14f68f987baa028c889803161b3c0593",
+      "publishedAt": "2022-10-18T18:10:03+09:00",
+      "views": 398,
+      "likes": 5,
+      "duration": 11,
+      "tags": [
+        "音mad",
+        "ytpmv",
+        "ウマ娘音madリンク",
+        "ウマ娘mad",
+        "ミホノブルボン(ウマ娘)"
+      ],
+      "characters": [
+        "ミホノブルボン"
+      ],
+      "author": {
+        "id": "nico:97487570",
+        "name": "抹茶アイス"
       }
     },
     {
@@ -28703,7 +30387,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GWkNt--OVC8/maxresdefault.jpg",
       "publishedAt": "2022-10-15T12:41:50Z",
       "views": 105899,
-      "likes": 6032,
+      "likes": 6033,
       "duration": 65,
       "tags": [],
       "characters": [],
@@ -28891,35 +30575,6 @@
       }
     },
     {
-      "id": "sm41230850",
-      "source": "nico",
-      "title": "Baqeela",
-      "url": "https://www.nicovideo.jp/watch/sm41230850",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41230850/41230850.63818336.original/r1280x720l?key=bf7c6c343f42e2a00eb9c3b4e07fb437cf9cc55357fb1a2835f27060e3511c53",
-      "publishedAt": "2022-10-14T19:50:02+09:00",
-      "views": 1707,
-      "likes": 45,
-      "duration": 25,
-      "tags": [
-        "ヒカマー",
-        "hikakin_mania",
-        "音mad",
-        "baqeela",
-        "ヘイトキン",
-        "ウマ娘",
-        "例のアレ",
-        "必須アモト酸",
-        "鉄道",
-        "加藤純一",
-        "ヒカマニ外伝リンク"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:126299442",
-        "name": "cemu"
-      }
-    },
-    {
       "id": "sm41228635",
       "source": "nico",
       "title": "いろんなアニメでハリケーンミキサー",
@@ -29011,30 +30666,6 @@
       }
     },
     {
-      "id": "sm41217604",
-      "source": "nico",
-      "title": "「J○限界交尾〜合意挿入でバチバチ肉穴化〜」第2話「チチのチ晴れ」",
-      "url": "https://www.nicovideo.jp/watch/sm41217604",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41217604/41217604.12682560.original/r1280x720l?key=94e3ca01e04dc447636b586327d4af0d0955fd0a47f3bfee12035d73f764d62d",
-      "publishedAt": "2022-10-11T22:15:02+09:00",
-      "views": 1276,
-      "likes": 1,
-      "duration": 194,
-      "tags": [
-        "アニメ",
-        "ウマ娘プリティーダービー",
-        "リコリス・リコイル",
-        "音MAD",
-        "voiceroid劇場",
-        "真夏の夜の淫夢"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:118319400",
-        "name": "田仲P"
-      }
-    },
-    {
       "id": "sm41216809",
       "source": "nico",
       "title": "ガハク",
@@ -29081,6 +30712,33 @@
       "author": {
         "id": "yt:UCo-kMa5v6PdmQQGhpkMTcNg",
         "name": "Rlcemaster3 ライスマスター3"
+      }
+    },
+    {
+      "id": "sm41201443",
+      "source": "nico",
+      "title": "ずっとアルダンでいいのに。 『秒針を噛む』",
+      "url": "https://www.nicovideo.jp/watch/sm41201443",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41201443/41201443.22859801.original/a960x540l?key=3174cde79e4d3d3990d77e7fd2dc15d0cfd73aa558f90a09a955a3f60ab0ee37",
+      "publishedAt": "2022-10-09T17:00:00+09:00",
+      "views": 5269,
+      "likes": 143,
+      "duration": 108,
+      "tags": [
+        "音mad",
+        "秒針を噛む",
+        "人力vocaloid",
+        "メジロアルダン(ウマ娘)",
+        "ウマ娘mad",
+        "人力ウマ娘",
+        "もっと評価されるべき"
+      ],
+      "characters": [
+        "メジロアルダン"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
       }
     },
     {
@@ -29209,13 +30867,37 @@
       }
     },
     {
+      "id": "sm41183360",
+      "source": "nico",
+      "title": "可能性のハテノ村（歌う）",
+      "url": "https://www.nicovideo.jp/watch/sm41183360",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41183360/41183360.15204733.original/r1280x720l?key=118a51f74c7f7a1063e184638aea4b653627de68bc5673fa0031f0579c661534",
+      "publishedAt": "2022-10-06T17:45:05+09:00",
+      "views": 318,
+      "likes": 16,
+      "duration": 11,
+      "tags": [
+        "音MAD",
+        "アグネスタキオン(ウマ娘)",
+        "ウマ娘mad",
+        "ハテノ村"
+      ],
+      "characters": [
+        "アグネスタキオン"
+      ],
+      "author": {
+        "id": "nico:124607365",
+        "name": "マテマティカ"
+      }
+    },
+    {
       "id": "yt:iUWNG8ChBiA",
       "source": "youtube",
       "title": "タキダンス",
       "url": "https://www.youtube.com/watch?v=iUWNG8ChBiA",
       "thumbnail": "https://i.ytimg.com/vi/iUWNG8ChBiA/maxresdefault.jpg",
       "publishedAt": "2022-10-05T09:15:01Z",
-      "views": 3428,
+      "views": 3427,
       "likes": 164,
       "duration": 39,
       "tags": [],
@@ -29481,7 +31163,7 @@
       "url": "https://www.youtube.com/watch?v=EoaOCUJ9w9g",
       "thumbnail": "https://i.ytimg.com/vi/EoaOCUJ9w9g/maxresdefault.jpg",
       "publishedAt": "2022-09-28T12:29:44Z",
-      "views": 16401,
+      "views": 16400,
       "likes": 281,
       "duration": 33,
       "tags": [],
@@ -29498,7 +31180,7 @@
       "url": "https://www.youtube.com/watch?v=TO5qMhrmMH8",
       "thumbnail": "https://i.ytimg.com/vi/TO5qMhrmMH8/maxresdefault.jpg",
       "publishedAt": "2022-09-28T10:30:11Z",
-      "views": 217409,
+      "views": 217411,
       "likes": 5832,
       "duration": 28,
       "tags": [],
@@ -29828,6 +31510,32 @@
       }
     },
     {
+      "id": "sm41106864",
+      "source": "nico",
+      "title": "ナイスは３着だって知ってんの",
+      "url": "https://www.nicovideo.jp/watch/sm41106864",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41106864/41106864.88094619.original/r1280x720l?key=ac8b58a5a1b842c765c6443b6854721ad23a2da1a2e2873723a70dc467a97045",
+      "publishedAt": "2022-09-20T05:56:02+09:00",
+      "views": 4931,
+      "likes": 263,
+      "duration": 35,
+      "tags": [
+        "音MAD",
+        "ナイスネイチャ(ウマ娘)",
+        "身体は正直だって言ってんの",
+        "第170回音mad晒しイベント",
+        "人力ウマ娘",
+        "人力vocaloid"
+      ],
+      "characters": [
+        "ナイスネイチャ"
+      ],
+      "author": {
+        "id": "nico:26219690",
+        "name": "ジョコリコ"
+      }
+    },
+    {
       "id": "sm41106522",
       "source": "nico",
       "title": "Digitan Chairs",
@@ -29852,6 +31560,32 @@
       "author": {
         "id": "nico:40990561",
         "name": "小書会"
+      }
+    },
+    {
+      "id": "sm41106308",
+      "source": "nico",
+      "title": "トレーナーセイハロウ",
+      "url": "https://www.nicovideo.jp/watch/sm41106308",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41106308/41106308.73253735.original/r1280x720l?key=bc6846dd95efe4e9cd5f8d8ce4ae3329d2483572f099b1c3a11c8f880d6a62af",
+      "publishedAt": "2022-09-20T00:41:02+09:00",
+      "views": 5271,
+      "likes": 192,
+      "duration": 102,
+      "tags": [
+        "音MAD",
+        "第170回音MAD晒しイベント",
+        "ボーイズセイハロウ",
+        "アグネスタキオン(ウマ娘)",
+        "人力ウマ娘",
+        "ウマ娘mad"
+      ],
+      "characters": [
+        "アグネスタキオン"
+      ],
+      "author": {
+        "id": "nico:23328012",
+        "name": "namacream_"
       }
     },
     {
@@ -29899,6 +31633,35 @@
       "author": {
         "id": "yt:UC-0vw1BVgEDT84MxpvQjmbQ",
         "name": "塩れもん"
+      }
+    },
+    {
+      "id": "sm41102948",
+      "source": "nico",
+      "title": "蟲 / かいぶつベア",
+      "url": "https://www.nicovideo.jp/watch/sm41102948",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41102948/41102948.45063095.original/r1280x720l?key=a476528d8113ba2dc38e8dbeefc1f010b8e225a004b84b5a46d2a2593a37006d",
+      "publishedAt": "2022-09-19T15:22:02+09:00",
+      "views": 2424,
+      "likes": 39,
+      "duration": 86,
+      "tags": [
+        "音mad",
+        "たぬき(ウマ娘)",
+        "バグ(かいりきベア)",
+        "曲が素材シリーズ",
+        "音BUG",
+        "競馬",
+        "ゴールドシップ",
+        "ウルトラマンガイア",
+        "ゴルシ蟲"
+      ],
+      "characters": [
+        "たぬき"
+      ],
+      "author": {
+        "id": "nico:80741431",
+        "name": "ビームタライ２号"
       }
     },
     {
@@ -30056,7 +31819,7 @@
       "url": "https://www.youtube.com/watch?v=45n5OGF5vYw",
       "thumbnail": "https://i.ytimg.com/vi/45n5OGF5vYw/maxresdefault.jpg",
       "publishedAt": "2022-09-13T12:30:01Z",
-      "views": 5411,
+      "views": 5412,
       "likes": 197,
       "duration": 32,
       "tags": [],
@@ -30347,6 +32110,57 @@
       }
     },
     {
+      "id": "sm41030819",
+      "source": "nico",
+      "title": "浜辺の砂がぶわわわわ～～～フォンデュ",
+      "url": "https://www.nicovideo.jp/watch/sm41030819",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41030819/41030819.7839264.original/a960x540l?key=12a44a2302891b5c747203666659b38a5ab371dbd78036a6511576216db1964b",
+      "publishedAt": "2022-09-04T17:41:02+09:00",
+      "views": 2029,
+      "likes": 114,
+      "duration": 123,
+      "tags": [
+        "音MAD",
+        "ハルウララ(ウマ娘)",
+        "ウマ娘mad",
+        "Mimolette"
+      ],
+      "characters": [
+        "ハルウララ"
+      ],
+      "author": {
+        "id": "nico:124607365",
+        "name": "マテマティカ"
+      }
+    },
+    {
+      "id": "sm41029982",
+      "source": "nico",
+      "title": "スイープトンデモワンダープトウショウ",
+      "url": "https://www.nicovideo.jp/watch/sm41029982",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/41029982/41029982.15132223.original/r1280x720l?key=743a638c584b7d24f1d1475f58e468a4077fae56d38320c8cc4b4569de24b351",
+      "publishedAt": "2022-09-04T14:50:02+09:00",
+      "views": 2542,
+      "likes": 122,
+      "duration": 80,
+      "tags": [
+        "音MAD",
+        "トンデモワンダーズ音MADリンク",
+        "スイープトウショウ(ウマ娘)",
+        "ウマ娘音MADリンク",
+        "ウマ娘mad",
+        "池添謙一",
+        "もっと評価されるべき"
+      ],
+      "characters": [
+        "スイープトウショウ"
+      ],
+      "author": {
+        "id": "nico:125458383",
+        "name": "ふるまに"
+      }
+    },
+    {
       "id": "yt:12fGbMwrslw",
       "source": "youtube",
       "title": "【音MAD】スイープトンデモワンダープトウショウ",
@@ -30598,7 +32412,7 @@
       "url": "https://www.youtube.com/watch?v=RiDrzuVr-8o",
       "thumbnail": "https://i.ytimg.com/vi/RiDrzuVr-8o/maxresdefault.jpg",
       "publishedAt": "2022-08-27T11:30:05Z",
-      "views": 20481,
+      "views": 20482,
       "likes": 630,
       "duration": 54,
       "tags": [],
@@ -30815,6 +32629,37 @@
       "author": {
         "id": "nico:2064123",
         "name": "こまり"
+      }
+    },
+    {
+      "id": "sm40956431",
+      "source": "nico",
+      "title": "【合作】マーシャル・マキシマイザー",
+      "url": "https://www.nicovideo.jp/watch/sm40956431",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40956431/40956431.40375655.original/a960x540l?key=bf6ca3bdee3a8c300d3fb1b35fbe740e926177c98df6b475677102157a034cb9",
+      "publishedAt": "2022-08-21T01:07:02+09:00",
+      "views": 24454,
+      "likes": 796,
+      "duration": 173,
+      "tags": [
+        "音mad",
+        "合作",
+        "マーシャル・マキシマイザー",
+        "マーシャル・マキシマッド",
+        "松岡修造",
+        "キルミーベイベー",
+        "検索してはいけない言葉",
+        "メイショウドトウ(ウマ娘)",
+        "糸電話(まちカドまぞく)",
+        "膳サムネ不統一",
+        "【合作】曲名シリーズ"
+      ],
+      "characters": [
+        "メイショウドトウ"
+      ],
+      "author": {
+        "id": "nico:92906817",
+        "name": "yumeki"
       }
     },
     {
@@ -31070,6 +32915,35 @@
       "author": {
         "id": "nico:11868040",
         "name": "カフェオレ健冶"
+      }
+    },
+    {
+      "id": "sm40931632",
+      "source": "nico",
+      "title": "カラオケにいく、バンブーメモリーとヤエノムテキ",
+      "url": "https://www.nicovideo.jp/watch/sm40931632",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40931632/40931632.79793466.original/r1280x720l?key=9df20d9439aa5b5f0e6f26f04907b3ba5d58fbcb37744578fb59fcb9584f0867",
+      "publishedAt": "2022-08-17T00:01:00+09:00",
+      "views": 4564,
+      "likes": 87,
+      "duration": 30,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "バンブーメモリー(ウマ娘)",
+        "カラオケにいくシリーズ",
+        "シュルクとラインが使ったカラオケリンク",
+        "空前のシュガークンナとビターダッシュブー",
+        "ム",
+        "毎月16日はシュガークンナの日",
+        "破門"
+      ],
+      "characters": [
+        "バンブーメモリー"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
       }
     },
     {
@@ -31536,6 +33410,31 @@
       }
     },
     {
+      "id": "sm40876414",
+      "source": "nico",
+      "title": "セイウンスカイの音MADを作っていたらセイキンが乱入してきて台無し",
+      "url": "https://www.nicovideo.jp/watch/sm40876414",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40876414/40876414.79130823.original/r1280x720l?key=d20b3d4ba9b8c1f37d86a2bc7e57257508b50831edc419638abe7fe6cb6aa48b",
+      "publishedAt": "2022-08-05T19:38:02+09:00",
+      "views": 4474,
+      "likes": 308,
+      "duration": 57,
+      "tags": [
+        "音MAD",
+        "セイキン",
+        "セイウンスカイ(ウマ娘)",
+        "SEIKIN",
+        "人類には速すぎる動画"
+      ],
+      "characters": [
+        "セイウンスカイ"
+      ],
+      "author": {
+        "id": "nico:117052996",
+        "name": "ドラゴン山田"
+      }
+    },
+    {
       "id": "sm40871173",
       "source": "nico",
       "title": "NATURE TUNE",
@@ -31720,7 +33619,7 @@
       "url": "https://www.youtube.com/watch?v=Ep7LQqNqYY8",
       "thumbnail": "https://i.ytimg.com/vi/Ep7LQqNqYY8/maxresdefault.jpg",
       "publishedAt": "2022-07-30T04:00:32Z",
-      "views": 19803,
+      "views": 19802,
       "likes": 526,
       "duration": 28,
       "tags": [],
@@ -32010,33 +33909,6 @@
       }
     },
     {
-      "id": "sm40802538",
-      "source": "nico",
-      "title": "フォニイ人力ボカロ３選",
-      "url": "https://www.nicovideo.jp/watch/sm40802538",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40802538/40802538.68204799.original/r1280x720l?key=e502cf1751b122acc8e8f93c9b40b41c57feaa49586dfb7f48d5b04117175332",
-      "publishedAt": "2022-07-22T02:11:02+09:00",
-      "views": 780,
-      "likes": 10,
-      "duration": 194,
-      "tags": [
-        "音ＭＡＤ",
-        "メドレー",
-        "例のアレ",
-        "ヒカキン",
-        "ウマ娘",
-        "じょにー",
-        "フォニイ(ツミキ)",
-        "フォニイ音madリンク",
-        "人力vocaloid"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:29269734",
-        "name": "ゲスト"
-      }
-    },
-    {
       "id": "yt:o42mCeVQUZc",
       "source": "youtube",
       "title": "しゃいコーラスRTA 1min.",
@@ -32183,7 +34055,7 @@
       "url": "https://www.youtube.com/watch?v=B9QaMBmqt4M",
       "thumbnail": "https://i.ytimg.com/vi/B9QaMBmqt4M/maxresdefault.jpg",
       "publishedAt": "2022-07-17T10:30:05Z",
-      "views": 98473,
+      "views": 98475,
       "likes": 2526,
       "duration": 98,
       "tags": [],
@@ -32344,7 +34216,7 @@
       "url": "https://www.youtube.com/watch?v=kzd4LyxWvU0",
       "thumbnail": "https://i.ytimg.com/vi/kzd4LyxWvU0/maxresdefault.jpg",
       "publishedAt": "2022-07-17T04:12:39Z",
-      "views": 49044,
+      "views": 49046,
       "likes": 1781,
       "duration": 17,
       "tags": [],
@@ -32440,30 +34312,6 @@
         "id": "nico:96831624",
         "name": "a11 エーイチイチ"
       }
-    },
-    {
-      "id": "sm40763062",
-      "source": "nico",
-      "title": "ヒカマー・ジャ・ナイツ",
-      "url": "https://www.nicovideo.jp/watch/sm40763062",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40763062/40763062.37836709.original/r1280x720l?key=812b98d2f7ad51b2aad6099822c647b045c2e3854ea24f88f992a80d3855cc8d",
-      "publishedAt": "2022-07-13T20:49:02+09:00",
-      "views": 893,
-      "likes": 24,
-      "duration": 22,
-      "tags": [
-        "ヒカマーmadリンク",
-        "ナイト・オブ・ナイツ",
-        "ヒカマー",
-        "音mad",
-        "hikakin_mania",
-        "hikakin(淫夢)",
-        "ウマ娘",
-        "真夏の夜の淫夢",
-        "高龍兄貴ちんぽしこしこ祭"
-      ],
-      "characters": [],
-      "author": null
     },
     {
       "id": "sm40758767",
@@ -32595,7 +34443,7 @@
       "url": "https://www.youtube.com/watch?v=OX0qj4MxSpU",
       "thumbnail": "https://i.ytimg.com/vi/OX0qj4MxSpU/maxresdefault.jpg",
       "publishedAt": "2022-07-10T11:08:08Z",
-      "views": 119933,
+      "views": 119932,
       "likes": 3521,
       "duration": 28,
       "tags": [],
@@ -32633,6 +34481,35 @@
       }
     },
     {
+      "id": "sm40749991",
+      "source": "nico",
+      "title": "しゃい革命前夜",
+      "url": "https://www.nicovideo.jp/watch/sm40749991",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40749991/40749991.46270401.original/a960x540l?key=ffbd65f2af54177b5778e390f6eba14f3311f3b86f8246350299710cbe39a6d8",
+      "publishedAt": "2022-07-10T20:06:02+09:00",
+      "views": 19631,
+      "likes": 450,
+      "duration": 36,
+      "tags": [
+        "音MAD",
+        "ウマ娘_プリティーダービー",
+        "ウマ娘mad",
+        "スマートファルコン(ウマ娘)",
+        "不革命前夜(nee)",
+        "不革命前夜",
+        "人力ウマ娘",
+        "不革命前夜MADリンク",
+        "う~~~っしゃーいシリーズ"
+      ],
+      "characters": [
+        "スマートファルコン"
+      ],
+      "author": {
+        "id": "nico:65487910",
+        "name": "なめたけ"
+      }
+    },
+    {
       "id": "sm40746679",
       "source": "nico",
       "title": "マチカネタンホイザのストーリー1話で頭を壊された作曲者",
@@ -32663,7 +34540,7 @@
       "url": "https://www.youtube.com/watch?v=H6aaLxEDoTU",
       "thumbnail": "https://i.ytimg.com/vi/H6aaLxEDoTU/maxresdefault.jpg",
       "publishedAt": "2022-07-09T16:04:06Z",
-      "views": 525973,
+      "views": 525969,
       "likes": 13082,
       "duration": 28,
       "tags": [],
@@ -32934,7 +34811,7 @@
       "url": "https://www.youtube.com/watch?v=6KcbDXh4Nv4",
       "thumbnail": "https://i.ytimg.com/vi/6KcbDXh4Nv4/maxresdefault.jpg",
       "publishedAt": "2022-07-01T15:53:55Z",
-      "views": 17473,
+      "views": 17476,
       "likes": 560,
       "duration": 98,
       "tags": [],
@@ -33116,6 +34993,38 @@
       }
     },
     {
+      "id": "sm40683875",
+      "source": "nico",
+      "title": "兄貴に反省をうながす偽ライス　他",
+      "url": "https://www.nicovideo.jp/watch/sm40683875",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40683875/40683875.262649.original/a960x540l?key=8c998bc83f634639a8a03c429b95a64b3e0563bf5151bfaab09a332f47dd3df0",
+      "publishedAt": "2022-06-27T00:40:02+09:00",
+      "views": 7496,
+      "likes": 104,
+      "duration": 522,
+      "tags": [
+        "雑穀(ウマ娘)",
+        "連邦に反省を促すダンス",
+        "閃光([alexandros])",
+        "たぬき(ウマ娘)",
+        "ションボリルドルフ",
+        "ビブリボン",
+        "ニャンちゅう",
+        "ヒャア信",
+        "先行のはちみー",
+        "武器商人",
+        "音MAD"
+      ],
+      "characters": [
+        "雑穀",
+        "たぬき"
+      ],
+      "author": {
+        "id": "nico:48496206",
+        "name": "GMMMM"
+      }
+    },
+    {
       "id": "sm40679255",
       "source": "nico",
       "title": "元気してっか～",
@@ -33199,6 +35108,32 @@
       }
     },
     {
+      "id": "sm40671004",
+      "source": "nico",
+      "title": "メジロ/パクパクベア",
+      "url": "https://www.nicovideo.jp/watch/sm40671004",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40671004/40671004.19209315.original/r1280x720l?key=e56e70fc6df84293a3e8caab17344714dca775003503c8440c632eff5a269398",
+      "publishedAt": "2022-06-24T19:58:02+09:00",
+      "views": 373,
+      "likes": 16,
+      "duration": 25,
+      "tags": [
+        "ウマ娘mad",
+        "ルマ(かいりきベア)",
+        "音mad",
+        "人力vocaloid",
+        "メジロマックイーン(ウマ娘)",
+        "もっと評価されるべき"
+      ],
+      "characters": [
+        "メジロマックイーン"
+      ],
+      "author": {
+        "id": "nico:122656921",
+        "name": "ラテマーチ"
+      }
+    },
+    {
       "id": "yt:l4PHpQVidac",
       "source": "youtube",
       "title": "寝る前スイープトウショウ定期",
@@ -33273,13 +35208,42 @@
       }
     },
     {
+      "id": "sm40658981",
+      "source": "nico",
+      "title": "うっしゃい伝説",
+      "url": "https://www.nicovideo.jp/watch/sm40658981",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40658981/40658981.11407527.original/a960x540l?key=4fb45386c8b125c5a94b8fae2d5b009fa732e04591c8918bed07d48a996e7d47",
+      "publishedAt": "2022-06-22T01:44:02+09:00",
+      "views": 2087,
+      "likes": 75,
+      "duration": 42,
+      "tags": [
+        "音MAD",
+        "スマートファルコン(ウマ娘)",
+        "うまぴょい伝説",
+        "う~~~っしゃーいシリーズ",
+        "ウマ娘mad",
+        "もっと評価されるべき",
+        "地産地消",
+        "うまぴょい伝説mad",
+        "エンターテイメント"
+      ],
+      "characters": [
+        "スマートファルコン"
+      ],
+      "author": {
+        "id": "nico:81642901",
+        "name": "0²"
+      }
+    },
+    {
       "id": "yt:nNi_ozw9dMw",
       "source": "youtube",
       "title": "【音MAD】ハシループ【ウマ娘 サイレンススズカ】",
       "url": "https://www.youtube.com/watch?v=nNi_ozw9dMw",
       "thumbnail": "https://i.ytimg.com/vi/nNi_ozw9dMw/maxresdefault.jpg",
       "publishedAt": "2022-06-21T10:13:06Z",
-      "views": 117172,
+      "views": 117175,
       "likes": 2550,
       "duration": 133,
       "tags": [],
@@ -33418,6 +35382,36 @@
       }
     },
     {
+      "id": "sm40645358",
+      "source": "nico",
+      "title": "マンボ タンホイーザ",
+      "url": "https://www.nicovideo.jp/watch/sm40645358",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40645358/40645358.59311909.original/r1280x720l?key=c14c1f47d471ee63b24373eaea27b68043c53a251e7653fbc9cca8a24fcfd465",
+      "publishedAt": "2022-06-19T11:38:02+09:00",
+      "views": 2949,
+      "likes": 118,
+      "duration": 54,
+      "tags": [
+        "音MAD",
+        "第167回音MAD晒しイベント",
+        "マチカネタンホイザ(ウマ娘)",
+        "サンバ_アレグリーア",
+        "太鼓の達人音madリンク",
+        "お祭りマンボ",
+        "ウマ娘mad",
+        "可愛い",
+        "manbo",
+        "曼波"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:81642901",
+        "name": "0²"
+      }
+    },
+    {
       "id": "yt:IqYrPU34TNA",
       "source": "youtube",
       "title": "マチカネタンフォイザ",
@@ -33545,6 +35539,30 @@
       }
     },
     {
+      "id": "sm40634240",
+      "source": "nico",
+      "title": "RICE_Z",
+      "url": "https://www.nicovideo.jp/watch/sm40634240",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40634240/40634240.14406955.original/r1280x720l?key=dcdb0ba0fe075b454fcfe05feb32147f5e89aa1a9004b0792e6154b80a4ec42b",
+      "publishedAt": "2022-06-17T06:04:02+09:00",
+      "views": 306,
+      "likes": 4,
+      "duration": 12,
+      "tags": [
+        "ハルトマンの妖怪少女",
+        "ウマ娘mad",
+        "ライスシャワー(ウマ娘)",
+        "音MAD"
+      ],
+      "characters": [
+        "ライスシャワー"
+      ],
+      "author": {
+        "id": "nico:97487570",
+        "name": "抹茶アイス"
+      }
+    },
+    {
       "id": "sm40629624",
       "source": "nico",
       "title": "フルドルリボン師",
@@ -33570,6 +35588,38 @@
       "author": {
         "id": "nico:124832440",
         "name": "ほろび餅"
+      }
+    },
+    {
+      "id": "sm40625965",
+      "source": "nico",
+      "title": "MOTHER2.5",
+      "url": "https://www.nicovideo.jp/watch/sm40625965",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40625965/40625965.26619404.original/a960x540l?key=b8af6dde0e2e1e3282af90c2172db7f35131768aa9f8f865667006618c61a5a5",
+      "publishedAt": "2022-06-15T20:00:00+09:00",
+      "views": 9935,
+      "likes": 146,
+      "duration": 112,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "pollyanna",
+        "ぷにぷにワッカさん",
+        "MOTHER",
+        "エボンノタマモクロス",
+        "53再生",
+        "ウマ娘プリ「ティーダ」ービー",
+        "スーパークリーク(ウマ娘)",
+        "素敵だね",
+        "素敵だな(ウマ娘)"
+      ],
+      "characters": [
+        "スーパークリーク",
+        "素敵だな"
+      ],
+      "author": {
+        "id": "nico:23134049",
+        "name": "〇〇〇〇〇〇オー"
       }
     },
     {
@@ -33703,6 +35753,32 @@
       "author": {
         "id": "yt:UCDSyJB7l7gLOJ1XVWi2VTLw",
         "name": "かむくら"
+      }
+    },
+    {
+      "id": "sm40603374",
+      "source": "nico",
+      "title": "タキオンが代",
+      "url": "https://www.nicovideo.jp/watch/sm40603374",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40603374/40603374.72845167.original/r1280x720l?key=c7fad8c332a6b3c97af3b60547c5a5de7940ff4eecd5130e5ec88c08bd616961",
+      "publishedAt": "2022-06-11T00:02:02+09:00",
+      "views": 407,
+      "likes": 2,
+      "duration": 72,
+      "tags": [
+        "君が代",
+        "スタイリッシュ不敬罪",
+        "スタイリッシュ不謹慎",
+        "音MAD",
+        "アグネスタキオン(ウマ娘)",
+        "スタイリッシュ不確定性原理"
+      ],
+      "characters": [
+        "アグネスタキオン"
+      ],
+      "author": {
+        "id": "nico:85608097",
+        "name": "南Chu⭐︎えろち"
       }
     },
     {
@@ -34142,6 +36218,32 @@
       "author": {
         "id": "nico:52489506",
         "name": "かむくら"
+      }
+    },
+    {
+      "id": "sm40566626",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm40566626",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40566626/40566626.16786994.original/r1280x720l?key=3ce9df7a840ad43529b1e262d6ba716890650715a1092e7a9c05eace98a6d44a",
+      "publishedAt": "2022-06-03T22:01:02+09:00",
+      "views": 916,
+      "likes": 12,
+      "duration": 59,
+      "tags": [
+        "音MAD",
+        "トウカイテイオー(ウマ娘)",
+        "ドラえもん",
+        "対決ひみつ道具!!",
+        "6月3日サムネ統一",
+        "6月3日はプディティーダーディー投稿祭"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:81642901",
+        "name": "0²"
       }
     },
     {
@@ -34633,6 +36735,37 @@
       }
     },
     {
+      "id": "sm40541443",
+      "source": "nico",
+      "title": "トレーナーの弁当美味しすぎるだろ！",
+      "url": "https://www.nicovideo.jp/watch/sm40541443",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40541443/40541443.87827745.original/a960x540l?key=92558e2e99c46853d3e67d1df1cc0d67257db31d1493a9d2e7f0f76fdb7aa657",
+      "publishedAt": "2022-05-29T20:37:02+09:00",
+      "views": 318802,
+      "likes": 4184,
+      "duration": 40,
+      "tags": [
+        "音MAD",
+        "おとめっど",
+        "アグネスタキオン(ウマ娘)",
+        "ウマ娘mad",
+        "ウマ娘プリ「ティーダ」ービー",
+        "ティーダのチンポ気持ちよすぎだろ!",
+        "ヤマダ寺院",
+        "ガイドラインの穴気持ちよすぎだろ!",
+        "人力ウマ娘",
+        "縦読み",
+        "レシピはどうなってるんだいレシピは！"
+      ],
+      "characters": [
+        "アグネスタキオン"
+      ],
+      "author": {
+        "id": "nico:124607365",
+        "name": "マテマティカ"
+      }
+    },
+    {
       "id": "yt:56vDELBa2Sc",
       "source": "youtube",
       "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
@@ -34687,7 +36820,7 @@
       "url": "https://www.youtube.com/watch?v=d8LUhcuQjmI",
       "thumbnail": "https://i.ytimg.com/vi/d8LUhcuQjmI/maxresdefault.jpg",
       "publishedAt": "2022-05-28T15:41:26Z",
-      "views": 338700,
+      "views": 338701,
       "likes": 8848,
       "duration": 93,
       "tags": [],
@@ -34976,7 +37109,7 @@
       "url": "https://www.youtube.com/watch?v=0k1t7t7JP-c",
       "thumbnail": "https://i.ytimg.com/vi/0k1t7t7JP-c/maxresdefault.jpg",
       "publishedAt": "2022-05-22T10:47:17Z",
-      "views": 11999,
+      "views": 11998,
       "likes": 183,
       "duration": 133,
       "tags": [],
@@ -35123,7 +37256,7 @@
       "url": "https://www.youtube.com/watch?v=vgYV-_nKfE8",
       "thumbnail": "https://i.ytimg.com/vi/vgYV-_nKfE8/maxresdefault.jpg",
       "publishedAt": "2022-05-21T16:15:14Z",
-      "views": 12835,
+      "views": 12834,
       "likes": 544,
       "duration": 22,
       "tags": [],
@@ -35299,6 +37432,33 @@
       }
     },
     {
+      "id": "sm40493868",
+      "source": "nico",
+      "title": "Attack On Suzuka",
+      "url": "https://www.nicovideo.jp/watch/sm40493868",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40493868/40493868.82136721.original/r1280x720l?key=30b16247db4732bbb78165e54e9c90cc41eeb2a12a4b6167f9bf886a4585d940",
+      "publishedAt": "2022-05-20T18:24:03+09:00",
+      "views": 1279,
+      "likes": 40,
+      "duration": 21,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "進撃の巨人",
+        "なめたけ因子",
+        "サイレンススズカ(ウマ娘)",
+        "超大逃げ巨人",
+        "スズ楽器"
+      ],
+      "characters": [
+        "サイレンススズカ"
+      ],
+      "author": {
+        "id": "nico:95603578",
+        "name": "Poppy - ポピー"
+      }
+    },
+    {
       "id": "sm40490982",
       "source": "nico",
       "title": "TB【ツインターボ】",
@@ -35417,7 +37577,7 @@
       "url": "https://www.youtube.com/watch?v=l3jrQc4DOBQ",
       "thumbnail": "https://i.ytimg.com/vi/l3jrQc4DOBQ/sddefault.jpg",
       "publishedAt": "2022-05-16T11:55:04Z",
-      "views": 86110,
+      "views": 86112,
       "likes": 4187,
       "duration": 68,
       "tags": [],
@@ -35913,6 +38073,36 @@
       ],
       "author": {
         "id": "yt:UClIiiwDAPEL-nnKT-IxGngQ",
+        "name": "Poppy - ポピー"
+      }
+    },
+    {
+      "id": "sm40433094",
+      "source": "nico",
+      "title": "カラオケにいく、トウカイテイオーとメジロマックイーン",
+      "url": "https://www.nicovideo.jp/watch/sm40433094",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40433094/40433094.49750574.original/r1280x720l?key=018c519f91679467a2e97f1efc1d9a0042113fcbc3bd131f3613806e36f91f7f",
+      "publishedAt": "2022-05-07T18:00:00+09:00",
+      "views": 3770,
+      "likes": 99,
+      "duration": 34,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "カラオケにいくシリーズ",
+        "夜に駆ける音madリンク",
+        "トウカイテイオー(ウマ娘)",
+        "シュルクとラインが使ったカラオケリンク",
+        "人力vocaloid",
+        "人力ウマ娘",
+        "VOCAITEIO",
+        "もっと評価されるべき"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:95603578",
         "name": "Poppy - ポピー"
       }
     },
@@ -36486,6 +38676,34 @@
       "characters": [],
       "author": {
         "id": "yt:UClIiiwDAPEL-nnKT-IxGngQ",
+        "name": "Poppy - ポピー"
+      }
+    },
+    {
+      "id": "sm40383288",
+      "source": "nico",
+      "title": "マーしゃい☆マキシマイザー",
+      "url": "https://www.nicovideo.jp/watch/sm40383288",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40383288/40383288.76922490.original/r1280x720l?key=fea678680293a48717c444867603531ac6bd4e9645b44588ff3d6d1b7b34afa8",
+      "publishedAt": "2022-04-27T18:54:02+09:00",
+      "views": 5496,
+      "likes": 141,
+      "duration": 22,
+      "tags": [
+        "音mad",
+        "マーシャル・マキシマイザー",
+        "ウマ娘mad",
+        "う~~~っしゃーいシリーズ",
+        "なめたけ因子",
+        "スマートファルコン(ウマ娘)",
+        "はちみーのうた",
+        "マーシャル・マキシマッド"
+      ],
+      "characters": [
+        "スマートファルコン"
+      ],
+      "author": {
+        "id": "nico:95603578",
         "name": "Poppy - ポピー"
       }
     },
@@ -37661,6 +39879,32 @@
       }
     },
     {
+      "id": "sm40296331",
+      "source": "nico",
+      "title": "人工知能爆弾",
+      "url": "https://www.nicovideo.jp/watch/sm40296331",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40296331/40296331.9603726.original/a960x540l?key=9a70bf9130ae919ba0741c207ad681bee7052d5e8105740209411270974509a5",
+      "publishedAt": "2022-04-09T23:00:02+09:00",
+      "views": 1852,
+      "likes": 68,
+      "duration": 32,
+      "tags": [
+        "音MAD",
+        "artificial_intelligence_bomb",
+        "私的オールスター",
+        "トウカイテイオー(ウマ娘)",
+        "何だその顔は",
+        "YTPMV"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:70379540",
+        "name": "フラット計算機"
+      }
+    },
+    {
       "id": "yt:G3Pibpw0jtc",
       "source": "youtube",
       "title": "MeijiLoop",
@@ -37707,6 +39951,35 @@
       "author": {
         "id": "nico:88221441",
         "name": "とりのえさ"
+      }
+    },
+    {
+      "id": "sm40295175",
+      "source": "nico",
+      "title": "カラオケにいく、マチタンとキャプテンファルコン",
+      "url": "https://www.nicovideo.jp/watch/sm40295175",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40295175/40295175.58562224.original/a960x540l?key=3c2491819d6733763c12e262bb684a59df631437d4b10d5ba8536121cad9b82d",
+      "publishedAt": "2022-04-09T19:22:02+09:00",
+      "views": 3508,
+      "likes": 90,
+      "duration": 34,
+      "tags": [
+        "マチカネタンホイザ(ウマ娘)",
+        "カラオケにいくシリーズ",
+        "音mad",
+        "人力vocaloid",
+        "スマブラmad",
+        "キャプテン・ファルコン",
+        "もっと評価されるべき",
+        "シュルクとラインが使ったカラオケリンク",
+        "人類には早すぎる動画"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:67503481",
+        "name": "鮭醤油"
       }
     },
     {
@@ -38124,34 +40397,6 @@
       }
     },
     {
-      "id": "sm40256809",
-      "source": "nico",
-      "title": "ハラメオラミナサマ～(検閲済み)",
-      "url": "https://www.nicovideo.jp/watch/sm40256809",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/40256809/40256809.67782794",
-      "publishedAt": "2022-04-01T09:58:02+09:00",
-      "views": 1796,
-      "likes": 2,
-      "duration": 40,
-      "tags": [
-        "音mad",
-        "ガチムチパンツレスリング",
-        "周央サンゴ",
-        "剣持刀也",
-        "ぬきたし",
-        "検閲済み",
-        "レスリングシリーズ",
-        "ウマ娘",
-        "人類には早すぎる動画",
-        "ぬきたしmad"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:123424037",
-        "name": "8TAglass"
-      }
-    },
-    {
       "id": "yt:M7wrG0Z7aK0",
       "source": "youtube",
       "title": "しゃいくらりん",
@@ -38325,7 +40570,7 @@
       "url": "https://www.youtube.com/watch?v=r-MPL-DLvXc",
       "thumbnail": "https://i.ytimg.com/vi/r-MPL-DLvXc/maxresdefault.jpg",
       "publishedAt": "2022-03-30T16:36:47Z",
-      "views": 172471,
+      "views": 172479,
       "likes": 3233,
       "duration": 273,
       "tags": [],
@@ -38587,7 +40832,7 @@
       "url": "https://www.youtube.com/watch?v=ak-lvBBANiU",
       "thumbnail": "https://i.ytimg.com/vi/ak-lvBBANiU/maxresdefault.jpg",
       "publishedAt": "2022-03-27T20:57:55Z",
-      "views": 28055,
+      "views": 28054,
       "likes": 769,
       "duration": 83,
       "tags": [],
@@ -38961,7 +41206,7 @@
       "url": "https://www.youtube.com/watch?v=9WDq-o7q4X0",
       "thumbnail": "https://i.ytimg.com/vi/9WDq-o7q4X0/maxresdefault.jpg",
       "publishedAt": "2022-03-23T14:03:28Z",
-      "views": 24920,
+      "views": 24918,
       "likes": 564,
       "duration": 30,
       "tags": [],
@@ -39042,6 +41287,33 @@
       "author": {
         "id": "yt:UCo-kMa5v6PdmQQGhpkMTcNg",
         "name": "Rlcemaster3 ライスマスター3"
+      }
+    },
+    {
+      "id": "sm40209175",
+      "source": "nico",
+      "title": "YOASHIGE「怪物」",
+      "url": "https://www.nicovideo.jp/watch/sm40209175",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40209175/40209175.27084748.original/a960x540l?key=3bcff07e63b645989bd62001c519dbe0e432aeb27f59da37828dde63e070664a",
+      "publishedAt": "2022-03-21T23:21:02+09:00",
+      "views": 1224,
+      "likes": 44,
+      "duration": 35,
+      "tags": [
+        "音MAD",
+        "怪物(yoasobi)",
+        "第164回音MAD晒しイベント",
+        "オグリキャップ(ウマ娘)",
+        "もっと評価されるべき",
+        "人力vocaloid",
+        "怪物madリンク"
+      ],
+      "characters": [
+        "オグリキャップ"
+      ],
+      "author": {
+        "id": "nico:85236329",
+        "name": "DJ OGMM"
       }
     },
     {
@@ -40376,7 +42648,7 @@
       "url": "https://www.youtube.com/watch?v=gvlilw6jqes",
       "thumbnail": "https://i.ytimg.com/vi/gvlilw6jqes/sddefault.jpg",
       "publishedAt": "2022-02-24T11:00:17Z",
-      "views": 1052167,
+      "views": 1052179,
       "likes": 18187,
       "duration": 958,
       "tags": [],
@@ -40493,7 +42765,7 @@
       "url": "https://www.youtube.com/watch?v=DANgMc-AlyY",
       "thumbnail": "https://i.ytimg.com/vi/DANgMc-AlyY/sddefault.jpg",
       "publishedAt": "2022-02-23T15:00:36Z",
-      "views": 144434,
+      "views": 144429,
       "likes": 3130,
       "duration": 108,
       "tags": [],
@@ -40929,6 +43201,32 @@
       "author": null
     },
     {
+      "id": "sm40065826",
+      "source": "nico",
+      "title": "カテドラるし...",
+      "url": "https://www.nicovideo.jp/watch/sm40065826",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40065826/40065826.75311978.original/r1280x720l?key=74809491678345adb74c003813261fbaafc68b832328b29f610436def52ffb11",
+      "publishedAt": "2022-02-19T20:03:03+09:00",
+      "views": 3150,
+      "likes": 49,
+      "duration": 154,
+      "tags": [
+        "たぬき(ウマ娘)",
+        "cursed_cathedral",
+        "原曲不使用",
+        "第163回音mad晒しイベント",
+        "Mario's_Mystery_Meat",
+        "音MAD"
+      ],
+      "characters": [
+        "たぬき"
+      ],
+      "author": {
+        "id": "nico:81642901",
+        "name": "0²"
+      }
+    },
+    {
       "id": "yt:WRrHJ65i5Hc",
       "source": "youtube",
       "title": "ロッテルダムテイオー",
@@ -40971,6 +43269,33 @@
       "author": {
         "id": "nico:56773433",
         "name": "Oriens"
+      }
+    },
+    {
+      "id": "sm40062878",
+      "source": "nico",
+      "title": "はちみーをなめるTO-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo",
+      "url": "https://www.nicovideo.jp/watch/sm40062878",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40062878/40062878.88967668.original/r1280x720l?key=c7960f2a69c7350949905960d65533c6b1fdab5c60c2a705e70b920b48188757",
+      "publishedAt": "2022-02-19T07:07:02+09:00",
+      "views": 5408,
+      "likes": 123,
+      "duration": 42,
+      "tags": [
+        "音mad",
+        "第163回音mad晒しイベント",
+        "ウマ娘mad",
+        "トウカイテイオー(ウマ娘)",
+        "はちみーのうた",
+        "brain_power",
+        "ウマ娘音madリンク"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:38054045",
+        "name": "ボスポラス君"
       }
     },
     {
@@ -41518,6 +43843,32 @@
       }
     },
     {
+      "id": "sm40000102",
+      "source": "nico",
+      "title": "p.h./ゴールドシップ",
+      "url": "https://www.nicovideo.jp/watch/sm40000102",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40000102/40000102.33041158.original/r1280x720l?key=3c337146db4a225dd78168915bdfb2618c8fab66c5d7d90871a75791cf50d1e0",
+      "publishedAt": "2022-02-06T01:53:02+09:00",
+      "views": 1302,
+      "likes": 45,
+      "duration": 24,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "p.h.(seventhlinks)",
+        "ゴールドシップ(ウマ娘)",
+        "p.h.madリンク",
+        "もっと評価されるべき"
+      ],
+      "characters": [
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:73316824",
+        "name": "5丁目"
+      }
+    },
+    {
       "id": "yt:PP9vupQ9gto",
       "source": "youtube",
       "title": "p.h./ゴールドシップ",
@@ -41543,7 +43894,7 @@
       "url": "https://www.youtube.com/watch?v=VBDupXlMhJs",
       "thumbnail": "https://i.ytimg.com/vi/VBDupXlMhJs/maxresdefault.jpg",
       "publishedAt": "2022-02-05T09:00:14Z",
-      "views": 102971,
+      "views": 102969,
       "likes": 2548,
       "duration": 103,
       "tags": [],
@@ -41880,6 +44231,30 @@
       "author": {
         "id": "nico:12686166",
         "name": "MizkoKT"
+      }
+    },
+    {
+      "id": "sm39964627",
+      "source": "nico",
+      "title": "Eliしゃい☆",
+      "url": "https://www.nicovideo.jp/watch/sm39964627",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39964627/39964627.41384141.original/a960x540l?key=2ea2d65f4467864a86949b39f996dfaf70d9fad8e16c3702e265e8c9c86bcafb",
+      "publishedAt": "2022-01-29T22:36:02+09:00",
+      "views": 631,
+      "likes": 8,
+      "duration": 85,
+      "tags": [
+        "音mad",
+        "スマートファルコン(ウマ娘)",
+        "ウマ娘mad",
+        "elisha"
+      ],
+      "characters": [
+        "スマートファルコン"
+      ],
+      "author": {
+        "id": "nico:119451487",
+        "name": "iamonis"
       }
     },
     {
@@ -42429,6 +44804,31 @@
       }
     },
     {
+      "id": "sm39879534",
+      "source": "nico",
+      "title": "Hachimi fight",
+      "url": "https://www.nicovideo.jp/watch/sm39879534",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39879534/39879534.69032923.original/r1280x720l?key=916d9d6e1aa5b574f0ad97594eae3276f6ccea4a1a1bb2e3f67e48a1aabe42de",
+      "publishedAt": "2022-01-10T14:07:02+09:00",
+      "views": 622,
+      "likes": 18,
+      "duration": 50,
+      "tags": [
+        "音mad",
+        "ウマ娘音madリンク",
+        "Ghost_Fight",
+        "トウカイテイオー(ウマ娘)",
+        "原曲不使用"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:81647010",
+        "name": "蕎麦"
+      }
+    },
+    {
       "id": "yt:vWNcpcfojwg",
       "source": "youtube",
       "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
@@ -42525,6 +44925,34 @@
       }
     },
     {
+      "id": "sm39870807",
+      "source": "nico",
+      "title": "カラオケに行く、ニシノフラワーとセイウンスカイ",
+      "url": "https://www.nicovideo.jp/watch/sm39870807",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39870807/39870807.24141399.original/a960x540l?key=d391ff8ab81e84ce6951ab83e44d0f226d4df77cc5bbfb30f45d9333f7aad478",
+      "publishedAt": "2022-01-08T18:07:02+09:00",
+      "views": 2824,
+      "likes": 42,
+      "duration": 35,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "夜に駆ける",
+        "ニシノフラワー(ウマ娘)",
+        "セイウンスカイ(ウマ娘)",
+        "カラオケにいくシリーズ",
+        "人力ウマ娘"
+      ],
+      "characters": [
+        "ニシノフラワー",
+        "セイウンスカイ"
+      ],
+      "author": {
+        "id": "nico:122465347",
+        "name": "ぴぴ"
+      }
+    },
+    {
       "id": "sm39866733",
       "source": "nico",
       "title": "きよぴょい伝説【キヨ × うまぴょい伝説】",
@@ -42611,6 +45039,33 @@
       "author": {
         "id": "nico:88221441",
         "name": "とりのえさ"
+      }
+    },
+    {
+      "id": "sm39853232",
+      "source": "nico",
+      "title": "きゃくりょくのしゅぎょう2",
+      "url": "https://www.nicovideo.jp/watch/sm39853232",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39853232/39853232.62218073.original/r1280x720l?key=1dbbfd380531efecfc944b43272f9a59bd4c21f9d7d85c263d1265d43ef13942",
+      "publishedAt": "2022-01-04T13:34:02+09:00",
+      "views": 1301,
+      "likes": 41,
+      "duration": 88,
+      "tags": [
+        "音MAD",
+        "トレーナー(ウマ娘プリティーダービー)",
+        "しゅぎょう2",
+        "スペシャルウィーク(ウマ娘)",
+        "ウマ娘mad",
+        "なめたけ因子因子",
+        "ウマ娘音madリンク"
+      ],
+      "characters": [
+        "スペシャルウィーク"
+      ],
+      "author": {
+        "id": "nico:92156037",
+        "name": "ちゃそ"
       }
     },
     {
@@ -42762,7 +45217,7 @@
       "url": "https://www.youtube.com/watch?v=VpKPqqfYGsY",
       "thumbnail": "https://i.ytimg.com/vi/VpKPqqfYGsY/maxresdefault.jpg",
       "publishedAt": "2021-12-30T08:30:06Z",
-      "views": 5170,
+      "views": 5171,
       "likes": 152,
       "duration": 80,
       "tags": [],
@@ -43363,7 +45818,7 @@
       "url": "https://www.youtube.com/watch?v=QFjKGLZ5PDQ",
       "thumbnail": "https://i.ytimg.com/vi/QFjKGLZ5PDQ/maxresdefault.jpg",
       "publishedAt": "2021-12-18T10:15:01Z",
-      "views": 46559,
+      "views": 46560,
       "likes": 1353,
       "duration": 107,
       "tags": [],
@@ -43420,35 +45875,6 @@
       "author": {
         "id": "nico:2064123",
         "name": "こまり"
-      }
-    },
-    {
-      "id": "sm39767919",
-      "source": "nico",
-      "title": "水素ょい伝説",
-      "url": "https://www.nicovideo.jp/watch/sm39767919",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39767919/39767919.789970.original/a960x540l?key=de8fb258366b912e7dc9c4a0905d23f3ea3e8ef1d798af6e2047f88a135390bd",
-      "publishedAt": "2021-12-17T22:46:02+09:00",
-      "views": 1151,
-      "likes": 11,
-      "duration": 95,
-      "tags": [
-        "ウマ娘プリティーダービー",
-        "うまぴょい伝説mad",
-        "水素の音",
-        "音mad",
-        "水素の音mad",
-        "QVC",
-        "タイガー尾藤",
-        "鳥羽美音子",
-        "QVCファミリー",
-        "例のアレ",
-        "QVCMADシリーズ"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:92998596",
-        "name": "ただりん"
       }
     },
     {
@@ -43774,30 +46200,6 @@
       }
     },
     {
-      "id": "sm39670457",
-      "source": "nico",
-      "title": "ガバ娘プリティーダーディー",
-      "url": "https://www.nicovideo.jp/watch/sm39670457",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39670457/39670457.38586947.original/a960x540l?key=e632669ea138d25e4561c90d19364ef73d59e73328cbe4d963ee1bbb08681a00",
-      "publishedAt": "2021-11-25T19:53:02+09:00",
-      "views": 3315,
-      "likes": 44,
-      "duration": 31,
-      "tags": [
-        "ガバ穴ダディー",
-        "girls'_legend_u",
-        "ウマ娘mad",
-        "音mad",
-        "例のアレ",
-        "ウマ娘プリティーダービー"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:59688548",
-        "name": "かけ"
-      }
-    },
-    {
       "id": "sm39668068",
       "source": "nico",
       "title": "Golshisama Scramble!",
@@ -43941,8 +46343,8 @@
       "url": "https://www.youtube.com/watch?v=cekZ11_dBwY",
       "thumbnail": "https://i.ytimg.com/vi/cekZ11_dBwY/maxresdefault.jpg",
       "publishedAt": "2021-11-20T10:15:00Z",
-      "views": 91200,
-      "likes": 2997,
+      "views": 91201,
+      "likes": 2998,
       "duration": 105,
       "tags": [],
       "characters": [],
@@ -44712,7 +47114,7 @@
       "url": "https://www.youtube.com/watch?v=JGUFPTtkwOc",
       "thumbnail": "https://i.ytimg.com/vi/JGUFPTtkwOc/maxresdefault.jpg",
       "publishedAt": "2021-10-30T15:52:24Z",
-      "views": 106503,
+      "views": 106500,
       "likes": 3076,
       "duration": 135,
       "tags": [],
@@ -44835,7 +47237,7 @@
       "url": "https://www.youtube.com/watch?v=flMb9ruyirY",
       "thumbnail": "https://i.ytimg.com/vi/flMb9ruyirY/maxresdefault.jpg",
       "publishedAt": "2021-10-30T04:30:16Z",
-      "views": 399804,
+      "views": 399803,
       "likes": 10257,
       "duration": 79,
       "tags": [],
@@ -44883,6 +47285,27 @@
         "id": "nico:121497104",
         "name": "佐々木キャル"
       }
+    },
+    {
+      "id": "sm39535956",
+      "source": "nico",
+      "title": "メロンパフェが代",
+      "url": "https://www.nicovideo.jp/watch/sm39535956",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39535956/39535956.75267292.original/r1280x720l?key=3a2b39be129894d6e03be3872defcdde4a3b1149cd3a0d25a653b7ff0ba13054",
+      "publishedAt": "2021-10-26T17:26:02+09:00",
+      "views": 2248,
+      "likes": 47,
+      "duration": 72,
+      "tags": [
+        "音mad",
+        "君が代",
+        "ウマ娘mad",
+        "メジロマックイーン(ウマ娘)"
+      ],
+      "characters": [
+        "メジロマックイーン"
+      ],
+      "author": null
     },
     {
       "id": "sm39533748",
@@ -44980,7 +47403,7 @@
       "url": "https://www.youtube.com/watch?v=wG-ohnTdHAo",
       "thumbnail": "https://i.ytimg.com/vi/wG-ohnTdHAo/maxresdefault.jpg",
       "publishedAt": "2021-10-24T03:19:15Z",
-      "views": 75583,
+      "views": 75581,
       "likes": 2257,
       "duration": 403,
       "tags": [],
@@ -45247,7 +47670,7 @@
       "url": "https://www.youtube.com/watch?v=qHaKNGtehYk",
       "thumbnail": "https://i.ytimg.com/vi/qHaKNGtehYk/sddefault.jpg",
       "publishedAt": "2021-10-21T11:13:23Z",
-      "views": 314173,
+      "views": 314202,
       "likes": 22018,
       "duration": 108,
       "tags": [],
@@ -45342,7 +47765,7 @@
       "url": "https://www.youtube.com/watch?v=K_-bXQ6TEno",
       "thumbnail": "https://i.ytimg.com/vi/K_-bXQ6TEno/maxresdefault.jpg",
       "publishedAt": "2021-10-20T10:10:32Z",
-      "views": 34687,
+      "views": 34688,
       "likes": 789,
       "duration": 124,
       "tags": [],
@@ -45808,8 +48231,8 @@
       "url": "https://www.youtube.com/watch?v=fujSx-uq2-s",
       "thumbnail": "https://i.ytimg.com/vi/fujSx-uq2-s/maxresdefault.jpg",
       "publishedAt": "2021-10-17T07:17:00Z",
-      "views": 398181,
-      "likes": 20863,
+      "views": 398191,
+      "likes": 20865,
       "duration": 104,
       "tags": [],
       "characters": [],
@@ -46020,7 +48443,7 @@
       "url": "https://www.youtube.com/watch?v=bAx2Guz7g8M",
       "thumbnail": "https://i.ytimg.com/vi/bAx2Guz7g8M/maxresdefault.jpg",
       "publishedAt": "2021-10-15T15:14:01Z",
-      "views": 41009,
+      "views": 41008,
       "likes": 1318,
       "duration": 104,
       "tags": [],
@@ -46691,33 +49114,6 @@
       }
     },
     {
-      "id": "sm39418676",
-      "source": "nico",
-      "title": "本ガ場入場",
-      "url": "https://www.nicovideo.jp/watch/sm39418676",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39418676/39418676.96013393.original/r1280x720l?key=40d361e63f8a4f7eba65f4754ed741f77a1d2b4a79ee33803abe7f1f58ce0448",
-      "publishedAt": "2021-10-02T00:30:03+09:00",
-      "views": 1633,
-      "likes": 14,
-      "duration": 34,
-      "tags": [
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "音mad",
-        "ウマ娘",
-        "ガバ穴ダディー",
-        "ザ・チャンピオン",
-        "競馬",
-        "競馬淫夢",
-        "本馬場入場曲"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:22893084",
-        "name": "タコヤリイカ"
-      }
-    },
-    {
       "id": "sm39417396",
       "source": "nico",
       "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
@@ -46742,6 +49138,37 @@
       "author": {
         "id": "nico:31837529",
         "name": "ちん"
+      }
+    },
+    {
+      "id": "sm39413984",
+      "source": "nico",
+      "title": "アグネスデジタルのグルメレース",
+      "url": "https://www.nicovideo.jp/watch/sm39413984",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39413984/39413984.52983651.original/r1280x720l?key=494619d7ff0a75af402b28480ab4e53e21db9fd7ee1c5eb1b0c7cd4e4846fca3",
+      "publishedAt": "2021-10-01T10:01:02+09:00",
+      "views": 84308,
+      "likes": 1592,
+      "duration": 80,
+      "tags": [
+        "音MAD",
+        "グルメレースMAD",
+        "アグネスデジタル(ウマ娘)",
+        "グルメレース",
+        "わずかな時間を見つけないシリーズ",
+        "ウマ本さん",
+        "ウマ娘音madリンク",
+        "ダブル☆シラオキ",
+        "チャンピオンズ座談会",
+        "人参革命",
+        "エア娘"
+      ],
+      "characters": [
+        "アグネスデジタル"
+      ],
+      "author": {
+        "id": "nico:71205656",
+        "name": "たくっち ゆっくり実況"
       }
     },
     {
@@ -46820,7 +49247,7 @@
       "url": "https://www.youtube.com/watch?v=Gr5mA2kClTU",
       "thumbnail": "https://i.ytimg.com/vi/Gr5mA2kClTU/maxresdefault.jpg",
       "publishedAt": "2021-09-25T12:51:08Z",
-      "views": 384437,
+      "views": 384443,
       "likes": 9232,
       "duration": 158,
       "tags": [],
@@ -47418,6 +49845,34 @@
       }
     },
     {
+      "id": "sm39335626",
+      "source": "nico",
+      "title": "【ウマ娘】ゴルシがスーパーボンバーマン5に熱狂するようです【音MAD】【ボンバーマンMAD】【ハドソン】【ゴールドシップ】",
+      "url": "https://www.nicovideo.jp/watch/sm39335626",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39335626/39335626.90980772.original/r1280x720l?key=30e671f785ca5dbaf0a3ef95b7166a0881640597f00a3c68722b1ba0200b470a",
+      "publishedAt": "2021-09-14T22:56:02+09:00",
+      "views": 398,
+      "likes": 2,
+      "duration": 69,
+      "tags": [
+        "ウマ娘mad",
+        "ボンバーマンmad",
+        "ハドソン",
+        "音MAD",
+        "例のアレ",
+        "ゴールドシップ(ウマ娘)",
+        "おしり",
+        "([∩∩])<死にたいらしいな"
+      ],
+      "characters": [
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:64866836",
+        "name": "陽光"
+      }
+    },
+    {
       "id": "sm39332101",
       "source": "nico",
       "title": "残酷なウマ娘のテーゼ",
@@ -47599,7 +50054,7 @@
       "url": "https://www.youtube.com/watch?v=0wefFU5GqZE",
       "thumbnail": "https://i.ytimg.com/vi/0wefFU5GqZE/maxresdefault.jpg",
       "publishedAt": "2021-09-10T11:24:21Z",
-      "views": 860301,
+      "views": 860298,
       "likes": 26769,
       "duration": 129,
       "tags": [],
@@ -47616,7 +50071,7 @@
       "url": "https://www.youtube.com/watch?v=OKGUnk0Wt9k",
       "thumbnail": "https://i.ytimg.com/vi/OKGUnk0Wt9k/maxresdefault.jpg",
       "publishedAt": "2021-09-10T03:00:06Z",
-      "views": 136494,
+      "views": 136499,
       "likes": 3130,
       "duration": 171,
       "tags": [],
@@ -47657,7 +50112,7 @@
       "url": "https://www.youtube.com/watch?v=7uYhWjDGyGY",
       "thumbnail": "https://i.ytimg.com/vi/7uYhWjDGyGY/maxresdefault.jpg",
       "publishedAt": "2021-09-09T15:00:03Z",
-      "views": 286056,
+      "views": 286058,
       "likes": 7102,
       "duration": 92,
       "tags": [],
@@ -47962,6 +50417,30 @@
       "author": {
         "id": "nico:66710071",
         "name": "青チャートに親を殺された男"
+      }
+    },
+    {
+      "id": "sm39293109",
+      "source": "nico",
+      "title": "アンヘルコンドルパサー",
+      "url": "https://www.nicovideo.jp/watch/sm39293109",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39293109/39293109.40978989.original/a960x540l?key=681734bc854b2d5be83c1c0c2484ea2acf0df8aa38ef0e7ed658ded38e03bf6b",
+      "publishedAt": "2021-09-05T21:24:02+09:00",
+      "views": 9133,
+      "likes": 296,
+      "duration": 98,
+      "tags": [
+        "音mad",
+        "エルコンドルパサー(ウマ娘)",
+        "アンヘルmadリンク",
+        "ウマ娘mad"
+      ],
+      "characters": [
+        "エルコンドルパサー"
+      ],
+      "author": {
+        "id": "nico:23328012",
+        "name": "namacream_"
       }
     },
     {
@@ -48688,7 +51167,7 @@
       "url": "https://www.youtube.com/watch?v=NNhUbPbD6Ag",
       "thumbnail": "https://i.ytimg.com/vi/NNhUbPbD6Ag/hqdefault.jpg",
       "publishedAt": "2021-08-22T15:29:04Z",
-      "views": 73006,
+      "views": 73005,
       "likes": 2410,
       "duration": 117,
       "tags": [],
@@ -48798,7 +51277,7 @@
       "url": "https://www.youtube.com/watch?v=Y9HY5UC_73c",
       "thumbnail": "https://i.ytimg.com/vi/Y9HY5UC_73c/maxresdefault.jpg",
       "publishedAt": "2021-08-22T14:12:35Z",
-      "views": 169658,
+      "views": 169656,
       "likes": 7068,
       "duration": 61,
       "tags": [],
@@ -49511,64 +51990,6 @@
       }
     },
     {
-      "id": "sm39159614",
-      "source": "nico",
-      "title": "ヒカマーと見る公共財団法人「野獣を見る会」の催し【hikakin_mania】",
-      "url": "https://www.nicovideo.jp/watch/sm39159614",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39159614/39159614.24854962.original/r1280x720l?key=3c3bd05cad9257f7072fc32b33bf34426fa09ff912c991058679633ed393640f",
-      "publishedAt": "2021-08-10T18:55:02+09:00",
-      "views": 3357,
-      "likes": 11,
-      "duration": 654,
-      "tags": [
-        "例のアレ",
-        "hikakin_mania",
-        "野獣の日",
-        "ホモと見るシリーズ",
-        "hikakin(淫夢)",
-        "音mad",
-        "野獣邸",
-        "ウマ娘プリティーダービー",
-        "ai拓也",
-        "ぼっち・ざ・ろっく!",
-        "ずんだもん"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:92555708",
-        "name": "【公式】ニコチンTV"
-      }
-    },
-    {
-      "id": "sm39159567",
-      "source": "nico",
-      "title": "ヒカマーと見るインマーの集い【hikakin_mania】",
-      "url": "https://www.nicovideo.jp/watch/sm39159567",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39159567/39159567.65399451.original/a960x540l?key=52a0a5c411c1acd04a95105f2b03916305e47f9dd0b0e65d2c954cdfc00b3f20",
-      "publishedAt": "2021-08-10T18:40:02+09:00",
-      "views": 1851,
-      "likes": 12,
-      "duration": 131,
-      "tags": [
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "ホモと見るシリーズ",
-        "hikakin_mania",
-        "ホモガキ",
-        "hikakin(淫夢)",
-        "音mad",
-        "野獣の日",
-        "野獣邸",
-        "syamu_game",
-        "ウマ娘プリティーダービー"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:92555708",
-        "name": "【公式】ニコチンTV"
-      }
-    },
-    {
       "id": "sm39156609",
       "source": "nico",
       "title": "あげ又せん！",
@@ -49957,7 +52378,7 @@
       "url": "https://www.youtube.com/watch?v=E9i5GB_XJB4",
       "thumbnail": "https://i.ytimg.com/vi/E9i5GB_XJB4/maxresdefault.jpg",
       "publishedAt": "2021-08-03T14:00:11Z",
-      "views": 61018,
+      "views": 61016,
       "likes": 2052,
       "duration": 55,
       "tags": [],
@@ -49991,7 +52412,7 @@
       "url": "https://www.youtube.com/watch?v=Gx-mOx7Vw9E",
       "thumbnail": "https://i.ytimg.com/vi/Gx-mOx7Vw9E/maxresdefault.jpg",
       "publishedAt": "2021-08-03T13:46:08Z",
-      "views": 23661,
+      "views": 23677,
       "likes": 486,
       "duration": 128,
       "tags": [],
@@ -50325,34 +52746,6 @@
       "author": {
         "id": "nico:32615181",
         "name": "外湯"
-      }
-    },
-    {
-      "id": "sm39092466",
-      "source": "nico",
-      "title": "【ウマ娘】ウマ娘が全裸になるバグが発見される",
-      "url": "https://www.nicovideo.jp/watch/sm39092466",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/39092466/39092466.74041274",
-      "publishedAt": "2021-07-27T19:04:02+09:00",
-      "views": 181537,
-      "likes": 1372,
-      "duration": 82,
-      "tags": [
-        "例のアレ",
-        "レスリングシリーズ",
-        "ウマ娘プリティーダービー",
-        "音mad",
-        "はちみーのうた",
-        "スーパーカズヤのテーマシリーズ",
-        "やっぱりな♂",
-        "サムネホイホイチャーハン",
-        "はちみつください",
-        "釣られて正解"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:32928673",
-        "name": "伍伍丸丸"
       }
     },
     {
@@ -51243,13 +53636,37 @@
       }
     },
     {
+      "id": "sm39019081",
+      "source": "nico",
+      "title": "ゴル・自然エリア",
+      "url": "https://www.nicovideo.jp/watch/sm39019081",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39019081/39019081.21060788.original/a960x540l?key=c173d1181440a211225008302a6c0042fe296b613ddc9b5a38f230ef8b37b01f",
+      "publishedAt": "2021-07-12T06:14:00+09:00",
+      "views": 5984,
+      "likes": 106,
+      "duration": 52,
+      "tags": [
+        "音mad",
+        "森・自然エリア",
+        "ゴールドシップ(ウマ娘)",
+        "星のカービィ鏡の大迷宮"
+      ],
+      "characters": [
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:23328012",
+        "name": "namacream_"
+      }
+    },
+    {
       "id": "yt:cUPM6bmisoM",
       "source": "youtube",
       "title": "Twins",
       "url": "https://www.youtube.com/watch?v=cUPM6bmisoM",
       "thumbnail": "https://i.ytimg.com/vi/cUPM6bmisoM/maxresdefault.jpg",
       "publishedAt": "2021-07-10T15:25:27Z",
-      "views": 31624,
+      "views": 31625,
       "likes": 643,
       "duration": 121,
       "tags": [],
@@ -51835,7 +54252,7 @@
       "url": "https://www.youtube.com/watch?v=4xdGD5kbvEc",
       "thumbnail": "https://i.ytimg.com/vi/4xdGD5kbvEc/maxresdefault.jpg",
       "publishedAt": "2021-06-27T09:37:15Z",
-      "views": 1736392,
+      "views": 1736399,
       "likes": 34307,
       "duration": 121,
       "tags": [],
@@ -52491,7 +54908,7 @@
       "url": "https://www.youtube.com/watch?v=kFVPNjW023s",
       "thumbnail": "https://i.ytimg.com/vi/kFVPNjW023s/maxresdefault.jpg",
       "publishedAt": "2021-06-18T08:00:09Z",
-      "views": 579691,
+      "views": 579693,
       "likes": 21085,
       "duration": 133,
       "tags": [],
@@ -53016,6 +55433,32 @@
       "author": {
         "id": "nico:16932840",
         "name": "ぎまっち"
+      }
+    },
+    {
+      "id": "sm38870247",
+      "source": "nico",
+      "title": "フクキタマイム",
+      "url": "https://www.nicovideo.jp/watch/sm38870247",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38870247/38870247.53086855.original/a960x540l?key=26e50febdd42990f7ff1175e95cb43965d64ad8c83c1bf93eadb923dff007886",
+      "publishedAt": "2021-06-11T19:29:02+09:00",
+      "views": 1371,
+      "likes": 21,
+      "duration": 26,
+      "tags": [
+        "音mad",
+        "ウマ娘_プリティーダービー",
+        "マチカネフクキタル(ウマ娘)",
+        "マイムマイム",
+        "ウマ娘mad",
+        "リピート推奨"
+      ],
+      "characters": [
+        "マチカネフクキタル"
+      ],
+      "author": {
+        "id": "nico:21594247",
+        "name": "コセンNJ"
       }
     },
     {
@@ -53569,7 +56012,7 @@
       "url": "https://www.youtube.com/watch?v=sUqWq_a4z84",
       "thumbnail": "https://i.ytimg.com/vi/sUqWq_a4z84/maxresdefault.jpg",
       "publishedAt": "2021-06-06T11:45:08Z",
-      "views": 275171,
+      "views": 275172,
       "likes": 8507,
       "duration": 198,
       "tags": [],
@@ -53803,6 +56246,33 @@
       "author": {
         "id": "nico:119485776",
         "name": "メキシカンソーセージ"
+      }
+    },
+    {
+      "id": "sm38842908",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38842908",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38842908/38842908.44684447.original/r1280x720l?key=782e85b24a00176dd2a2fcdf14d770874dec006208facec4777d45c4a3c79d55",
+      "publishedAt": "2021-06-05T20:12:02+09:00",
+      "views": 1398,
+      "likes": 19,
+      "duration": 86,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "ウマ娘mad",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "6月3日サムネ統一",
+        "孤独死",
+        "Kodokushi"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:71822141",
+        "name": "gs@"
       }
     },
     {
@@ -54053,6 +56523,32 @@
       }
     },
     {
+      "id": "sm38832035",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38832035",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38832035/38832035.59113543.original/a960x540l?key=5fca592983b11b73b4c554a331ee6ec184669d1c51e88ba1a0d74cbcd3abcf81",
+      "publishedAt": "2021-06-03T17:31:02+09:00",
+      "views": 1440,
+      "likes": 22,
+      "duration": 73,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "エントロピカル",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "6月3日はﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ投稿祭",
+        "6月3日サムネ統一"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:118795048",
+        "name": "アセシナ"
+      }
+    },
+    {
       "id": "sm38825123",
       "source": "nico",
       "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
@@ -54228,6 +56724,33 @@
       "author": {
         "id": "nico:38354112",
         "name": "ИИ"
+      }
+    },
+    {
+      "id": "sm38829836",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38829836",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38829836/38829836.95377283.original/r1280x720l?key=b71ce18931dc2859c9d86654b61707e67d1ab8101617c3c269fbf20344972318",
+      "publishedAt": "2021-06-03T00:25:02+09:00",
+      "views": 2540,
+      "likes": 54,
+      "duration": 57,
+      "tags": [
+        "音MAD",
+        "on_and_on",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "ウマ娘mad",
+        "トウカイテイオー(ウマ娘)",
+        "ウマ娘_プリティーダービー",
+        "6月3日サムネ統一"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:52335005",
+        "name": "トリドリドル"
       }
     },
     {
@@ -54484,35 +57007,6 @@
       }
     },
     {
-      "id": "sm38826001",
-      "source": "nico",
-      "title": "たねうまぴょい伝説☆",
-      "url": "https://www.nicovideo.jp/watch/sm38826001",
-      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38826001/38826001.15434207.original/a960x540l?key=3c378425a4e47c3b94846b84c373edb62818246a90ad8503cb8ac56283748603",
-      "publishedAt": "2021-06-02T20:00:00+09:00",
-      "views": 869741,
-      "likes": 6480,
-      "duration": 96,
-      "tags": [
-        "例のアレ",
-        "音MAD",
-        "クッキー☆",
-        "真夏の夜の淫夢",
-        "ウマ娘プリティーダービー",
-        "うまぴょい伝説",
-        "ウマ娘mad",
-        "うまぴょい伝説mad",
-        "まさゆきロイド",
-        "MGRoid",
-        "クッキー☆音MADリンク"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:53063754",
-        "name": "猫ちゃん"
-      }
-    },
-    {
       "id": "sm38827039",
       "source": "nico",
       "title": "チャパぴょい伝説",
@@ -54757,6 +57251,34 @@
       }
     },
     {
+      "id": "sm38820405",
+      "source": "nico",
+      "title": "駅のホームでえいえいむん！",
+      "url": "https://www.nicovideo.jp/watch/sm38820405",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38820405/38820405.88455967.original/a960x540l?key=00d2312fbdce72e899f574b87f3e1b5b8f1b48b00249c004b4433da600fd6dee",
+      "publishedAt": "2021-05-31T22:29:02+09:00",
+      "views": 1753,
+      "likes": 38,
+      "duration": 60,
+      "tags": [
+        "マチカネタンホイザ（ウマ娘）",
+        "えい、えい、むん！",
+        "ウマ娘_プリティーダービー",
+        "ウマ娘mad",
+        "深刻な素材不足",
+        "丁寧なゴリ押し",
+        "駅のホームですっぽんぽん♪",
+        "音MAD"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:11868040",
+        "name": "カフェオレ健冶"
+      }
+    },
+    {
       "id": "yt:-uxxpciCU1c",
       "source": "youtube",
       "title": "スペちゃん「O-oooooooooo AAAAGE-MA-A-GE-MA-SE- YO-oooooooooooo」",
@@ -54953,31 +57475,6 @@
       "author": {
         "id": "nico:117726199",
         "name": "MP"
-      }
-    },
-    {
-      "id": "sm38812935",
-      "source": "nico",
-      "title": "お太い伝説",
-      "url": "https://www.nicovideo.jp/watch/sm38812935",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/38812935/38812935.3595550",
-      "publishedAt": "2021-05-30T14:52:02+09:00",
-      "views": 376042,
-      "likes": 3034,
-      "duration": 98,
-      "tags": [
-        "例のアレ",
-        "真夏の夜の淫夢",
-        "現場監督",
-        "音MAD",
-        "うまぴょい伝説",
-        "ウマ娘プリティーダービー",
-        "イメージを美化するイレギュラーな表現"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:7858782",
-        "name": "帆羽くっぱ"
       }
     },
     {
@@ -55505,7 +58002,7 @@
       "url": "https://www.youtube.com/watch?v=VZkLDveEsnA",
       "thumbnail": "https://i.ytimg.com/vi/VZkLDveEsnA/maxresdefault.jpg",
       "publishedAt": "2021-05-23T11:54:31Z",
-      "views": 356564,
+      "views": 356563,
       "likes": 12110,
       "duration": 61,
       "tags": [],
@@ -56291,6 +58788,32 @@
       }
     },
     {
+      "id": "sm38754979",
+      "source": "nico",
+      "title": "なぁ、100年後ヒマ？",
+      "url": "https://www.nicovideo.jp/watch/sm38754979",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38754979/38754979.25220020.original/a960x540l?key=6c1623ffd9d111d4c0b2c14ca0f62b1dd58d8fa239ac6c2e84b6c7dfc32e2b75",
+      "publishedAt": "2021-05-18T16:52:02+09:00",
+      "views": 4248,
+      "likes": 93,
+      "duration": 24,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "p.h.",
+        "ゴルシ",
+        "ゴールドシップ(ウマ娘)",
+        "p.h.madリンク"
+      ],
+      "characters": [
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:46780553",
+        "name": "あれ。"
+      }
+    },
+    {
       "id": "yt:kJcJYhPw2TQ",
       "source": "youtube",
       "title": "なぁ、100年後ヒマ？#shorts",
@@ -56427,6 +58950,32 @@
       }
     },
     {
+      "id": "sm38746063",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38746063",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38746063/38746063.94628711.original/a960x540l?key=7bb6aa50d4dd90239fd4fba2983fe3c012c37b3f177bfedb2c581b94c71614c0",
+      "publishedAt": "2021-05-16T17:49:02+09:00",
+      "views": 1582,
+      "likes": 20,
+      "duration": 127,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "ウマ娘mad",
+        "NOV3MB3R_Feelings",
+        "6月3日サムネ統一"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:71822141",
+        "name": "gs@"
+      }
+    },
+    {
       "id": "sm38745557",
       "source": "nico",
       "title": "ボムへいのあげま戦場",
@@ -56505,6 +59054,33 @@
       "author": {
         "id": "nico:44043643",
         "name": "豌玲戟縺｡繧医☆縺弱□繧搾ｼ"
+      }
+    },
+    {
+      "id": "sm38742224",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38742224",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38742224/38742224.23773434.original/r1280x720l?key=8494338c495a172456d4e5a349ea630dea3f00c7b3d3c9fbf263c67f10f7943d",
+      "publishedAt": "2021-05-15T23:27:02+09:00",
+      "views": 1203,
+      "likes": 12,
+      "duration": 91,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "ウマ娘mad",
+        "moe_shop",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "Cerise",
+        "6月3日サムネ統一"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:71822141",
+        "name": "gs@"
       }
     },
     {
@@ -56644,6 +59220,31 @@
         "id": "nico:87125417",
         "name": "勇者ああああ(アフォ)"
       }
+    },
+    {
+      "id": "sm38738605",
+      "source": "nico",
+      "title": "あげません！（鬼畜）",
+      "url": "https://www.nicovideo.jp/watch/sm38738605",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38738605/38738605.14004867.original/a960x540l?key=07ac581d2c254fb6723d17b9f228ef88bd65d380b0cd9bfff01467f2cd810646",
+      "publishedAt": "2021-05-15T11:44:04+09:00",
+      "views": 2018,
+      "likes": 10,
+      "duration": 74,
+      "tags": [
+        "音mad",
+        "第154回音MAD晒しイベント",
+        "ウマ娘_プリティーダービー",
+        "スペシャルウィーク(ウマ娘)",
+        "ウマ娘mad",
+        "最終鬼畜妹フランドール・s",
+        "あげません！",
+        "チームスペカ"
+      ],
+      "characters": [
+        "スペシャルウィーク"
+      ],
+      "author": null
     },
     {
       "id": "sm38738233",
@@ -57969,6 +60570,31 @@
       }
     },
     {
+      "id": "sm38683441",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38683441",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38683441/38683441.85067898.original/a960x540l?key=874b48a27ba355d4c32e029c8b3ef7ed2d9d32c422d0d224126bbeb8a7033cb4",
+      "publishedAt": "2021-05-04T13:36:03+09:00",
+      "views": 2674,
+      "likes": 48,
+      "duration": 117,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "Cynical_Joker",
+        "6月3日サムネ統一"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:93108724",
+        "name": "だだだだ"
+      }
+    },
+    {
       "id": "sm38681590",
       "source": "nico",
       "title": "グルメレースをマチカネたマチカネタンホイザのグルメレース",
@@ -58129,6 +60755,33 @@
       "author": {
         "id": "nico:59267196",
         "name": "ジェミノス"
+      }
+    },
+    {
+      "id": "sm38674034",
+      "source": "nico",
+      "title": "６月３日ならﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+      "url": "https://www.nicovideo.jp/watch/sm38674034",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38674034/38674034.20251513.original/r1280x720l?key=37db5910a5b732382cf9179afec76371bbaae08ab4e37452b9658000142312a5",
+      "publishedAt": "2021-05-02T19:28:02+09:00",
+      "views": 4866,
+      "likes": 71,
+      "duration": 196,
+      "tags": [
+        "音MAD",
+        "ウマ娘mad",
+        "トウカイテイオー(ウマ娘)",
+        "インドア系ならトラックメイカー",
+        "タイトル統一失敗",
+        "サムネイル統一失敗",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:92156037",
+        "name": "ちゃそ"
       }
     },
     {
@@ -58823,6 +61476,33 @@
       }
     },
     {
+      "id": "sm38632465",
+      "source": "nico",
+      "title": "フク又",
+      "url": "https://www.nicovideo.jp/watch/sm38632465",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38632465/38632465.7132522.original/a960x540l?key=e815e42248e8cbe7a732a684ea56f2bf857efb6fa32bb031104f2cc7de4de4c4",
+      "publishedAt": "2021-04-24T23:37:02+09:00",
+      "views": 5437,
+      "likes": 87,
+      "duration": 352,
+      "tags": [
+        "音mad",
+        "ウマ娘mad",
+        "柴又(2号.)",
+        "マチカネフクキタル(ウマ娘)",
+        "ダイタクヘリオス(ウマ娘)",
+        "芝又"
+      ],
+      "characters": [
+        "マチカネフクキタル",
+        "ダイタクヘリオス"
+      ],
+      "author": {
+        "id": "nico:616321",
+        "name": "うのはな透"
+      }
+    },
+    {
       "id": "sm38631892",
       "source": "nico",
       "title": "危険なマチカネフクキタル",
@@ -58960,6 +61640,31 @@
       }
     },
     {
+      "id": "sm38627682",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38627682",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38627682/38627682.90316094.original/r1280x720l?key=511f4cd4e4f3e43246c5b2cc96d99f25fb20deae9bdfd182a8fdcf8b848b7fd0",
+      "publishedAt": "2021-04-24T09:55:02+09:00",
+      "views": 3803,
+      "likes": 55,
+      "duration": 58,
+      "tags": [
+        "音mad",
+        "トウカイテイオー(ウマ娘)",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "いわれなきリベンジ",
+        "6月3日サムネ統一"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:93108724",
+        "name": "だだだだ"
+      }
+    },
+    {
       "id": "sm38626394",
       "source": "nico",
       "title": "あげませんーっ！！！",
@@ -58983,6 +61688,56 @@
         "id": "nico:92156037",
         "name": "ちゃそ"
       }
+    },
+    {
+      "id": "sm38626011",
+      "source": "nico",
+      "title": "ゴルシとキャルの共鳴【比較】",
+      "url": "https://www.nicovideo.jp/watch/sm38626011",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38626011/38626011.76395995.original/a960x540l?key=a151c59ffb03a80bab3c7d903fc3ace1d98873c028ca5516ee218be973abbe63",
+      "publishedAt": "2021-04-24T00:14:02+09:00",
+      "views": 1275,
+      "likes": 11,
+      "duration": 160,
+      "tags": [
+        "音mad",
+        "Baqeela",
+        "ゴールドシップ(ウマ娘)",
+        "キャル(プリコネ)",
+        "ただいまーっ!!!シリーズ",
+        "比較動画"
+      ],
+      "characters": [
+        "ゴールドシップ"
+      ],
+      "author": {
+        "id": "nico:63644764",
+        "name": "メギア"
+      }
+    },
+    {
+      "id": "sm38624522",
+      "source": "nico",
+      "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
+      "url": "https://www.nicovideo.jp/watch/sm38624522",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38624522/38624522.74099517.original/r1280x720l?key=eaf8ae81cf1700edbe3fb02db59615a1ec4c7f01a951fb1bee1ca27285c94780",
+      "publishedAt": "2021-04-23T21:17:04+09:00",
+      "views": 2435,
+      "likes": 45,
+      "duration": 57,
+      "tags": [
+        "音MAD",
+        "トウカイテイオー(ウマ娘)",
+        "ﾌﾟﾃﾞｨﾃｨｰﾀﾞｰﾃﾞｨｰ",
+        "対武器ボス戦",
+        "6月3日サムネ統一",
+        "危険な○○シリーズ",
+        "いえじまΔ兄貴"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": null
     },
     {
       "id": "sm38622655",
@@ -59065,6 +61820,31 @@
       "author": {
         "id": "nico:118890714",
         "name": "奇数"
+      }
+    },
+    {
+      "id": "sm38606417",
+      "source": "nico",
+      "title": "Haunted Hachimitsu",
+      "url": "https://www.nicovideo.jp/watch/sm38606417",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38606417/38606417.1958838.original/a960x540l?key=cfb787beb0f1dcac45d85cbce892cc05f259a3df40cfdef449cdca2406c12775",
+      "publishedAt": "2021-04-19T22:32:02+09:00",
+      "views": 4431,
+      "likes": 57,
+      "duration": 215,
+      "tags": [
+        "音MAD",
+        "はちみーのうた",
+        "トウカイテイオー(ウマ娘)",
+        "Haunted_Dance",
+        "ブロッコリーリスペクト"
+      ],
+      "characters": [
+        "トウカイテイオー"
+      ],
+      "author": {
+        "id": "nico:118795048",
+        "name": "アセシナ"
       }
     },
     {
@@ -60116,6 +62896,33 @@
       }
     },
     {
+      "id": "sm38536914",
+      "source": "nico",
+      "title": "vsマチカネタンホイザ",
+      "url": "https://www.nicovideo.jp/watch/sm38536914",
+      "thumbnail": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/38536914/38536914.7720701.original/r1280x720l?key=8b46fe8612d0227b7662c21a6c972883c9622d714c0cc46ae0eb497d216f5e56",
+      "publishedAt": "2021-04-05T00:00:00+09:00",
+      "views": 48297,
+      "likes": 403,
+      "duration": 64,
+      "tags": [
+        "アニメ",
+        "ウマ娘_プリティーダービー",
+        "ウマ娘mad",
+        "音mad",
+        "vsマスクドデデデ",
+        "マチカネタンホイザ（ウマ娘）",
+        "えい、えい、むん！"
+      ],
+      "characters": [
+        "マチカネタンホイザ"
+      ],
+      "author": {
+        "id": "nico:22191911",
+        "name": "さわら"
+      }
+    },
+    {
       "id": "sm38536621",
       "source": "nico",
       "title": "6月3日ﾆﾁﾖｳﾋﾞﾆ!",
@@ -60344,27 +63151,6 @@
       "author": {
         "id": "nico:31245510",
         "name": "シン世界"
-      }
-    },
-    {
-      "id": "sm38515607",
-      "source": "nico",
-      "title": "ウマ息子♂フルチンダービー",
-      "url": "https://www.nicovideo.jp/watch/sm38515607",
-      "thumbnail": "https://nicovideo.cdn.nimg.jp/thumbnails/38515607/38515607.97620712",
-      "publishedAt": "2021-03-31T21:00:00+09:00",
-      "views": 213792,
-      "likes": 1979,
-      "duration": 88,
-      "tags": [
-        "レスリングシリーズ",
-        "ウマ娘プリティーダービー",
-        "音MAD"
-      ],
-      "characters": [],
-      "author": {
-        "id": "nico:6070737",
-        "name": "JR根岸線「関内駅」から徒歩5分"
       }
     },
     {
@@ -60855,7 +63641,7 @@
       "url": "https://www.youtube.com/watch?v=5kzqMYKzl2c",
       "thumbnail": "https://i.ytimg.com/vi/5kzqMYKzl2c/maxresdefault.jpg",
       "publishedAt": "2021-03-23T16:06:27Z",
-      "views": 1006425,
+      "views": 1006424,
       "likes": 20141,
       "duration": 155,
       "tags": [],
@@ -62394,7 +65180,7 @@
       "url": "https://www.youtube.com/watch?v=mVqBwFNWfdA",
       "thumbnail": "https://i.ytimg.com/vi/mVqBwFNWfdA/sddefault.jpg",
       "publishedAt": "2020-07-19T20:21:11Z",
-      "views": 3063,
+      "views": 3062,
       "likes": 65,
       "duration": 26,
       "tags": [],

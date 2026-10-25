@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { fetchNico, nicoToVideo } from "../scripts/nico.ts";
+import { fetchNico, fetchNicoByCharacters, nicoToVideo } from "../scripts/nico.ts";
 import sample from "./fixtures/nico-response.json";
 
 type Call = { url: URL; init?: RequestInit };
@@ -94,5 +94,30 @@ describe("fetchNico", () => {
     await fetchNico({ fetch, sleep: async (ms) => void waits.push(ms) });
     expect(waits.length).toBeGreaterThanOrEqual(calls.length - 1);
     expect(waits.every((ms) => ms === 1000)).toBe(true);
+  });
+});
+
+describe("fetchNicoByCharacters", () => {
+  it("searches each character tag with 音MAD and without the ウマ娘 tags", async () => {
+    const { fetch, calls } = fakeFetch(() => empty);
+    await fetchNicoByCharacters(["ゴールドシップ", "トウカイテイオー"], { fetch, sleep: noSleep });
+    expect(calls.map((c) => c.url.searchParams.get("q"))).toEqual([
+      "ゴールドシップ(ウマ娘) 音MAD -ウマ娘 -ウマ娘プリティーダービー",
+      "トウカイテイオー(ウマ娘) 音MAD -ウマ娘 -ウマ娘プリティーダービー",
+    ]);
+    for (const { url } of calls) expect(url.searchParams.get("targets")).toBe("tagsExact");
+  });
+
+  it("dedupes videos found under several characters", async () => {
+    const { fetch } = fakeFetch(() => sample);
+    const videos = await fetchNicoByCharacters(["A", "B"], { fetch, sleep: noSleep });
+    expect(videos.map((v) => v.id)).toEqual(["sm46933170", "sm46878657"]);
+  });
+
+  it("waits 1000ms between characters", async () => {
+    const waits: number[] = [];
+    const { fetch } = fakeFetch(() => empty);
+    await fetchNicoByCharacters(["A", "B", "C"], { fetch, sleep: async (ms) => void waits.push(ms) });
+    expect(waits).toEqual([1000, 1000]);
   });
 });
