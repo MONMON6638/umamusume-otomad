@@ -41,7 +41,7 @@ YOUTUBE_API_KEY=ここにキー
 2. Settings → Pages → Build and deployment の Source を **GitHub Actions** にする
 3. Actions タブの「update」を手動実行（Run workflow）すると、取得とビルドと公開が走る
 
-その後は毎日 6時（日本時間）に自動で更新されます。
+その後は毎日 9時（日本時間）に自動で更新されます。ニコ動の検索データは朝 7時ごろに更新されるので、新しい動画が載るのは投稿の翌朝です。
 
 ## 動画を一覧から外す
 

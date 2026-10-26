@@ -2,7 +2,7 @@ name: update
 
 on:
   schedule:
-    - cron: "0 21 * * *" # 毎日 6時（日本時間）。ニコ動のデータ更新（5時ごろ）の後
+    - cron: "0 0 * * *" # 毎日 9時（日本時間）。ニコ動の検索 API のデータ更新（実際は 7時ごろ）の後
   push:
     branches: [main]
   workflow_dispatch:
